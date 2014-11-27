@@ -4,6 +4,16 @@
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
+    <RootPropertyPathName Name="ActualRestaurant" />
+    <RootPropertyPathName Name="TelephoneNumber" />
+    <RootPropertyPathName Name="OpeningHours" />
+    <RootPropertyPathName Name="Cuisine" />
+    <RootPropertyPathName Name="Address" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="h4" />
+    <RootPropertyPathName Name="h3" />
+    <RootPropertyPathName Name="h2" />
+    <RootPropertyPathName Name="h1" />
     <RootPropertyPathName Name="r4" />
     <RootPropertyPathName Name="r3" />
     <RootPropertyPathName Name="r2" />
@@ -27,29 +37,18 @@
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
-      <RootProperty Name="ChildrenTransitions" />
-      <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
+      <RootProperty Name="Opacity" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
-    </RootType>
+    <RootType FullName="VisitRoslikde.ViewModel.ListRestaurantsViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Margin" />
       <RootProperty Name="Command" />
       <RootProperty Name="Style" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetName" />
@@ -60,13 +59,12 @@
       <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="Style" />
-      <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
@@ -75,30 +73,25 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="VisitRoslikde.View.DetailedPageH" />
-    <RootType FullName="VisitRoslikde.View.DetailedPageR" />
-    <RootType FullName="VisitRoslikde.View.ListPageHotels" />
-    <RootType FullName="VisitRoslikde.ViewModel.ListRestaurantsViewModel" />
     <RootType FullName="WinRTXamlToolkit.Controls.ImageButton">
+      <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="NormalStateImageSource" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="HoverStateImageSource" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="GenerateMissingImages" />
       <RootProperty Name="Background" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HoverStateImageSource" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="NormalStateImageSource" />
+      <RootProperty Name="PressedStateImageSource" />
+      <RootProperty Name="GenerateMissingImages" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="VisitRoslikde.View.ListPageRestaurants" />
     <RootType FullName="Bing.Maps.Map">
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
       <RootProperty Name="ZoomLevel" />
       <RootProperty Name="Credentials" />
       <RootProperty Name="Margin" />
@@ -116,6 +109,9 @@
       <RootMethod Name="GetPosition" />
       <RootMethod Name="SetPosition" />
     </RootType>
+    <RootType FullName="VisitRoslikde.View.DetailedPageR" />
+    <RootType FullName="VisitRoslikde.View.ListPageHotels" />
+    <RootType FullName="VisitRoslikde.View.ListPageRestaurants" />
     <RootType FullName="VisitRoslikde.MainPage" />
   </Roots.RootTypes>
 </Roots>

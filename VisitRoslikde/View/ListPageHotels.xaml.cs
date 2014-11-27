@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using VisitRoslikde.Model;
+using VisitRoslikde.ViewModel;
 
 namespace VisitRoslikde.View
 {
@@ -102,5 +104,40 @@ namespace VisitRoslikde.View
         }
 
         #endregion
+        
+      
+        private void restaurantsButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageRestaurants), null);
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof (MainPage), null);
+        }
+
+        private void ImageButton_Click(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageH), null);
+        }
+
+        private void ImageButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageH));
+        }
+
+        private void ImageButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageH));
+        }
+
+        private void ImageButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageH));
+        }
     }
 }

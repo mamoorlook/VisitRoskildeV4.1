@@ -12,24 +12,7 @@
     mc:Ignorable="d">
 
     <Grid Background="#FFFFD5BD">
-        <Grid Margin="0,0,0,634" Background="#FFFF7F15">
-            <TextBlock HorizontalAlignment="Left" Margin="45,56,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
-            <TextBlock HorizontalAlignment="Left" Margin="121,56,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="227" FontSize="72"/>
-        </Grid>
-            <bm:Map Width ="450" 
-			    Height ="300" 
-			    ZoomLevel="12.5"
-			    Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" Margin="880,432,36,36">
-                <bm:Map.Center>
-                    <bm:Location Latitude="55.6417438" Longitude="12.0833012" />
-                </bm:Map.Center>
-
-                <bm:Pushpin x:ConnectionId='3'                       >
-                    <bm:MapLayer.Position>
-                        <bm:Location Latitude="55.6417438" Longitude="12.0833012" />
-                    </bm:MapLayer.Position>
-                </bm:Pushpin>
-            </bm:Map>
+        <Grid Margin="0,0,0,634" Background="#FFFF7F15"/>
         <Controls:ImageButton x:ConnectionId='1' x:Name="hotelsButton"
                               Content="HOTELS" 
                               HorizontalAlignment="Left"
@@ -59,6 +42,8 @@
                               Foreground="#FFFF7F15" 
                               HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
                               Opacity="0.6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="114,49,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,49,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="230" FontSize="72"/>
     </Grid>
 </Page>
 

@@ -52,7 +52,7 @@ namespace VisitRoslikde.View
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
-            this.navigationHelper.SaveState += navigationHelper_SaveState;
+            //this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
 
         /// <summary>
@@ -78,9 +78,6 @@ namespace VisitRoslikde.View
         /// <param name="sender">The source of the event; typically <see cref="NavigationHelper"/></param>
         /// <param name="e">Event data that provides an empty dictionary to be populated with
         /// serializable state.</param>
-        private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
-        {
-        }
 
         #region NavigationHelper registration
 
@@ -132,9 +129,14 @@ namespace VisitRoslikde.View
         {
             this.Frame.Navigate(typeof(ListPageHotels), null);
         }
-        private void restaurantsButton_Click(object sender, RoutedEventArgs e)
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(ListPageRestaurants), null);
+            Frame.Navigate(typeof(MainPage), null);
         }
+        //private void restaurantsButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(ListPageRestaurants), null);
+        //}
     }
 }
