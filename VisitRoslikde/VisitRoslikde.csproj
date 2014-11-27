@@ -143,7 +143,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Backgrounds\BackgroundButton.jpg" />
+    <Content Include="Assets\Hotels\HotelComwell.jpg" />
+    <Content Include="Assets\Hotels\HotelComwellDark.jpg" />
+    <Content Include="Assets\Hotels\HotelComwellTh.jpg" />
+    <Content Include="Assets\Hotels\HotelDanhostel.jpg" />
+    <Content Include="Assets\Hotels\HotelDanhostelDark.jpg" />
+    <Content Include="Assets\Hotels\HotelDanhostelTh.jpg" />
+    <Content Include="Assets\Hotels\HotelPrindsen.jpg" />
+    <Content Include="Assets\Hotels\HotelPrindsenDark.jpg" />
+    <Content Include="Assets\Hotels\HotelPrindsenTh.jpg" />
+    <Content Include="Assets\Hotels\HotelScandic.jpg" />
+    <Content Include="Assets\Hotels\HotelScandicDark.jpg" />
+    <Content Include="Assets\Hotels\HotelScandicTh.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Restaurants\GustoRoskilde.jpg" />
+    <Content Include="Assets\Restaurants\MummRoskilde.jpg" />
+    <Content Include="Assets\Restaurants\RestGusto.jpg" />
+    <Content Include="Assets\Restaurants\RestGustoDark.jpg" />
+    <Content Include="Assets\Restaurants\RestMumm.jpg" />
+    <Content Include="Assets\Restaurants\RestMummDark.jpg" />
+    <Content Include="Assets\Restaurants\RestSkank.jpg" />
+    <Content Include="Assets\Restaurants\RestSkankDark.jpg" />
+    <Content Include="Assets\Restaurants\RestVigen.jpg" />
+    <Content Include="Assets\Restaurants\RestVigenDark.jpg" />
+    <Content Include="Assets\Restaurants\SkankRoskilde.jpg" />
+    <Content Include="Assets\Restaurants\VigenRoskilde.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />

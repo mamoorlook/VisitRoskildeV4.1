@@ -31,7 +31,7 @@
                 </bm:Pushpin>
             </bm:Map>
         <Controls:ImageButton x:ConnectionId='1' x:Name="hotelsButton"
-                              Content="Hotels" 
+                              Content="HOTELS" 
                               HorizontalAlignment="Left"
                               Margin="0,135,0,0" 
                               VerticalAlignment="Top" 

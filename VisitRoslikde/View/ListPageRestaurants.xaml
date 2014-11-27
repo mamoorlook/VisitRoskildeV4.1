@@ -25,7 +25,7 @@
         <Grid Margin="0,0,0,634" Background="#FFFF7F15">
             <TextBlock HorizontalAlignment="Left" Margin="45,56,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
             <TextBlock HorizontalAlignment="Left" Margin="121,56,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="230" FontSize="72"/>
-            <TextBlock HorizontalAlignment="Left" Margin="121,184,0,-91" TextWrapping="Wrap" Text="Restaurants:" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="328" FontSize="72" Foreground="#FFFF7F15"/>
+            <TextBlock HorizontalAlignment="Left" Margin="121,231,0,-138" TextWrapping="Wrap" Text="Restaurants:" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="328" FontSize="72" Foreground="#FFFF7F15"/>
         </Grid>
         <controls:ImageButton HorizontalAlignment="Left" 
             Margin="70,295,0,0" 
@@ -33,9 +33,9 @@
             VerticalAlignment="Top"
             Width="300"
             Height="200"
-            NormalStateImageSource="ms-appx:///Assets/Restaurans/RestMumm.jpg" 
+            NormalStateImageSource="ms-appx:///Assets/Restaurants/RestMumm.jpg" 
             FontSize="18"
-            HoverStateImageSource="ms-appx:///Assets/Restaurans/RestMummDark.jpg" 
+            HoverStateImageSource="ms-appx:///Assets/Restaurants/RestMummDark.jpg" 
                               Content="{Binding r1, Mode=TwoWay}" Click="ImageButton_Click"/>
         <controls:ImageButton HorizontalAlignment="Left" 
         	Margin="375,295,0,0" 
@@ -43,9 +43,9 @@
         	VerticalAlignment="Top"
         	Width="300"
         	Height="200"
-        	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestSkank.jpg" 
+        	NormalStateImageSource="ms-appx:///Assets/Restaurants/RestSkank.jpg" 
         	FontSize="18"
-        	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestSkankDark.jpg" 
+        	HoverStateImageSource="ms-appx:///Assets/Restaurants/RestSkankDark.jpg" 
         	Content="{Binding r2, Mode=TwoWay}" Click="ImageButton_Click_1"/>
         <controls:ImageButton HorizontalAlignment="Left" 
         	Margin="680,295,0,0" 
@@ -53,20 +53,48 @@
         	VerticalAlignment="Top"
         	Width="300"
         	Height="200"
-        	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestGusto.jpg" 
+        	NormalStateImageSource="ms-appx:///Assets/Restaurants/RestGusto.jpg" 
         	FontSize="18"
-        	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestGustoDark.jpg" 
-        	Content="{Binding r3, Mode=TwoWay}" Click="ImageButton_Click_2"/>
+        	HoverStateImageSource="ms-appx:///Assets/Restaurants/RestGustoDark.jpg" 
+        	Content="{Binding r3, Mode=TwoWay}" Click="ImageButton_Click_2" GenerateMissingImages="True"/>
         <controls:ImageButton HorizontalAlignment="Left" 
         	Margin="985,295,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
         	Width="300"
         	Height="200"
-        	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestVigen.jpg" 
+        	NormalStateImageSource="ms-appx:///Assets/Restaurants/RestVigen.jpg" 
         	FontSize="18"
-        	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestVigenDark.jpg" 
+        	HoverStateImageSource="ms-appx:///Assets/Restaurants/RestVigenDark.jpg" 
         	Content="{Binding r4, Mode=TwoWay}" Click="ImageButton_Click_3"/>
+        <controls:ImageButton x:Name="hotelsButton"
+        	Content="HOTELS" 
+        	HorizontalAlignment="Left"
+        	Margin="0,135,0,0" 
+        	VerticalAlignment="Top" 
+        	Width="244" 
+        	Height="56" 
+        	Background="#FFFFD5BD" 
+        	Click="hotelsButton_Click"
+        	FontFamily="Advent Pro" 
+        	FontSize="25" 
+        	Foreground="#FFFF7F15" 
+        	HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+        	Opacity="0.6"/>
+        <controls:ImageButton x:Name="restaurantsButton" 
+        	Content="RESTAURANTS"
+        	HorizontalAlignment="Left" 
+        	Margin="245,135,0,0" 
+        	VerticalAlignment="Top" 
+        	Width="244" 
+        	Height="56" 
+        	Background="#FFFFD5BD" 
+        	Click="restaurantsButton_Click"
+        	FontFamily="Advent Pro" 
+        	FontSize="25" 
+        	Foreground="#FFFF7F15" 
+        	HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+        	Opacity="0.6"/>
 
     </Grid>
 </Page>

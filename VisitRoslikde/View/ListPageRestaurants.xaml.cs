@@ -128,5 +128,13 @@ namespace VisitRoslikde.View
             ListRestaurantsViewModel.ActualRestaurant = (Restaurant)((Button)sender).Content;
             this.Frame.Navigate(typeof(DetailedPageR), null);
         }
+        private void hotelsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageHotels), null);
+        }
+        private void restaurantsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageRestaurants), null);
+        }
     }
 }

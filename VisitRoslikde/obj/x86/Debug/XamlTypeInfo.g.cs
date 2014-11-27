@@ -162,8 +162,8 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             _typeNameTable[10] = "Windows.UI.Xaml.Controls.Button";
             _typeNameTable[11] = "Windows.UI.Xaml.Controls.ContentControl";
             _typeNameTable[12] = "Windows.UI.Xaml.Media.ImageSource";
-            _typeNameTable[13] = "Windows.UI.Xaml.Media.Stretch";
-            _typeNameTable[14] = "Boolean";
+            _typeNameTable[13] = "Boolean";
+            _typeNameTable[14] = "Windows.UI.Xaml.Media.Stretch";
             _typeNameTable[15] = "System.Uri";
             _typeNameTable[16] = "Double";
             _typeNameTable[17] = "VisitRoslikde.View.ListPageRestaurants";
@@ -243,8 +243,8 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Button);
             _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
             _typeTable[12] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
-            _typeTable[13] = typeof(global::Windows.UI.Xaml.Media.Stretch);
-            _typeTable[14] = typeof(global::System.Boolean);
+            _typeTable[13] = typeof(global::System.Boolean);
+            _typeTable[14] = typeof(global::Windows.UI.Xaml.Media.Stretch);
             _typeTable[15] = typeof(global::System.Uri);
             _typeTable[16] = typeof(global::System.Double);
             _typeTable[17] = typeof(global::VisitRoslikde.View.ListPageRestaurants);
@@ -491,6 +491,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 userType.Activator = Activate_9_ImageButton;
                 userType.AddMemberName("NormalStateImageSource");
                 userType.AddMemberName("HoverStateImageSource");
+                userType.AddMemberName("GenerateMissingImages");
                 userType.AddMemberName("Stretch");
                 userType.AddMemberName("RecyclePressedStateImageForHover");
                 userType.AddMemberName("PressedStateImageSource");
@@ -499,7 +500,6 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 userType.AddMemberName("HoverStateImageUriSource");
                 userType.AddMemberName("PressedStateImageUriSource");
                 userType.AddMemberName("DisabledStateImageUriSource");
-                userType.AddMemberName("GenerateMissingImages");
                 userType.AddMemberName("GeneratedHoverStateLightenAmount");
                 userType.AddMemberName("GeneratedPressedStateLightenAmount");
                 userType.AddMemberName("GeneratedDisabledStateGrayscaleAmount");
@@ -518,11 +518,11 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Windows.UI.Xaml.Media.Stretch
+            case 13:   //  Boolean
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  Boolean
+            case 14:   //  Windows.UI.Xaml.Media.Stretch
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
@@ -1245,95 +1245,95 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.HoverStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_6_ImageButton_Stretch(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.Stretch;
-        }
-        private void set_6_ImageButton_Stretch(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.Stretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
-        }
-        private object get_7_ImageButton_RecyclePressedStateImageForHover(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.RecyclePressedStateImageForHover;
-        }
-        private void set_7_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.RecyclePressedStateImageForHover = (global::System.Boolean)Value;
-        }
-        private object get_8_ImageButton_PressedStateImageSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.PressedStateImageSource;
-        }
-        private void set_8_ImageButton_PressedStateImageSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.PressedStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_9_ImageButton_DisabledStateImageSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.DisabledStateImageSource;
-        }
-        private void set_9_ImageButton_DisabledStateImageSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.DisabledStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_10_ImageButton_NormalStateImageUriSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.NormalStateImageUriSource;
-        }
-        private void set_10_ImageButton_NormalStateImageUriSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.NormalStateImageUriSource = (global::System.Uri)Value;
-        }
-        private object get_11_ImageButton_HoverStateImageUriSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.HoverStateImageUriSource;
-        }
-        private void set_11_ImageButton_HoverStateImageUriSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.HoverStateImageUriSource = (global::System.Uri)Value;
-        }
-        private object get_12_ImageButton_PressedStateImageUriSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.PressedStateImageUriSource;
-        }
-        private void set_12_ImageButton_PressedStateImageUriSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.PressedStateImageUriSource = (global::System.Uri)Value;
-        }
-        private object get_13_ImageButton_DisabledStateImageUriSource(object instance)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            return that.DisabledStateImageUriSource;
-        }
-        private void set_13_ImageButton_DisabledStateImageUriSource(object instance, object Value)
-        {
-            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
-            that.DisabledStateImageUriSource = (global::System.Uri)Value;
-        }
-        private object get_14_ImageButton_GenerateMissingImages(object instance)
+        private object get_6_ImageButton_GenerateMissingImages(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GenerateMissingImages;
         }
-        private void set_14_ImageButton_GenerateMissingImages(object instance, object Value)
+        private void set_6_ImageButton_GenerateMissingImages(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GenerateMissingImages = (global::System.Boolean)Value;
+        }
+        private object get_7_ImageButton_Stretch(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.Stretch;
+        }
+        private void set_7_ImageButton_Stretch(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.Stretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
+        }
+        private object get_8_ImageButton_RecyclePressedStateImageForHover(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.RecyclePressedStateImageForHover;
+        }
+        private void set_8_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.RecyclePressedStateImageForHover = (global::System.Boolean)Value;
+        }
+        private object get_9_ImageButton_PressedStateImageSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.PressedStateImageSource;
+        }
+        private void set_9_ImageButton_PressedStateImageSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.PressedStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_10_ImageButton_DisabledStateImageSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.DisabledStateImageSource;
+        }
+        private void set_10_ImageButton_DisabledStateImageSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.DisabledStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_11_ImageButton_NormalStateImageUriSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.NormalStateImageUriSource;
+        }
+        private void set_11_ImageButton_NormalStateImageUriSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.NormalStateImageUriSource = (global::System.Uri)Value;
+        }
+        private object get_12_ImageButton_HoverStateImageUriSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.HoverStateImageUriSource;
+        }
+        private void set_12_ImageButton_HoverStateImageUriSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.HoverStateImageUriSource = (global::System.Uri)Value;
+        }
+        private object get_13_ImageButton_PressedStateImageUriSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.PressedStateImageUriSource;
+        }
+        private void set_13_ImageButton_PressedStateImageUriSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.PressedStateImageUriSource = (global::System.Uri)Value;
+        }
+        private object get_14_ImageButton_DisabledStateImageUriSource(object instance)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            return that.DisabledStateImageUriSource;
+        }
+        private void set_14_ImageButton_DisabledStateImageUriSource(object instance, object Value)
+        {
+            var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
+            that.DisabledStateImageUriSource = (global::System.Uri)Value;
         }
         private object get_15_ImageButton_GeneratedHoverStateLightenAmount(object instance)
         {
@@ -2757,68 +2757,68 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlMember.Getter = get_5_ImageButton_HoverStateImageSource;
                 xamlMember.Setter = set_5_ImageButton_HoverStateImageSource;
                 break;
+            case "WinRTXamlToolkit.Controls.ImageButton.GenerateMissingImages":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GenerateMissingImages", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_6_ImageButton_GenerateMissingImages;
+                xamlMember.Setter = set_6_ImageButton_GenerateMissingImages;
+                break;
             case "WinRTXamlToolkit.Controls.ImageButton.Stretch":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Stretch", "Windows.UI.Xaml.Media.Stretch");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_ImageButton_Stretch;
-                xamlMember.Setter = set_6_ImageButton_Stretch;
+                xamlMember.Getter = get_7_ImageButton_Stretch;
+                xamlMember.Setter = set_7_ImageButton_Stretch;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.RecyclePressedStateImageForHover":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RecyclePressedStateImageForHover", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_ImageButton_RecyclePressedStateImageForHover;
-                xamlMember.Setter = set_7_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Getter = get_8_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Setter = set_8_ImageButton_RecyclePressedStateImageForHover;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PressedStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_ImageButton_PressedStateImageSource;
-                xamlMember.Setter = set_8_ImageButton_PressedStateImageSource;
+                xamlMember.Getter = get_9_ImageButton_PressedStateImageSource;
+                xamlMember.Setter = set_9_ImageButton_PressedStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisabledStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_ImageButton_DisabledStateImageSource;
-                xamlMember.Setter = set_9_ImageButton_DisabledStateImageSource;
+                xamlMember.Getter = get_10_ImageButton_DisabledStateImageSource;
+                xamlMember.Setter = set_10_ImageButton_DisabledStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.NormalStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "NormalStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_ImageButton_NormalStateImageUriSource;
-                xamlMember.Setter = set_10_ImageButton_NormalStateImageUriSource;
+                xamlMember.Getter = get_11_ImageButton_NormalStateImageUriSource;
+                xamlMember.Setter = set_11_ImageButton_NormalStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.HoverStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "HoverStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_ImageButton_HoverStateImageUriSource;
-                xamlMember.Setter = set_11_ImageButton_HoverStateImageUriSource;
+                xamlMember.Getter = get_12_ImageButton_HoverStateImageUriSource;
+                xamlMember.Setter = set_12_ImageButton_HoverStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PressedStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_ImageButton_PressedStateImageUriSource;
-                xamlMember.Setter = set_12_ImageButton_PressedStateImageUriSource;
+                xamlMember.Getter = get_13_ImageButton_PressedStateImageUriSource;
+                xamlMember.Setter = set_13_ImageButton_PressedStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisabledStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_ImageButton_DisabledStateImageUriSource;
-                xamlMember.Setter = set_13_ImageButton_DisabledStateImageUriSource;
-                break;
-            case "WinRTXamlToolkit.Controls.ImageButton.GenerateMissingImages":
-                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
-                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GenerateMissingImages", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_ImageButton_GenerateMissingImages;
-                xamlMember.Setter = set_14_ImageButton_GenerateMissingImages;
+                xamlMember.Getter = get_14_ImageButton_DisabledStateImageUriSource;
+                xamlMember.Setter = set_14_ImageButton_DisabledStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedHoverStateLightenAmount":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");

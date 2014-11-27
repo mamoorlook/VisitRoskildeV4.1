@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-27T11:49:04.577</Modified>
+      <Modified>2014-11-27T12:45:04.688</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\VisitRoslikde.exe">
       <PackagePath>VisitRoslikde.exe</PackagePath>
-      <Modified>2014-11-27T11:53:15.729</Modified>
+      <Modified>2014-11-27T12:54:24.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.Xaml\1.313.0825.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -344,6 +344,102 @@
       <PackagePath>Assets\Backgrounds\BackgroundButton.jpg</PackagePath>
       <Modified>2014-11-27T11:47:37.385</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwell.jpg">
+      <PackagePath>Assets\Hotels\HotelComwell.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwellDark.jpg">
+      <PackagePath>Assets\Hotels\HotelComwellDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwellTh.jpg">
+      <PackagePath>Assets\Hotels\HotelComwellTh.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostel.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostel.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostelDark.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostelDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostelTh.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostelTh.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsen.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsen.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:07.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsenDark.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsenDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:08.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsenTh.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsenTh.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:08.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandic.jpg">
+      <PackagePath>Assets\Hotels\HotelScandic.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:08.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandicDark.jpg">
+      <PackagePath>Assets\Hotels\HotelScandicDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:08.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandicTh.jpg">
+      <PackagePath>Assets\Hotels\HotelScandicTh.jpg</PackagePath>
+      <Modified>2014-11-27T12:44:08.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\GustoRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\GustoRoskilde.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\MummRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\MummRoskilde.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestGusto.jpg">
+      <PackagePath>Assets\Restaurants\RestGusto.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestGustoDark.jpg">
+      <PackagePath>Assets\Restaurants\RestGustoDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestMumm.jpg">
+      <PackagePath>Assets\Restaurants\RestMumm.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestMummDark.jpg">
+      <PackagePath>Assets\Restaurants\RestMummDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestSkank.jpg">
+      <PackagePath>Assets\Restaurants\RestSkank.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestSkankDark.jpg">
+      <PackagePath>Assets\Restaurants\RestSkankDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestVigen.jpg">
+      <PackagePath>Assets\Restaurants\RestVigen.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestVigenDark.jpg">
+      <PackagePath>Assets\Restaurants\RestVigenDark.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\SkankRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\SkankRoskilde.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\VigenRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\VigenRoskilde.jpg</PackagePath>
+      <Modified>2014-11-27T12:43:47.505</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -378,19 +474,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\ListPageRestaurants.xbf">
       <PackagePath>View\ListPageRestaurants.xbf</PackagePath>
-      <Modified>2014-11-27T11:48:56.116</Modified>
+      <Modified>2014-11-27T12:52:24.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2014-11-27T11:53:14.341</Modified>
+      <Modified>2014-11-27T12:52:24.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\Bing.Maps\Themes\Generic.xbf">
       <PackagePath>Bing.Maps\Themes\Generic.xbf</PackagePath>
-      <Modified>2014-11-27T11:53:14.635</Modified>
+      <Modified>2014-11-27T12:54:23.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\VisitRoslikde.xr.xml">
       <PackagePath>VisitRoslikde.xr.xml</PackagePath>
-      <Modified>2014-11-27T11:53:14.270</Modified>
+      <Modified>2014-11-27T12:49:56.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
       <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
@@ -498,7 +594,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-27T11:48:59.220</Modified>
+      <Modified>2014-11-27T12:44:58.967</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

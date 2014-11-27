@@ -256,6 +256,78 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Backgrounds\BackgroundButton.jpg">
       <PackagePath>Assets\Backgrounds\BackgroundButton.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwell.jpg">
+      <PackagePath>Assets\Hotels\HotelComwell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwellDark.jpg">
+      <PackagePath>Assets\Hotels\HotelComwellDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelComwellTh.jpg">
+      <PackagePath>Assets\Hotels\HotelComwellTh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostel.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostelDark.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostelDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelDanhostelTh.jpg">
+      <PackagePath>Assets\Hotels\HotelDanhostelTh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsen.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsenDark.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsenDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelPrindsenTh.jpg">
+      <PackagePath>Assets\Hotels\HotelPrindsenTh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandic.jpg">
+      <PackagePath>Assets\Hotels\HotelScandic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandicDark.jpg">
+      <PackagePath>Assets\Hotels\HotelScandicDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Hotels\HotelScandicTh.jpg">
+      <PackagePath>Assets\Hotels\HotelScandicTh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\GustoRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\GustoRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\MummRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\MummRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestGusto.jpg">
+      <PackagePath>Assets\Restaurants\RestGusto.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestGustoDark.jpg">
+      <PackagePath>Assets\Restaurants\RestGustoDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestMumm.jpg">
+      <PackagePath>Assets\Restaurants\RestMumm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestMummDark.jpg">
+      <PackagePath>Assets\Restaurants\RestMummDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestSkank.jpg">
+      <PackagePath>Assets\Restaurants\RestSkank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestSkankDark.jpg">
+      <PackagePath>Assets\Restaurants\RestSkankDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestVigen.jpg">
+      <PackagePath>Assets\Restaurants\RestVigen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\RestVigenDark.jpg">
+      <PackagePath>Assets\Restaurants\RestVigenDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\SkankRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\SkankRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Restaurants\VigenRoskilde.jpg">
+      <PackagePath>Assets\Restaurants\VigenRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
