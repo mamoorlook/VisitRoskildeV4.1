@@ -1,0 +1,53 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VisitRoslikde"
+    xmlns:bm="using:Bing.Maps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:Controls="using:WinRTXamlToolkit.Controls"
+    x:Class="VisitRoslikde.MainPage"
+    
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFFD5BD">
+        <Grid Margin="0,0,0,634" Background="#FFFF7F15">
+            <TextBlock HorizontalAlignment="Left" Margin="45,56,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
+            <TextBlock HorizontalAlignment="Left" Margin="121,56,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="243" FontSize="72"/>
+        </Grid>
+            <bm:Map Width ="450" 
+			    Height ="300" 
+			    ZoomLevel="12.5"
+			    Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" Margin="880,432,36,36">
+                <bm:Map.Center>
+                    <bm:Location Latitude="55.6417438" Longitude="12.0833012" />
+                </bm:Map.Center>
+
+                <bm:Pushpin Tapped="pushpinTapped">
+                    <bm:MapLayer.Position>
+                        <bm:Location Latitude="55.6417438" Longitude="12.0833012" />
+                    </bm:MapLayer.Position>
+                </bm:Pushpin>
+            </bm:Map>
+        <Controls:ImageButton x:Name="hotelsButton"
+                              Content="Hotels" 
+                              HorizontalAlignment="Left"
+                              Margin="0,134,0,0" 
+                              VerticalAlignment="Top" 
+                              Width="244" 
+                              Height="56" 
+                              Background="#FFFFD5BD" 
+                              Click="hotelsButton_Click" FontFamily="Advent Pro" FontSize="25" Foreground="#FFFF7F15" HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" Opacity="0.6"/>
+        
+        <Controls:ImageButton x:Name="restaurantsButton" 
+                              Content="RESTAURANTS"
+                              HorizontalAlignment="Left" 
+                              Margin="244,134,0,0" 
+                              VerticalAlignment="Top" 
+                              Width="244" 
+                              Height="56" 
+                              Background="#FFFFD5BD" 
+                              Click="restaurantsButton_Click"/>
+    </Grid>
+</Page>

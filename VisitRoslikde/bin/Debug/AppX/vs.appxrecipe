@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRUNO</Machine>
+    <WindowsUser>Bruno Damjanovic</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a05b6043-2681-4637-9c13-c7b437c53d26</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>41F2FD389631553D27B57DEB88DDAB52435FB4E976136EB62774ACC53C70FD24</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a05b6043-2681-4637-9c13-c7b437c53d26_1.0.0.0_neutral__bpr9phtm4jzt2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a05b6043-2681-4637-9c13-c7b437c53d26_bpr9phtm4jzt2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a05b6043-2681-4637-9c13-c7b437c53d26</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Bruno Damjanovic</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-26T10:27:39.961</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\VisitRoslikde.exe">
+      <PackagePath>VisitRoslikde.exe</PackagePath>
+      <Modified>2014-11-26T10:27:38.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-26T09:43:48.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\View\Hotels.xbf">
+      <PackagePath>View\Hotels.xbf</PackagePath>
+      <Modified>2014-11-26T10:27:37.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-26T10:27:37.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\VisitRoslikde.xr.xml">
+      <PackagePath>VisitRoslikde.xr.xml</PackagePath>
+      <Modified>2014-11-26T10:27:37.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\documents\visual studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-26T10:27:39.225</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
