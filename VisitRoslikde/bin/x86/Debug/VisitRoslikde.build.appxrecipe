@@ -347,6 +347,9 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageH.xbf">
+      <PackagePath>View\DetailedPageH.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageR.xbf">
       <PackagePath>View\DetailedPageR.xbf</PackagePath>
     </AppxPackagedFile>

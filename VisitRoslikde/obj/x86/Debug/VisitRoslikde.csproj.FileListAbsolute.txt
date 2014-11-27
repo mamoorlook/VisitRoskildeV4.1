@@ -54,3 +54,8 @@ C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\Vi
 C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageR.xbf
 C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\ListPageHotels.xbf
 C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\ListPageRestaurants.xbf
+C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageH.xbf
+C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\obj\x86\Debug\View\DetailedPageH.g.i.cs
+C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\obj\x86\Debug\View\DetailedPageH.g.cs
+C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\obj\x86\Debug\View\DetailedPageH.xaml
+C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\obj\x86\Debug\View\DetailedPageH.xbf

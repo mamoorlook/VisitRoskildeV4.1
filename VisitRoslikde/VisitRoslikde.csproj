@@ -121,6 +121,9 @@
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="View\DetailedPageH.xaml.cs">
+      <DependentUpon>DetailedPageH.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\DetailedPageR.xaml.cs">
       <DependentUpon>DetailedPageR.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\DetailedPageH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\DetailedPageR.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
