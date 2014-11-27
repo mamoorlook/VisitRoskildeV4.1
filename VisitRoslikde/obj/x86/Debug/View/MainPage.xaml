@@ -33,22 +33,32 @@
         <Controls:ImageButton x:ConnectionId='1' x:Name="hotelsButton"
                               Content="Hotels" 
                               HorizontalAlignment="Left"
-                              Margin="0,134,0,0" 
+                              Margin="0,135,0,0" 
                               VerticalAlignment="Top" 
                               Width="244" 
                               Height="56" 
                               Background="#FFFFD5BD" 
-                                                         FontFamily="Advent Pro" FontSize="25" Foreground="#FFFF7F15" HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" Opacity="0.6"/>
+                                                        
+                              FontFamily="Advent Pro" 
+                              FontSize="25" 
+                              Foreground="#FFFF7F15" 
+                              HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+                              Opacity="0.6"/>
         
         <Controls:ImageButton x:ConnectionId='2' x:Name="restaurantsButton" 
                               Content="RESTAURANTS"
                               HorizontalAlignment="Left" 
-                              Margin="244,134,0,0" 
+                              Margin="245,135,0,0" 
                               VerticalAlignment="Top" 
                               Width="244" 
                               Height="56" 
                               Background="#FFFFD5BD" 
-                                                             />
+                                                             
+                              FontFamily="Advent Pro" 
+                              FontSize="25" 
+                              Foreground="#FFFF7F15" 
+                              HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+                              Opacity="0.6"/>
     </Grid>
 </Page>
 
