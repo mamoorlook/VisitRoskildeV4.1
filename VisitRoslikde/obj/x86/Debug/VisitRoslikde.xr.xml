@@ -21,7 +21,9 @@
       <RootProperty Name="ElementName" />
       <RootProperty Name="Mode" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
@@ -29,6 +31,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Margin" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
@@ -75,6 +78,7 @@
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="VisitRoslikde.View.DetailedPageR" />
     <RootType FullName="VisitRoslikde.View.ListPageHotels" />
+    <RootType FullName="VisitRoslikde.ViewModel.ListRestaurantsViewModel" />
     <RootType FullName="WinRTXamlToolkit.Controls.ImageButton">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -85,10 +89,10 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HoverStateImageSource" />
       <RootProperty Name="Content" />
-      <RootProperty Name="GenerateMissingImages" />
-      <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="GenerateMissingImages" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Opacity" />
       <RootEvent Name="Click" />
     </RootType>

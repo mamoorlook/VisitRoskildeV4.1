@@ -148,7 +148,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[79];
+            _typeNameTable = new string[83];
             _typeNameTable[0] = "VisitRoslikde.View.DetailedPageR";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -158,78 +158,82 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             _typeNameTable[6] = "VisitRoslikde.Common.NavigationHelper";
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[8] = "VisitRoslikde.View.ListPageHotels";
-            _typeNameTable[9] = "WinRTXamlToolkit.Controls.ImageButton";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Button";
-            _typeNameTable[11] = "Windows.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[12] = "Windows.UI.Xaml.Media.ImageSource";
-            _typeNameTable[13] = "Boolean";
-            _typeNameTable[14] = "Windows.UI.Xaml.Media.Stretch";
-            _typeNameTable[15] = "System.Uri";
-            _typeNameTable[16] = "Double";
-            _typeNameTable[17] = "VisitRoslikde.View.ListPageRestaurants";
-            _typeNameTable[18] = "Bing.Maps.Map";
-            _typeNameTable[19] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[20] = "Bing.Maps.MapUIElementCollection";
-            _typeNameTable[21] = "Windows.UI.Xaml.UIElement";
-            _typeNameTable[22] = "Bing.Maps.Location";
-            _typeNameTable[23] = "Bing.Maps.Search.SearchManager";
-            _typeNameTable[24] = "Bing.Maps.Traffic.TrafficManager";
-            _typeNameTable[25] = "Bing.Maps.Directions.DirectionsManager";
-            _typeNameTable[26] = "Bing.Maps.VenueMaps.VenueManager";
-            _typeNameTable[27] = "Bing.Maps.MapForegroundPosition";
-            _typeNameTable[28] = "System.Enum";
-            _typeNameTable[29] = "System.ValueType";
-            _typeNameTable[30] = "Bing.Maps.MapTileLayerCollection";
-            _typeNameTable[31] = "Bing.Maps.MapTileLayer";
-            _typeNameTable[32] = "Bing.Maps.LocationRectCollection";
-            _typeNameTable[33] = "Bing.Maps.LocationRect";
-            _typeNameTable[34] = "Int32";
-            _typeNameTable[35] = "Bing.Maps.MapShapeLayerCollection";
-            _typeNameTable[36] = "Bing.Maps.MapShapeLayer";
-            _typeNameTable[37] = "Bing.Maps.MapShapeCollection";
-            _typeNameTable[38] = "Bing.Maps.MapShape";
-            _typeNameTable[39] = "Bing.Maps.Traffic.TrafficIncidentPushpinOptions";
-            _typeNameTable[40] = "Bing.Maps.Directions.DirectionsUIEventManager";
-            _typeNameTable[41] = "Bing.Maps.Directions.DirectionsRenderOptions";
-            _typeNameTable[42] = "Bing.Maps.PreloadArea";
-            _typeNameTable[43] = "Bing.Maps.MapViewRestriction";
-            _typeNameTable[44] = "Bing.Maps.MapType";
-            _typeNameTable[45] = "Bing.Maps.Pushpin";
-            _typeNameTable[46] = "Bing.Maps.MapLayer";
-            _typeNameTable[47] = "Windows.UI.Xaml.Controls.Panel";
-            _typeNameTable[48] = "Windows.Foundation.Point";
-            _typeNameTable[49] = "VisitRoslikde.MainPage";
-            _typeNameTable[50] = "Bing.Maps.Directions.DirectionsPolylineRenderOptions";
-            _typeNameTable[51] = "Bing.Maps.Directions.DirectionsPushpinRenderOptions";
-            _typeNameTable[52] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[53] = "Windows.UI.Xaml.Controls.ControlTemplate";
-            _typeNameTable[54] = "Bing.Maps.MapItemsControl";
-            _typeNameTable[55] = "Windows.UI.Xaml.Controls.ItemsControl";
-            _typeNameTable[56] = "Bing.Maps.VenueMaps.VenueFloorDataSource";
-            _typeNameTable[57] = "Windows.Foundation.Collections.IObservableVector`1<Object>";
-            _typeNameTable[58] = "Bing.Maps.VenueMaps.VenueEntity";
-            _typeNameTable[59] = "Windows.UI.Color";
-            _typeNameTable[60] = "Bing.Maps.VenueMaps.VenueEntityType";
-            _typeNameTable[61] = "Bing.Maps.LocationCollection";
-            _typeNameTable[62] = "Bing.Maps.VenueMaps.Floor";
-            _typeNameTable[63] = "Bing.Maps.VenueMaps.VenueAddress";
-            _typeNameTable[64] = "Bing.Maps.MapAddress";
-            _typeNameTable[65] = "Bing.Maps.PushpinOffset";
-            _typeNameTable[66] = "Bing.Maps.Directions.ItineraryItemDataSource";
-            _typeNameTable[67] = "UInt32";
-            _typeNameTable[68] = "Bing.Maps.Directions.RouteLegDataSource";
-            _typeNameTable[69] = "Bing.Maps.Directions.TransitRouteDataSource";
-            _typeNameTable[70] = "Bing.Maps.Directions.RouteLegDataTemplateSelector";
-            _typeNameTable[71] = "Windows.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[72] = "Windows.UI.Xaml.DataTemplate";
-            _typeNameTable[73] = "Bing.Maps.Directions.DirectionsContainerSelector";
-            _typeNameTable[74] = "Windows.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[75] = "Windows.UI.Xaml.Style";
-            _typeNameTable[76] = "Bing.Maps.Directions.Warning";
-            _typeNameTable[77] = "Bing.Maps.Directions.WarningType";
-            _typeNameTable[78] = "Bing.Maps.Directions.WarningSeverity";
+            _typeNameTable[9] = "VisitRoslikde.ViewModel.ListRestaurantsViewModel";
+            _typeNameTable[10] = "VisitRoslikde.Model.CommentModelRestaurant";
+            _typeNameTable[11] = "System.Windows.Input.ICommand";
+            _typeNameTable[12] = "VisitRoslikde.Model.Restaurant";
+            _typeNameTable[13] = "WinRTXamlToolkit.Controls.ImageButton";
+            _typeNameTable[14] = "Windows.UI.Xaml.Controls.Button";
+            _typeNameTable[15] = "Windows.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[16] = "Windows.UI.Xaml.Media.ImageSource";
+            _typeNameTable[17] = "Boolean";
+            _typeNameTable[18] = "Windows.UI.Xaml.Media.Stretch";
+            _typeNameTable[19] = "System.Uri";
+            _typeNameTable[20] = "Double";
+            _typeNameTable[21] = "VisitRoslikde.View.ListPageRestaurants";
+            _typeNameTable[22] = "Bing.Maps.Map";
+            _typeNameTable[23] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[24] = "Bing.Maps.MapUIElementCollection";
+            _typeNameTable[25] = "Windows.UI.Xaml.UIElement";
+            _typeNameTable[26] = "Bing.Maps.Location";
+            _typeNameTable[27] = "Bing.Maps.Search.SearchManager";
+            _typeNameTable[28] = "Bing.Maps.Traffic.TrafficManager";
+            _typeNameTable[29] = "Bing.Maps.Directions.DirectionsManager";
+            _typeNameTable[30] = "Bing.Maps.VenueMaps.VenueManager";
+            _typeNameTable[31] = "Bing.Maps.MapForegroundPosition";
+            _typeNameTable[32] = "System.Enum";
+            _typeNameTable[33] = "System.ValueType";
+            _typeNameTable[34] = "Bing.Maps.MapTileLayerCollection";
+            _typeNameTable[35] = "Bing.Maps.MapTileLayer";
+            _typeNameTable[36] = "Bing.Maps.LocationRectCollection";
+            _typeNameTable[37] = "Bing.Maps.LocationRect";
+            _typeNameTable[38] = "Int32";
+            _typeNameTable[39] = "Bing.Maps.MapShapeLayerCollection";
+            _typeNameTable[40] = "Bing.Maps.MapShapeLayer";
+            _typeNameTable[41] = "Bing.Maps.MapShapeCollection";
+            _typeNameTable[42] = "Bing.Maps.MapShape";
+            _typeNameTable[43] = "Bing.Maps.Traffic.TrafficIncidentPushpinOptions";
+            _typeNameTable[44] = "Bing.Maps.Directions.DirectionsUIEventManager";
+            _typeNameTable[45] = "Bing.Maps.Directions.DirectionsRenderOptions";
+            _typeNameTable[46] = "Bing.Maps.PreloadArea";
+            _typeNameTable[47] = "Bing.Maps.MapViewRestriction";
+            _typeNameTable[48] = "Bing.Maps.MapType";
+            _typeNameTable[49] = "Bing.Maps.Pushpin";
+            _typeNameTable[50] = "Bing.Maps.MapLayer";
+            _typeNameTable[51] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[52] = "Windows.Foundation.Point";
+            _typeNameTable[53] = "VisitRoslikde.MainPage";
+            _typeNameTable[54] = "Bing.Maps.Directions.DirectionsPolylineRenderOptions";
+            _typeNameTable[55] = "Bing.Maps.Directions.DirectionsPushpinRenderOptions";
+            _typeNameTable[56] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[57] = "Windows.UI.Xaml.Controls.ControlTemplate";
+            _typeNameTable[58] = "Bing.Maps.MapItemsControl";
+            _typeNameTable[59] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[60] = "Bing.Maps.VenueMaps.VenueFloorDataSource";
+            _typeNameTable[61] = "Windows.Foundation.Collections.IObservableVector`1<Object>";
+            _typeNameTable[62] = "Bing.Maps.VenueMaps.VenueEntity";
+            _typeNameTable[63] = "Windows.UI.Color";
+            _typeNameTable[64] = "Bing.Maps.VenueMaps.VenueEntityType";
+            _typeNameTable[65] = "Bing.Maps.LocationCollection";
+            _typeNameTable[66] = "Bing.Maps.VenueMaps.Floor";
+            _typeNameTable[67] = "Bing.Maps.VenueMaps.VenueAddress";
+            _typeNameTable[68] = "Bing.Maps.MapAddress";
+            _typeNameTable[69] = "Bing.Maps.PushpinOffset";
+            _typeNameTable[70] = "Bing.Maps.Directions.ItineraryItemDataSource";
+            _typeNameTable[71] = "UInt32";
+            _typeNameTable[72] = "Bing.Maps.Directions.RouteLegDataSource";
+            _typeNameTable[73] = "Bing.Maps.Directions.TransitRouteDataSource";
+            _typeNameTable[74] = "Bing.Maps.Directions.RouteLegDataTemplateSelector";
+            _typeNameTable[75] = "Windows.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[76] = "Windows.UI.Xaml.DataTemplate";
+            _typeNameTable[77] = "Bing.Maps.Directions.DirectionsContainerSelector";
+            _typeNameTable[78] = "Windows.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[79] = "Windows.UI.Xaml.Style";
+            _typeNameTable[80] = "Bing.Maps.Directions.Warning";
+            _typeNameTable[81] = "Bing.Maps.Directions.WarningType";
+            _typeNameTable[82] = "Bing.Maps.Directions.WarningSeverity";
 
-            _typeTable = new global::System.Type[79];
+            _typeTable = new global::System.Type[83];
             _typeTable[0] = typeof(global::VisitRoslikde.View.DetailedPageR);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -239,76 +243,80 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             _typeTable[6] = typeof(global::VisitRoslikde.Common.NavigationHelper);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[8] = typeof(global::VisitRoslikde.View.ListPageHotels);
-            _typeTable[9] = typeof(global::WinRTXamlToolkit.Controls.ImageButton);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Button);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
-            _typeTable[12] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
-            _typeTable[13] = typeof(global::System.Boolean);
-            _typeTable[14] = typeof(global::Windows.UI.Xaml.Media.Stretch);
-            _typeTable[15] = typeof(global::System.Uri);
-            _typeTable[16] = typeof(global::System.Double);
-            _typeTable[17] = typeof(global::VisitRoslikde.View.ListPageRestaurants);
-            _typeTable[18] = typeof(global::Bing.Maps.Map);
-            _typeTable[19] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[20] = typeof(global::Bing.Maps.MapUIElementCollection);
-            _typeTable[21] = typeof(global::Windows.UI.Xaml.UIElement);
-            _typeTable[22] = typeof(global::Bing.Maps.Location);
-            _typeTable[23] = typeof(global::Bing.Maps.Search.SearchManager);
-            _typeTable[24] = typeof(global::Bing.Maps.Traffic.TrafficManager);
-            _typeTable[25] = typeof(global::Bing.Maps.Directions.DirectionsManager);
-            _typeTable[26] = typeof(global::Bing.Maps.VenueMaps.VenueManager);
-            _typeTable[27] = typeof(global::Bing.Maps.MapForegroundPosition);
-            _typeTable[28] = typeof(global::System.Enum);
-            _typeTable[29] = typeof(global::System.ValueType);
-            _typeTable[30] = typeof(global::Bing.Maps.MapTileLayerCollection);
-            _typeTable[31] = typeof(global::Bing.Maps.MapTileLayer);
-            _typeTable[32] = typeof(global::Bing.Maps.LocationRectCollection);
-            _typeTable[33] = typeof(global::Bing.Maps.LocationRect);
-            _typeTable[34] = typeof(global::System.Int32);
-            _typeTable[35] = typeof(global::Bing.Maps.MapShapeLayerCollection);
-            _typeTable[36] = typeof(global::Bing.Maps.MapShapeLayer);
-            _typeTable[37] = typeof(global::Bing.Maps.MapShapeCollection);
-            _typeTable[38] = typeof(global::Bing.Maps.MapShape);
-            _typeTable[39] = typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions);
-            _typeTable[40] = typeof(global::Bing.Maps.Directions.DirectionsUIEventManager);
-            _typeTable[41] = typeof(global::Bing.Maps.Directions.DirectionsRenderOptions);
-            _typeTable[42] = typeof(global::Bing.Maps.PreloadArea);
-            _typeTable[43] = typeof(global::Bing.Maps.MapViewRestriction);
-            _typeTable[44] = typeof(global::Bing.Maps.MapType);
-            _typeTable[45] = typeof(global::Bing.Maps.Pushpin);
-            _typeTable[46] = typeof(global::Bing.Maps.MapLayer);
-            _typeTable[47] = typeof(global::Windows.UI.Xaml.Controls.Panel);
-            _typeTable[48] = typeof(global::Windows.Foundation.Point);
-            _typeTable[49] = typeof(global::VisitRoslikde.MainPage);
-            _typeTable[50] = typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions);
-            _typeTable[51] = typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions);
-            _typeTable[52] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[53] = typeof(global::Windows.UI.Xaml.Controls.ControlTemplate);
-            _typeTable[54] = typeof(global::Bing.Maps.MapItemsControl);
-            _typeTable[55] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
-            _typeTable[56] = typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource);
-            _typeTable[57] = typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>);
-            _typeTable[58] = typeof(global::Bing.Maps.VenueMaps.VenueEntity);
-            _typeTable[59] = typeof(global::Windows.UI.Color);
-            _typeTable[60] = typeof(global::Bing.Maps.VenueMaps.VenueEntityType);
-            _typeTable[61] = typeof(global::Bing.Maps.LocationCollection);
-            _typeTable[62] = typeof(global::Bing.Maps.VenueMaps.Floor);
-            _typeTable[63] = typeof(global::Bing.Maps.VenueMaps.VenueAddress);
-            _typeTable[64] = typeof(global::Bing.Maps.MapAddress);
-            _typeTable[65] = typeof(global::Bing.Maps.PushpinOffset);
-            _typeTable[66] = typeof(global::Bing.Maps.Directions.ItineraryItemDataSource);
-            _typeTable[67] = typeof(global::System.UInt32);
-            _typeTable[68] = typeof(global::Bing.Maps.Directions.RouteLegDataSource);
-            _typeTable[69] = typeof(global::Bing.Maps.Directions.TransitRouteDataSource);
-            _typeTable[70] = typeof(global::Bing.Maps.Directions.RouteLegDataTemplateSelector);
-            _typeTable[71] = typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[72] = typeof(global::Windows.UI.Xaml.DataTemplate);
-            _typeTable[73] = typeof(global::Bing.Maps.Directions.DirectionsContainerSelector);
-            _typeTable[74] = typeof(global::Windows.UI.Xaml.Controls.StyleSelector);
-            _typeTable[75] = typeof(global::Windows.UI.Xaml.Style);
-            _typeTable[76] = typeof(global::Bing.Maps.Directions.Warning);
-            _typeTable[77] = typeof(global::Bing.Maps.Directions.WarningType);
-            _typeTable[78] = typeof(global::Bing.Maps.Directions.WarningSeverity);
+            _typeTable[9] = typeof(global::VisitRoslikde.ViewModel.ListRestaurantsViewModel);
+            _typeTable[10] = typeof(global::VisitRoslikde.Model.CommentModelRestaurant);
+            _typeTable[11] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[12] = typeof(global::VisitRoslikde.Model.Restaurant);
+            _typeTable[13] = typeof(global::WinRTXamlToolkit.Controls.ImageButton);
+            _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.Button);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
+            _typeTable[17] = typeof(global::System.Boolean);
+            _typeTable[18] = typeof(global::Windows.UI.Xaml.Media.Stretch);
+            _typeTable[19] = typeof(global::System.Uri);
+            _typeTable[20] = typeof(global::System.Double);
+            _typeTable[21] = typeof(global::VisitRoslikde.View.ListPageRestaurants);
+            _typeTable[22] = typeof(global::Bing.Maps.Map);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[24] = typeof(global::Bing.Maps.MapUIElementCollection);
+            _typeTable[25] = typeof(global::Windows.UI.Xaml.UIElement);
+            _typeTable[26] = typeof(global::Bing.Maps.Location);
+            _typeTable[27] = typeof(global::Bing.Maps.Search.SearchManager);
+            _typeTable[28] = typeof(global::Bing.Maps.Traffic.TrafficManager);
+            _typeTable[29] = typeof(global::Bing.Maps.Directions.DirectionsManager);
+            _typeTable[30] = typeof(global::Bing.Maps.VenueMaps.VenueManager);
+            _typeTable[31] = typeof(global::Bing.Maps.MapForegroundPosition);
+            _typeTable[32] = typeof(global::System.Enum);
+            _typeTable[33] = typeof(global::System.ValueType);
+            _typeTable[34] = typeof(global::Bing.Maps.MapTileLayerCollection);
+            _typeTable[35] = typeof(global::Bing.Maps.MapTileLayer);
+            _typeTable[36] = typeof(global::Bing.Maps.LocationRectCollection);
+            _typeTable[37] = typeof(global::Bing.Maps.LocationRect);
+            _typeTable[38] = typeof(global::System.Int32);
+            _typeTable[39] = typeof(global::Bing.Maps.MapShapeLayerCollection);
+            _typeTable[40] = typeof(global::Bing.Maps.MapShapeLayer);
+            _typeTable[41] = typeof(global::Bing.Maps.MapShapeCollection);
+            _typeTable[42] = typeof(global::Bing.Maps.MapShape);
+            _typeTable[43] = typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions);
+            _typeTable[44] = typeof(global::Bing.Maps.Directions.DirectionsUIEventManager);
+            _typeTable[45] = typeof(global::Bing.Maps.Directions.DirectionsRenderOptions);
+            _typeTable[46] = typeof(global::Bing.Maps.PreloadArea);
+            _typeTable[47] = typeof(global::Bing.Maps.MapViewRestriction);
+            _typeTable[48] = typeof(global::Bing.Maps.MapType);
+            _typeTable[49] = typeof(global::Bing.Maps.Pushpin);
+            _typeTable[50] = typeof(global::Bing.Maps.MapLayer);
+            _typeTable[51] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[52] = typeof(global::Windows.Foundation.Point);
+            _typeTable[53] = typeof(global::VisitRoslikde.MainPage);
+            _typeTable[54] = typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions);
+            _typeTable[55] = typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions);
+            _typeTable[56] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[57] = typeof(global::Windows.UI.Xaml.Controls.ControlTemplate);
+            _typeTable[58] = typeof(global::Bing.Maps.MapItemsControl);
+            _typeTable[59] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[60] = typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource);
+            _typeTable[61] = typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>);
+            _typeTable[62] = typeof(global::Bing.Maps.VenueMaps.VenueEntity);
+            _typeTable[63] = typeof(global::Windows.UI.Color);
+            _typeTable[64] = typeof(global::Bing.Maps.VenueMaps.VenueEntityType);
+            _typeTable[65] = typeof(global::Bing.Maps.LocationCollection);
+            _typeTable[66] = typeof(global::Bing.Maps.VenueMaps.Floor);
+            _typeTable[67] = typeof(global::Bing.Maps.VenueMaps.VenueAddress);
+            _typeTable[68] = typeof(global::Bing.Maps.MapAddress);
+            _typeTable[69] = typeof(global::Bing.Maps.PushpinOffset);
+            _typeTable[70] = typeof(global::Bing.Maps.Directions.ItineraryItemDataSource);
+            _typeTable[71] = typeof(global::System.UInt32);
+            _typeTable[72] = typeof(global::Bing.Maps.Directions.RouteLegDataSource);
+            _typeTable[73] = typeof(global::Bing.Maps.Directions.TransitRouteDataSource);
+            _typeTable[74] = typeof(global::Bing.Maps.Directions.RouteLegDataTemplateSelector);
+            _typeTable[75] = typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[76] = typeof(global::Windows.UI.Xaml.DataTemplate);
+            _typeTable[77] = typeof(global::Bing.Maps.Directions.DirectionsContainerSelector);
+            _typeTable[78] = typeof(global::Windows.UI.Xaml.Controls.StyleSelector);
+            _typeTable[79] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[80] = typeof(global::Bing.Maps.Directions.Warning);
+            _typeTable[81] = typeof(global::Bing.Maps.Directions.WarningType);
+            _typeTable[82] = typeof(global::Bing.Maps.Directions.WarningSeverity);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -346,33 +354,35 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
         private object Activate_0_DetailedPageR() { return new global::VisitRoslikde.View.DetailedPageR(); }
         private object Activate_3_ObservableDictionary() { return new global::VisitRoslikde.Common.ObservableDictionary(); }
         private object Activate_8_ListPageHotels() { return new global::VisitRoslikde.View.ListPageHotels(); }
-        private object Activate_9_ImageButton() { return new global::WinRTXamlToolkit.Controls.ImageButton(); }
-        private object Activate_17_ListPageRestaurants() { return new global::VisitRoslikde.View.ListPageRestaurants(); }
-        private object Activate_18_Map() { return new global::Bing.Maps.Map(); }
-        private object Activate_20_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
-        private object Activate_22_Location() { return new global::Bing.Maps.Location(); }
-        private object Activate_30_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
-        private object Activate_31_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
-        private object Activate_32_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
-        private object Activate_33_LocationRect() { return new global::Bing.Maps.LocationRect(); }
-        private object Activate_35_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
-        private object Activate_36_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
-        private object Activate_37_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
-        private object Activate_39_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
-        private object Activate_40_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
-        private object Activate_41_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
-        private object Activate_45_Pushpin() { return new global::Bing.Maps.Pushpin(); }
-        private object Activate_46_MapLayer() { return new global::Bing.Maps.MapLayer(); }
-        private object Activate_49_MainPage() { return new global::VisitRoslikde.MainPage(); }
-        private object Activate_50_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
-        private object Activate_51_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
-        private object Activate_54_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
-        private object Activate_56_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
-        private object Activate_61_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
-        private object Activate_68_RouteLegDataSource() { return new global::Bing.Maps.Directions.RouteLegDataSource(); }
-        private object Activate_69_TransitRouteDataSource() { return new global::Bing.Maps.Directions.TransitRouteDataSource(); }
-        private object Activate_70_RouteLegDataTemplateSelector() { return new global::Bing.Maps.Directions.RouteLegDataTemplateSelector(); }
-        private object Activate_73_DirectionsContainerSelector() { return new global::Bing.Maps.Directions.DirectionsContainerSelector(); }
+        private object Activate_9_ListRestaurantsViewModel() { return new global::VisitRoslikde.ViewModel.ListRestaurantsViewModel(); }
+        private object Activate_10_CommentModelRestaurant() { return new global::VisitRoslikde.Model.CommentModelRestaurant(); }
+        private object Activate_13_ImageButton() { return new global::WinRTXamlToolkit.Controls.ImageButton(); }
+        private object Activate_21_ListPageRestaurants() { return new global::VisitRoslikde.View.ListPageRestaurants(); }
+        private object Activate_22_Map() { return new global::Bing.Maps.Map(); }
+        private object Activate_24_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
+        private object Activate_26_Location() { return new global::Bing.Maps.Location(); }
+        private object Activate_34_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
+        private object Activate_35_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
+        private object Activate_36_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
+        private object Activate_37_LocationRect() { return new global::Bing.Maps.LocationRect(); }
+        private object Activate_39_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
+        private object Activate_40_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
+        private object Activate_41_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
+        private object Activate_43_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
+        private object Activate_44_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
+        private object Activate_45_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
+        private object Activate_49_Pushpin() { return new global::Bing.Maps.Pushpin(); }
+        private object Activate_50_MapLayer() { return new global::Bing.Maps.MapLayer(); }
+        private object Activate_53_MainPage() { return new global::VisitRoslikde.MainPage(); }
+        private object Activate_54_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
+        private object Activate_55_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
+        private object Activate_58_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+        private object Activate_60_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
+        private object Activate_65_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
+        private object Activate_72_RouteLegDataSource() { return new global::Bing.Maps.Directions.RouteLegDataSource(); }
+        private object Activate_73_TransitRouteDataSource() { return new global::Bing.Maps.Directions.TransitRouteDataSource(); }
+        private object Activate_74_RouteLegDataTemplateSelector() { return new global::Bing.Maps.Directions.RouteLegDataTemplateSelector(); }
+        private object Activate_77_DirectionsContainerSelector() { return new global::Bing.Maps.Directions.DirectionsContainerSelector(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -380,43 +390,43 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_20_MapUIElementCollection(object instance, object item)
+        private void VectorAdd_24_MapUIElementCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.UIElement>)instance;
             var newItem = (global::Windows.UI.Xaml.UIElement)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_30_MapTileLayerCollection(object instance, object item)
+        private void VectorAdd_34_MapTileLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapTileLayer>)instance;
             var newItem = (global::Bing.Maps.MapTileLayer)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_32_LocationRectCollection(object instance, object item)
+        private void VectorAdd_36_LocationRectCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.LocationRect>)instance;
             var newItem = (global::Bing.Maps.LocationRect)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_35_MapShapeLayerCollection(object instance, object item)
+        private void VectorAdd_39_MapShapeLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShapeLayer>)instance;
             var newItem = (global::Bing.Maps.MapShapeLayer)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_37_MapShapeCollection(object instance, object item)
+        private void VectorAdd_41_MapShapeCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShape>)instance;
             var newItem = (global::Bing.Maps.MapShape)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_57_IObservableVector(object instance, object item)
+        private void VectorAdd_61_IObservableVector(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_61_LocationCollection(object instance, object item)
+        private void VectorAdd_65_LocationCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.Location>)instance;
             var newItem = (global::Bing.Maps.Location)item;
@@ -486,9 +496,43 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  WinRTXamlToolkit.Controls.ImageButton
+            case 9:   //  VisitRoslikde.ViewModel.ListRestaurantsViewModel
+                userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_9_ListRestaurantsViewModel;
+                userType.AddMemberName("Comment");
+                userType.AddMemberName("SerializeComment");
+                userType.AddMemberName("r1");
+                userType.AddMemberName("r2");
+                userType.AddMemberName("r3");
+                userType.AddMemberName("r4");
+                userType.AddMemberName("RestaurantComment");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  VisitRoslikde.Model.CommentModelRestaurant
+                userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  System.Windows.Input.ICommand
+                userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 12:   //  VisitRoslikde.Model.Restaurant
+                userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  WinRTXamlToolkit.Controls.ImageButton
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Button"));
-                userType.Activator = Activate_9_ImageButton;
+                userType.Activator = Activate_13_ImageButton;
                 userType.AddMemberName("NormalStateImageSource");
                 userType.AddMemberName("HoverStateImageSource");
                 userType.AddMemberName("GenerateMissingImages");
@@ -506,48 +550,48 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Button
+            case 14:   //  Windows.UI.Xaml.Controls.Button
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Controls.ContentControl
+            case 15:   //  Windows.UI.Xaml.Controls.ContentControl
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Windows.UI.Xaml.Media.ImageSource
+            case 16:   //  Windows.UI.Xaml.Media.ImageSource
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Boolean
+            case 17:   //  Boolean
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  Windows.UI.Xaml.Media.Stretch
+            case 18:   //  Windows.UI.Xaml.Media.Stretch
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  System.Uri
+            case 19:   //  System.Uri
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  Double
+            case 20:   //  Double
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  VisitRoslikde.View.ListPageRestaurants
+            case 21:   //  VisitRoslikde.View.ListPageRestaurants
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_ListPageRestaurants;
+                userType.Activator = Activate_21_ListPageRestaurants;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Bing.Maps.Map
+            case 22:   //  Bing.Maps.Map
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_18_Map;
+                userType.Activator = Activate_22_Map;
                 userType.SetContentPropertyName("Bing.Maps.Map.Children");
                 userType.AddMemberName("Children");
                 userType.AddMemberName("ZoomLevel");
@@ -591,54 +635,54 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 19:   //  Windows.UI.Xaml.Controls.Control
+            case 23:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  Bing.Maps.MapUIElementCollection
+            case 24:   //  Bing.Maps.MapUIElementCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_20_MapUIElementCollection;
+                userType.CollectionAdd = VectorAdd_24_MapUIElementCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 21:   //  Windows.UI.Xaml.UIElement
+            case 25:   //  Windows.UI.Xaml.UIElement
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  Bing.Maps.Location
+            case 26:   //  Bing.Maps.Location
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_22_Location;
+                userType.Activator = Activate_26_Location;
                 userType.AddMemberName("Latitude");
                 userType.AddMemberName("Longitude");
                 xamlType = userType;
                 break;
 
-            case 23:   //  Bing.Maps.Search.SearchManager
+            case 27:   //  Bing.Maps.Search.SearchManager
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 24:   //  Bing.Maps.Traffic.TrafficManager
+            case 28:   //  Bing.Maps.Traffic.TrafficManager
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Bing.Maps.Directions.DirectionsManager
+            case 29:   //  Bing.Maps.Directions.DirectionsManager
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 26:   //  Bing.Maps.VenueMaps.VenueManager
+            case 30:   //  Bing.Maps.VenueMaps.VenueManager
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 27:   //  Bing.Maps.MapForegroundPosition
+            case 31:   //  Bing.Maps.MapForegroundPosition
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("TopRight", global::Bing.Maps.MapForegroundPosition.TopRight);
                 userType.AddEnumValue("TopLeft", global::Bing.Maps.MapForegroundPosition.TopLeft);
@@ -647,26 +691,26 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 28:   //  System.Enum
+            case 32:   //  System.Enum
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 29:   //  System.ValueType
+            case 33:   //  System.ValueType
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 30:   //  Bing.Maps.MapTileLayerCollection
+            case 34:   //  Bing.Maps.MapTileLayerCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_30_MapTileLayerCollection;
+                userType.CollectionAdd = VectorAdd_34_MapTileLayerCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 31:   //  Bing.Maps.MapTileLayer
+            case 35:   //  Bing.Maps.MapTileLayer
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_31_MapTileLayer;
+                userType.Activator = Activate_35_MapTileLayer;
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
                 userType.AddMemberName("MaxZoomLevel");
@@ -678,16 +722,16 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  Bing.Maps.LocationRectCollection
+            case 36:   //  Bing.Maps.LocationRectCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_32_LocationRectCollection;
+                userType.CollectionAdd = VectorAdd_36_LocationRectCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 33:   //  Bing.Maps.LocationRect
+            case 37:   //  Bing.Maps.LocationRect
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_33_LocationRect;
+                userType.Activator = Activate_37_LocationRect;
                 userType.AddMemberName("West");
                 userType.AddMemberName("Southeast");
                 userType.AddMemberName("South");
@@ -700,42 +744,42 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 34:   //  Int32
+            case 38:   //  Int32
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Bing.Maps.MapShapeLayerCollection
+            case 39:   //  Bing.Maps.MapShapeLayerCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_35_MapShapeLayerCollection;
+                userType.CollectionAdd = VectorAdd_39_MapShapeLayerCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 36:   //  Bing.Maps.MapShapeLayer
+            case 40:   //  Bing.Maps.MapShapeLayer
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_36_MapShapeLayer;
+                userType.Activator = Activate_40_MapShapeLayer;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("ZIndex");
                 userType.AddMemberName("Shapes");
                 xamlType = userType;
                 break;
 
-            case 37:   //  Bing.Maps.MapShapeCollection
+            case 41:   //  Bing.Maps.MapShapeCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_37_MapShapeCollection;
+                userType.CollectionAdd = VectorAdd_41_MapShapeCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 38:   //  Bing.Maps.MapShape
+            case 42:   //  Bing.Maps.MapShape
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Visible");
                 xamlType = userType;
                 break;
 
-            case 39:   //  Bing.Maps.Traffic.TrafficIncidentPushpinOptions
+            case 43:   //  Bing.Maps.Traffic.TrafficIncidentPushpinOptions
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_39_TrafficIncidentPushpinOptions;
+                userType.Activator = Activate_43_TrafficIncidentPushpinOptions;
                 userType.AddMemberName("WeatherPushpinTemplate");
                 userType.AddMemberName("AlertPushpinTemplate");
                 userType.AddMemberName("ConstructionPushpinTemplate");
@@ -751,16 +795,16 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Bing.Maps.Directions.DirectionsUIEventManager
+            case 44:   //  Bing.Maps.Directions.DirectionsUIEventManager
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_40_DirectionsUIEventManager;
+                userType.Activator = Activate_44_DirectionsUIEventManager;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 41:   //  Bing.Maps.Directions.DirectionsRenderOptions
+            case 45:   //  Bing.Maps.Directions.DirectionsRenderOptions
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_41_DirectionsRenderOptions;
+                userType.Activator = Activate_45_DirectionsRenderOptions;
                 userType.AddMemberName("WalkingPolylineOptions");
                 userType.AddMemberName("TransitPolylineOptions");
                 userType.AddMemberName("DrivingPolylineOptions");
@@ -784,7 +828,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 42:   //  Bing.Maps.PreloadArea
+            case 46:   //  Bing.Maps.PreloadArea
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.PreloadArea.None);
                 userType.AddEnumValue("Small", global::Bing.Maps.PreloadArea.Small);
@@ -793,7 +837,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Bing.Maps.MapViewRestriction
+            case 47:   //  Bing.Maps.MapViewRestriction
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.MapViewRestriction.None);
                 userType.AddEnumValue("ZoomOutToWholeWorld", global::Bing.Maps.MapViewRestriction.ZoomOutToWholeWorld);
@@ -802,7 +846,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  Bing.Maps.MapType
+            case 48:   //  Bing.Maps.MapType
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Road", global::Bing.Maps.MapType.Road);
                 userType.AddEnumValue("Aerial", global::Bing.Maps.MapType.Aerial);
@@ -812,9 +856,9 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 45:   //  Bing.Maps.Pushpin
+            case 49:   //  Bing.Maps.Pushpin
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_45_Pushpin;
+                userType.Activator = Activate_49_Pushpin;
                 userType.AddMemberName("AssociateObject");
                 userType.AddMemberName("Selected");
                 userType.AddMemberName("Text");
@@ -822,32 +866,32 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 46:   //  Bing.Maps.MapLayer
+            case 50:   //  Bing.Maps.MapLayer
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
-                userType.Activator = Activate_46_MapLayer;
+                userType.Activator = Activate_50_MapLayer;
                 userType.AddMemberName("Position");
                 userType.AddMemberName("PositionAnchor");
                 xamlType = userType;
                 break;
 
-            case 47:   //  Windows.UI.Xaml.Controls.Panel
+            case 51:   //  Windows.UI.Xaml.Controls.Panel
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Windows.Foundation.Point
+            case 52:   //  Windows.Foundation.Point
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 49:   //  VisitRoslikde.MainPage
+            case 53:   //  VisitRoslikde.MainPage
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_49_MainPage;
+                userType.Activator = Activate_53_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  Bing.Maps.Directions.DirectionsPolylineRenderOptions
+            case 54:   //  Bing.Maps.Directions.DirectionsPolylineRenderOptions
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_50_DirectionsPolylineRenderOptions;
+                userType.Activator = Activate_54_DirectionsPolylineRenderOptions;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("LineWidth");
                 userType.AddMemberName("LineColor");
@@ -855,9 +899,9 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 51:   //  Bing.Maps.Directions.DirectionsPushpinRenderOptions
+            case 55:   //  Bing.Maps.Directions.DirectionsPushpinRenderOptions
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_51_DirectionsPushpinRenderOptions;
+                userType.Activator = Activate_55_DirectionsPushpinRenderOptions;
                 userType.AddMemberName("Visible");
                 userType.AddMemberName("Offset");
                 userType.AddMemberName("PushpinTemplate");
@@ -865,42 +909,42 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 52:   //  Windows.UI.Xaml.Media.Brush
+            case 56:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 53:   //  Windows.UI.Xaml.Controls.ControlTemplate
+            case 57:   //  Windows.UI.Xaml.Controls.ControlTemplate
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 54:   //  Bing.Maps.MapItemsControl
+            case 58:   //  Bing.Maps.MapItemsControl
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_54_MapItemsControl;
+                userType.Activator = Activate_58_MapItemsControl;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 55:   //  Windows.UI.Xaml.Controls.ItemsControl
+            case 59:   //  Windows.UI.Xaml.Controls.ItemsControl
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 56:   //  Bing.Maps.VenueMaps.VenueFloorDataSource
+            case 60:   //  Bing.Maps.VenueMaps.VenueFloorDataSource
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_56_VenueFloorDataSource;
+                userType.Activator = Activate_60_VenueFloorDataSource;
                 userType.AddMemberName("Items");
                 userType.AddMemberName("Name");
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 57:   //  Windows.Foundation.Collections.IObservableVector`1<Object>
+            case 61:   //  Windows.Foundation.Collections.IObservableVector`1<Object>
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_57_IObservableVector;
+                userType.CollectionAdd = VectorAdd_61_IObservableVector;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 58:   //  Bing.Maps.VenueMaps.VenueEntity
+            case 62:   //  Bing.Maps.VenueMaps.VenueEntity
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Highlighted");
                 userType.AddMemberName("LineWidth");
@@ -924,13 +968,13 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 59:   //  Windows.UI.Color
+            case 63:   //  Windows.UI.Color
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 60:   //  Bing.Maps.VenueMaps.VenueEntityType
+            case 64:   //  Bing.Maps.VenueMaps.VenueEntityType
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Unknown", global::Bing.Maps.VenueMaps.VenueEntityType.Unknown);
                 userType.AddEnumValue("AccessibleEntrance", global::Bing.Maps.VenueMaps.VenueEntityType.AccessibleEntrance);
@@ -966,31 +1010,31 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 61:   //  Bing.Maps.LocationCollection
+            case 65:   //  Bing.Maps.LocationCollection
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_61_LocationCollection;
+                userType.CollectionAdd = VectorAdd_65_LocationCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 62:   //  Bing.Maps.VenueMaps.Floor
+            case 66:   //  Bing.Maps.VenueMaps.Floor
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 63:   //  Bing.Maps.VenueMaps.VenueAddress
+            case 67:   //  Bing.Maps.VenueMaps.VenueAddress
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Bing.Maps.MapAddress"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 64:   //  Bing.Maps.MapAddress
+            case 68:   //  Bing.Maps.MapAddress
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
-            case 65:   //  Bing.Maps.PushpinOffset
+            case 69:   //  Bing.Maps.PushpinOffset
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("TopLeft", global::Bing.Maps.PushpinOffset.TopLeft);
                 userType.AddEnumValue("TopCenter", global::Bing.Maps.PushpinOffset.TopCenter);
@@ -1004,7 +1048,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 66:   //  Bing.Maps.Directions.ItineraryItemDataSource
+            case 70:   //  Bing.Maps.Directions.ItineraryItemDataSource
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Warnings");
                 userType.AddMemberName("IconColor");
@@ -1026,13 +1070,13 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 67:   //  UInt32
+            case 71:   //  UInt32
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 68:   //  Bing.Maps.Directions.RouteLegDataSource
+            case 72:   //  Bing.Maps.Directions.RouteLegDataSource
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_68_RouteLegDataSource;
+                userType.Activator = Activate_72_RouteLegDataSource;
                 userType.AddMemberName("Items");
                 userType.AddMemberName("AutomationName");
                 userType.AddMemberName("Header");
@@ -1040,9 +1084,9 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 69:   //  Bing.Maps.Directions.TransitRouteDataSource
+            case 73:   //  Bing.Maps.Directions.TransitRouteDataSource
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_69_TransitRouteDataSource;
+                userType.Activator = Activate_73_TransitRouteDataSource;
                 userType.AddMemberName("AutomationName");
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("Summary");
@@ -1050,9 +1094,9 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 70:   //  Bing.Maps.Directions.RouteLegDataTemplateSelector
+            case 74:   //  Bing.Maps.Directions.RouteLegDataTemplateSelector
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
-                userType.Activator = Activate_70_RouteLegDataTemplateSelector;
+                userType.Activator = Activate_74_RouteLegDataTemplateSelector;
                 userType.AddMemberName("RouteLegHeaderItemTemplate");
                 userType.AddMemberName("GroupRouteLegHeaderItemTemplate");
                 userType.AddMemberName("WalkItineraryItemTemplate");
@@ -1064,32 +1108,32 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 71:   //  Windows.UI.Xaml.Controls.DataTemplateSelector
+            case 75:   //  Windows.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 72:   //  Windows.UI.Xaml.DataTemplate
+            case 76:   //  Windows.UI.Xaml.DataTemplate
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 73:   //  Bing.Maps.Directions.DirectionsContainerSelector
+            case 77:   //  Bing.Maps.Directions.DirectionsContainerSelector
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.StyleSelector"));
-                userType.Activator = Activate_73_DirectionsContainerSelector;
+                userType.Activator = Activate_77_DirectionsContainerSelector;
                 userType.AddMemberName("UnSelectableStyle");
                 userType.AddMemberName("SelectableStyle");
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 74:   //  Windows.UI.Xaml.Controls.StyleSelector
+            case 78:   //  Windows.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 75:   //  Windows.UI.Xaml.Style
+            case 79:   //  Windows.UI.Xaml.Style
                 xamlType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 76:   //  Bing.Maps.Directions.Warning
+            case 80:   //  Bing.Maps.Directions.Warning
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Type");
                 userType.AddMemberName("Severity");
@@ -1098,7 +1142,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 77:   //  Bing.Maps.Directions.WarningType
+            case 81:   //  Bing.Maps.Directions.WarningType
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.Directions.WarningType.None);
                 userType.AddEnumValue("Accident", global::Bing.Maps.Directions.WarningType.Accident);
@@ -1136,7 +1180,7 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 78:   //  Bing.Maps.Directions.WarningSeverity
+            case 82:   //  Bing.Maps.Directions.WarningSeverity
                 userType = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.Directions.WarningSeverity.None);
                 userType.AddEnumValue("LowImpact", global::Bing.Maps.Directions.WarningSeverity.LowImpact);
@@ -1225,1488 +1269,1558 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
             var that = (global::VisitRoslikde.View.ListPageHotels)instance;
             return that.NavigationHelper;
         }
-        private object get_4_ImageButton_NormalStateImageSource(object instance)
+        private object get_4_ListRestaurantsViewModel_Comment(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.Comment;
+        }
+        private void set_4_ListRestaurantsViewModel_Comment(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.Comment = (global::VisitRoslikde.Model.CommentModelRestaurant)Value;
+        }
+        private object get_5_ListRestaurantsViewModel_SerializeComment(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.SerializeComment;
+        }
+        private void set_5_ListRestaurantsViewModel_SerializeComment(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.SerializeComment = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_6_ListRestaurantsViewModel_r1(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r1;
+        }
+        private void set_6_ListRestaurantsViewModel_r1(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.r1 = (global::VisitRoslikde.Model.Restaurant)Value;
+        }
+        private object get_7_ListRestaurantsViewModel_r2(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r2;
+        }
+        private void set_7_ListRestaurantsViewModel_r2(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.r2 = (global::VisitRoslikde.Model.Restaurant)Value;
+        }
+        private object get_8_ListRestaurantsViewModel_r3(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r3;
+        }
+        private void set_8_ListRestaurantsViewModel_r3(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.r3 = (global::VisitRoslikde.Model.Restaurant)Value;
+        }
+        private object get_9_ListRestaurantsViewModel_r4(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r4;
+        }
+        private void set_9_ListRestaurantsViewModel_r4(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.r4 = (global::VisitRoslikde.Model.Restaurant)Value;
+        }
+        private object get_10_ListRestaurantsViewModel_RestaurantComment(object instance)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            return that.RestaurantComment;
+        }
+        private void set_10_ListRestaurantsViewModel_RestaurantComment(object instance, object Value)
+        {
+            var that = (global::VisitRoslikde.ViewModel.ListRestaurantsViewModel)instance;
+            that.RestaurantComment = (global::System.String)Value;
+        }
+        private object get_11_ImageButton_NormalStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.NormalStateImageSource;
         }
-        private void set_4_ImageButton_NormalStateImageSource(object instance, object Value)
+        private void set_11_ImageButton_NormalStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.NormalStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_5_ImageButton_HoverStateImageSource(object instance)
+        private object get_12_ImageButton_HoverStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.HoverStateImageSource;
         }
-        private void set_5_ImageButton_HoverStateImageSource(object instance, object Value)
+        private void set_12_ImageButton_HoverStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.HoverStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_6_ImageButton_GenerateMissingImages(object instance)
+        private object get_13_ImageButton_GenerateMissingImages(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GenerateMissingImages;
         }
-        private void set_6_ImageButton_GenerateMissingImages(object instance, object Value)
+        private void set_13_ImageButton_GenerateMissingImages(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GenerateMissingImages = (global::System.Boolean)Value;
         }
-        private object get_7_ImageButton_Stretch(object instance)
+        private object get_14_ImageButton_Stretch(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.Stretch;
         }
-        private void set_7_ImageButton_Stretch(object instance, object Value)
+        private void set_14_ImageButton_Stretch(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.Stretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
         }
-        private object get_8_ImageButton_RecyclePressedStateImageForHover(object instance)
+        private object get_15_ImageButton_RecyclePressedStateImageForHover(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.RecyclePressedStateImageForHover;
         }
-        private void set_8_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
+        private void set_15_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.RecyclePressedStateImageForHover = (global::System.Boolean)Value;
         }
-        private object get_9_ImageButton_PressedStateImageSource(object instance)
+        private object get_16_ImageButton_PressedStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.PressedStateImageSource;
         }
-        private void set_9_ImageButton_PressedStateImageSource(object instance, object Value)
+        private void set_16_ImageButton_PressedStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.PressedStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_10_ImageButton_DisabledStateImageSource(object instance)
+        private object get_17_ImageButton_DisabledStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.DisabledStateImageSource;
         }
-        private void set_10_ImageButton_DisabledStateImageSource(object instance, object Value)
+        private void set_17_ImageButton_DisabledStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.DisabledStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_11_ImageButton_NormalStateImageUriSource(object instance)
+        private object get_18_ImageButton_NormalStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.NormalStateImageUriSource;
         }
-        private void set_11_ImageButton_NormalStateImageUriSource(object instance, object Value)
+        private void set_18_ImageButton_NormalStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.NormalStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_12_ImageButton_HoverStateImageUriSource(object instance)
+        private object get_19_ImageButton_HoverStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.HoverStateImageUriSource;
         }
-        private void set_12_ImageButton_HoverStateImageUriSource(object instance, object Value)
+        private void set_19_ImageButton_HoverStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.HoverStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_13_ImageButton_PressedStateImageUriSource(object instance)
+        private object get_20_ImageButton_PressedStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.PressedStateImageUriSource;
         }
-        private void set_13_ImageButton_PressedStateImageUriSource(object instance, object Value)
+        private void set_20_ImageButton_PressedStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.PressedStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_14_ImageButton_DisabledStateImageUriSource(object instance)
+        private object get_21_ImageButton_DisabledStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.DisabledStateImageUriSource;
         }
-        private void set_14_ImageButton_DisabledStateImageUriSource(object instance, object Value)
+        private void set_21_ImageButton_DisabledStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.DisabledStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_15_ImageButton_GeneratedHoverStateLightenAmount(object instance)
+        private object get_22_ImageButton_GeneratedHoverStateLightenAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedHoverStateLightenAmount;
         }
-        private void set_15_ImageButton_GeneratedHoverStateLightenAmount(object instance, object Value)
+        private void set_22_ImageButton_GeneratedHoverStateLightenAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedHoverStateLightenAmount = (global::System.Double)Value;
         }
-        private object get_16_ImageButton_GeneratedPressedStateLightenAmount(object instance)
+        private object get_23_ImageButton_GeneratedPressedStateLightenAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedPressedStateLightenAmount;
         }
-        private void set_16_ImageButton_GeneratedPressedStateLightenAmount(object instance, object Value)
+        private void set_23_ImageButton_GeneratedPressedStateLightenAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedPressedStateLightenAmount = (global::System.Double)Value;
         }
-        private object get_17_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance)
+        private object get_24_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedDisabledStateGrayscaleAmount;
         }
-        private void set_17_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance, object Value)
+        private void set_24_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedDisabledStateGrayscaleAmount = (global::System.Double)Value;
         }
-        private object get_18_ListPageRestaurants_DefaultViewModel(object instance)
+        private object get_25_ListPageRestaurants_DefaultViewModel(object instance)
         {
             var that = (global::VisitRoslikde.View.ListPageRestaurants)instance;
             return that.DefaultViewModel;
         }
-        private object get_19_ListPageRestaurants_NavigationHelper(object instance)
+        private object get_26_ListPageRestaurants_NavigationHelper(object instance)
         {
             var that = (global::VisitRoslikde.View.ListPageRestaurants)instance;
             return that.NavigationHelper;
         }
-        private object get_20_Map_Children(object instance)
+        private object get_27_Map_Children(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Children;
         }
-        private object get_21_Map_ZoomLevel(object instance)
+        private object get_28_Map_ZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ZoomLevel;
         }
-        private void set_21_Map_ZoomLevel(object instance, object Value)
+        private void set_28_Map_ZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ZoomLevel = (global::System.Double)Value;
         }
-        private object get_22_Map_Credentials(object instance)
+        private object get_29_Map_Credentials(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Credentials;
         }
-        private void set_22_Map_Credentials(object instance, object Value)
+        private void set_29_Map_Credentials(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Credentials = (global::System.String)Value;
         }
-        private object get_23_Map_Center(object instance)
+        private object get_30_Map_Center(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Center;
         }
-        private void set_23_Map_Center(object instance, object Value)
+        private void set_30_Map_Center(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Center = (global::Bing.Maps.Location)Value;
         }
-        private object get_24_Map_SearchManager(object instance)
+        private object get_31_Map_SearchManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.SearchManager;
         }
-        private object get_25_Map_TrafficManager(object instance)
+        private object get_32_Map_TrafficManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TrafficManager;
         }
-        private object get_26_Map_DirectionsManager(object instance)
+        private object get_33_Map_DirectionsManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.DirectionsManager;
         }
-        private object get_27_Map_VenueManager(object instance)
+        private object get_34_Map_VenueManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.VenueManager;
         }
-        private object get_28_Map_LogoPosition(object instance)
+        private object get_35_Map_LogoPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.LogoPosition;
         }
-        private void set_28_Map_LogoPosition(object instance, object Value)
+        private void set_35_Map_LogoPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.LogoPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_29_Map_CopyrightPosition(object instance)
+        private object get_36_Map_CopyrightPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.CopyrightPosition;
         }
-        private void set_29_Map_CopyrightPosition(object instance, object Value)
+        private void set_36_Map_CopyrightPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.CopyrightPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_30_Map_ScaleBarPosition(object instance)
+        private object get_37_Map_ScaleBarPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ScaleBarPosition;
         }
-        private void set_30_Map_ScaleBarPosition(object instance, object Value)
+        private void set_37_Map_ScaleBarPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ScaleBarPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_31_Map_ShowNavigationBar(object instance)
+        private object get_38_Map_ShowNavigationBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowNavigationBar;
         }
-        private void set_31_Map_ShowNavigationBar(object instance, object Value)
+        private void set_38_Map_ShowNavigationBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowNavigationBar = (global::System.Boolean)Value;
         }
-        private object get_32_Map_SuppressNetworkRequests(object instance)
+        private object get_39_Map_SuppressNetworkRequests(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.SuppressNetworkRequests;
         }
-        private void set_32_Map_SuppressNetworkRequests(object instance, object Value)
+        private void set_39_Map_SuppressNetworkRequests(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.SuppressNetworkRequests = (global::System.Boolean)Value;
         }
-        private object get_33_Map_ShowScaleBar(object instance)
+        private object get_40_Map_ShowScaleBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowScaleBar;
         }
-        private void set_33_Map_ShowScaleBar(object instance, object Value)
+        private void set_40_Map_ShowScaleBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowScaleBar = (global::System.Boolean)Value;
         }
-        private object get_34_Map_TileLayers(object instance)
+        private object get_41_Map_TileLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TileLayers;
         }
-        private object get_35_MapTileLayer_Bounds(object instance)
+        private object get_42_MapTileLayer_Bounds(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Bounds;
         }
-        private void set_35_MapTileLayer_Bounds(object instance, object Value)
+        private void set_42_MapTileLayer_Bounds(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Bounds = (global::Bing.Maps.LocationRectCollection)Value;
         }
-        private object get_36_LocationRect_West(object instance)
+        private object get_43_LocationRect_West(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.West;
         }
-        private object get_37_LocationRect_Southeast(object instance)
+        private object get_44_LocationRect_Southeast(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Southeast;
         }
-        private object get_38_LocationRect_South(object instance)
+        private object get_45_LocationRect_South(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.South;
         }
-        private object get_39_LocationRect_Northwest(object instance)
+        private object get_46_LocationRect_Northwest(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Northwest;
         }
-        private object get_40_LocationRect_North(object instance)
+        private object get_47_LocationRect_North(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.North;
         }
-        private object get_41_LocationRect_East(object instance)
+        private object get_48_LocationRect_East(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.East;
         }
-        private object get_42_LocationRect_Height(object instance)
+        private object get_49_LocationRect_Height(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Height;
         }
-        private void set_42_LocationRect_Height(object instance, object Value)
+        private void set_49_LocationRect_Height(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Height = (global::System.Double)Value;
         }
-        private object get_43_LocationRect_Width(object instance)
+        private object get_50_LocationRect_Width(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Width;
         }
-        private void set_43_LocationRect_Width(object instance, object Value)
+        private void set_50_LocationRect_Width(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Width = (global::System.Double)Value;
         }
-        private object get_44_LocationRect_Center(object instance)
+        private object get_51_LocationRect_Center(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Center;
         }
-        private void set_44_LocationRect_Center(object instance, object Value)
+        private void set_51_LocationRect_Center(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Center = (global::Bing.Maps.Location)Value;
         }
-        private object get_45_MapTileLayer_FillMissingTiles(object instance)
+        private object get_52_MapTileLayer_FillMissingTiles(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.FillMissingTiles;
         }
-        private void set_45_MapTileLayer_FillMissingTiles(object instance, object Value)
+        private void set_52_MapTileLayer_FillMissingTiles(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.FillMissingTiles = (global::System.Boolean)Value;
         }
-        private object get_46_MapTileLayer_MaxZoomLevel(object instance)
+        private object get_53_MapTileLayer_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MaxZoomLevel;
         }
-        private void set_46_MapTileLayer_MaxZoomLevel(object instance, object Value)
+        private void set_53_MapTileLayer_MaxZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MaxZoomLevel = (global::System.Double)Value;
         }
-        private object get_47_MapTileLayer_MinZoomLevel(object instance)
+        private object get_54_MapTileLayer_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MinZoomLevel;
         }
-        private void set_47_MapTileLayer_MinZoomLevel(object instance, object Value)
+        private void set_54_MapTileLayer_MinZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MinZoomLevel = (global::System.Double)Value;
         }
-        private object get_48_MapTileLayer_Visible(object instance)
+        private object get_55_MapTileLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Visible;
         }
-        private void set_48_MapTileLayer_Visible(object instance, object Value)
+        private void set_55_MapTileLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_49_MapTileLayer_ZIndex(object instance)
+        private object get_56_MapTileLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.ZIndex;
         }
-        private void set_49_MapTileLayer_ZIndex(object instance, object Value)
+        private void set_56_MapTileLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_50_MapTileLayer_TileSource(object instance)
+        private object get_57_MapTileLayer_TileSource(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.TileSource;
         }
-        private void set_50_MapTileLayer_TileSource(object instance, object Value)
+        private void set_57_MapTileLayer_TileSource(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.TileSource = (global::System.String)Value;
         }
-        private object get_51_MapTileLayer_Opacity(object instance)
+        private object get_58_MapTileLayer_Opacity(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Opacity;
         }
-        private void set_51_MapTileLayer_Opacity(object instance, object Value)
+        private void set_58_MapTileLayer_Opacity(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Opacity = (global::System.Double)Value;
         }
-        private object get_52_Map_ShapeLayers(object instance)
+        private object get_59_Map_ShapeLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShapeLayers;
         }
-        private object get_53_MapShapeLayer_Visible(object instance)
+        private object get_60_MapShapeLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Visible;
         }
-        private void set_53_MapShapeLayer_Visible(object instance, object Value)
+        private void set_60_MapShapeLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_54_MapShapeLayer_ZIndex(object instance)
+        private object get_61_MapShapeLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.ZIndex;
         }
-        private void set_54_MapShapeLayer_ZIndex(object instance, object Value)
+        private void set_61_MapShapeLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_55_MapShapeLayer_Shapes(object instance)
+        private object get_62_MapShapeLayer_Shapes(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Shapes;
         }
-        private void set_55_MapShapeLayer_Shapes(object instance, object Value)
+        private void set_62_MapShapeLayer_Shapes(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Shapes = (global::Bing.Maps.MapShapeCollection)Value;
         }
-        private object get_56_MapShape_Visible(object instance)
+        private object get_63_MapShape_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             return that.Visible;
         }
-        private void set_56_MapShape_Visible(object instance, object Value)
+        private void set_63_MapShape_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_57_Map_RotationEnabled(object instance)
+        private object get_64_Map_RotationEnabled(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.RotationEnabled;
         }
-        private object get_58_Map_TrafficIncidentPushpinOptions(object instance)
+        private object get_65_Map_TrafficIncidentPushpinOptions(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TrafficIncidentPushpinOptions;
         }
-        private void set_58_Map_TrafficIncidentPushpinOptions(object instance, object Value)
+        private void set_65_Map_TrafficIncidentPushpinOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.TrafficIncidentPushpinOptions = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)Value;
         }
-        private object get_59_Map_DirectionsUIEventManager(object instance)
+        private object get_66_Map_DirectionsUIEventManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.DirectionsUIEventManager;
         }
-        private void set_59_Map_DirectionsUIEventManager(object instance, object Value)
+        private void set_66_Map_DirectionsUIEventManager(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.DirectionsUIEventManager = (global::Bing.Maps.Directions.DirectionsUIEventManager)Value;
         }
-        private object get_60_Map_DirectionsRenderOptions(object instance)
+        private object get_67_Map_DirectionsRenderOptions(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.DirectionsRenderOptions;
         }
-        private void set_60_Map_DirectionsRenderOptions(object instance, object Value)
+        private void set_67_Map_DirectionsRenderOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.DirectionsRenderOptions = (global::Bing.Maps.Directions.DirectionsRenderOptions)Value;
         }
-        private object get_61_Map_IsTransitDirectionsEnable(object instance)
+        private object get_68_Map_IsTransitDirectionsEnable(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.IsTransitDirectionsEnable;
         }
-        private object get_62_Map_MaxZoomLevel(object instance)
+        private object get_69_Map_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MaxZoomLevel;
         }
-        private object get_63_Map_MinZoomLevel(object instance)
+        private object get_70_Map_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MinZoomLevel;
         }
-        private object get_64_Map_Culture(object instance)
+        private object get_71_Map_Culture(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Culture;
         }
-        private void set_64_Map_Culture(object instance, object Value)
+        private void set_71_Map_Culture(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Culture = (global::System.String)Value;
         }
-        private object get_65_Map_HomeRegion(object instance)
+        private object get_72_Map_HomeRegion(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.HomeRegion;
         }
-        private void set_65_Map_HomeRegion(object instance, object Value)
+        private void set_72_Map_HomeRegion(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.HomeRegion = (global::System.String)Value;
         }
-        private object get_66_Map_TargetBounds(object instance)
+        private object get_73_Map_TargetBounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetBounds;
         }
-        private object get_67_Map_Bounds(object instance)
+        private object get_74_Map_Bounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Bounds;
         }
-        private object get_68_Map_ShowBreadcrumb(object instance)
+        private object get_75_Map_ShowBreadcrumb(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowBreadcrumb;
         }
-        private void set_68_Map_ShowBreadcrumb(object instance, object Value)
+        private void set_75_Map_ShowBreadcrumb(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowBreadcrumb = (global::System.Boolean)Value;
         }
-        private object get_69_Map_ShowBuildings(object instance)
+        private object get_76_Map_ShowBuildings(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowBuildings;
         }
-        private void set_69_Map_ShowBuildings(object instance, object Value)
+        private void set_76_Map_ShowBuildings(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowBuildings = (global::System.Boolean)Value;
         }
-        private object get_70_Map_ShowTraffic(object instance)
+        private object get_77_Map_ShowTraffic(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowTraffic;
         }
-        private void set_70_Map_ShowTraffic(object instance, object Value)
+        private void set_77_Map_ShowTraffic(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowTraffic = (global::System.Boolean)Value;
         }
-        private object get_71_Map_PreloadArea(object instance)
+        private object get_78_Map_PreloadArea(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.PreloadArea;
         }
-        private void set_71_Map_PreloadArea(object instance, object Value)
+        private void set_78_Map_PreloadArea(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.PreloadArea = (global::Bing.Maps.PreloadArea)Value;
         }
-        private object get_72_Map_ViewRestriction(object instance)
+        private object get_79_Map_ViewRestriction(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ViewRestriction;
         }
-        private void set_72_Map_ViewRestriction(object instance, object Value)
+        private void set_79_Map_ViewRestriction(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ViewRestriction = (global::Bing.Maps.MapViewRestriction)Value;
         }
-        private object get_73_Map_MapType(object instance)
+        private object get_80_Map_MapType(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MapType;
         }
-        private void set_73_Map_MapType(object instance, object Value)
+        private void set_80_Map_MapType(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.MapType = (global::Bing.Maps.MapType)Value;
         }
-        private object get_74_Map_TargetHeading(object instance)
+        private object get_81_Map_TargetHeading(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetHeading;
         }
-        private object get_75_Map_TargetZoomLevel(object instance)
+        private object get_82_Map_TargetZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetZoomLevel;
         }
-        private object get_76_Map_TargetCenter(object instance)
+        private object get_83_Map_TargetCenter(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetCenter;
         }
-        private object get_77_Map_Heading(object instance)
+        private object get_84_Map_Heading(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Heading;
         }
-        private void set_77_Map_Heading(object instance, object Value)
+        private void set_84_Map_Heading(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Heading = (global::System.Double)Value;
         }
-        private object get_78_Map_MetersPerPixel(object instance)
+        private object get_85_Map_MetersPerPixel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MetersPerPixel;
         }
-        private object get_79_Location_Latitude(object instance)
+        private object get_86_Location_Latitude(object instance)
         {
             var that = (global::Bing.Maps.Location)instance;
             return that.Latitude;
         }
-        private void set_79_Location_Latitude(object instance, object Value)
+        private void set_86_Location_Latitude(object instance, object Value)
         {
             var that = (global::Bing.Maps.Location)instance;
             that.Latitude = (global::System.Double)Value;
         }
-        private object get_80_Location_Longitude(object instance)
+        private object get_87_Location_Longitude(object instance)
         {
             var that = (global::Bing.Maps.Location)instance;
             return that.Longitude;
         }
-        private void set_80_Location_Longitude(object instance, object Value)
+        private void set_87_Location_Longitude(object instance, object Value)
         {
             var that = (global::Bing.Maps.Location)instance;
             that.Longitude = (global::System.Double)Value;
         }
-        private object get_81_Pushpin_AssociateObject(object instance)
+        private object get_88_Pushpin_AssociateObject(object instance)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             return that.AssociateObject;
         }
-        private object get_82_Pushpin_Selected(object instance)
+        private object get_89_Pushpin_Selected(object instance)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             return that.Selected;
         }
-        private void set_82_Pushpin_Selected(object instance, object Value)
+        private void set_89_Pushpin_Selected(object instance, object Value)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             that.Selected = (global::System.Boolean)Value;
         }
-        private object get_83_Pushpin_Text(object instance)
+        private object get_90_Pushpin_Text(object instance)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             return that.Text;
         }
-        private void set_83_Pushpin_Text(object instance, object Value)
+        private void set_90_Pushpin_Text(object instance, object Value)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_84_MapLayer_Position(object instance)
+        private object get_91_MapLayer_Position(object instance)
         {
             return global::Bing.Maps.MapLayer.GetPosition((global::Windows.UI.Xaml.DependencyObject)instance);
         }
-        private void set_84_MapLayer_Position(object instance, object Value)
+        private void set_91_MapLayer_Position(object instance, object Value)
         {
             global::Bing.Maps.MapLayer.SetPosition((global::Windows.UI.Xaml.DependencyObject)instance, (global::Bing.Maps.Location)Value);
         }
-        private object get_85_MapLayer_PositionAnchor(object instance)
+        private object get_92_MapLayer_PositionAnchor(object instance)
         {
             return global::Bing.Maps.MapLayer.GetPositionAnchor((global::Windows.UI.Xaml.DependencyObject)instance);
         }
-        private void set_85_MapLayer_PositionAnchor(object instance, object Value)
+        private void set_92_MapLayer_PositionAnchor(object instance, object Value)
         {
             global::Bing.Maps.MapLayer.SetPositionAnchor((global::Windows.UI.Xaml.DependencyObject)instance, (global::Windows.Foundation.Point)Value);
         }
-        private object get_86_DirectionsRenderOptions_WalkingPolylineOptions(object instance)
+        private object get_93_DirectionsRenderOptions_WalkingPolylineOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.WalkingPolylineOptions;
         }
-        private void set_86_DirectionsRenderOptions_WalkingPolylineOptions(object instance, object Value)
+        private void set_93_DirectionsRenderOptions_WalkingPolylineOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.WalkingPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
         }
-        private object get_87_DirectionsRenderOptions_TransitPolylineOptions(object instance)
+        private object get_94_DirectionsRenderOptions_TransitPolylineOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.TransitPolylineOptions;
         }
-        private void set_87_DirectionsRenderOptions_TransitPolylineOptions(object instance, object Value)
+        private void set_94_DirectionsRenderOptions_TransitPolylineOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.TransitPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
         }
-        private object get_88_DirectionsRenderOptions_DrivingPolylineOptions(object instance)
+        private object get_95_DirectionsRenderOptions_DrivingPolylineOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DrivingPolylineOptions;
         }
-        private void set_88_DirectionsRenderOptions_DrivingPolylineOptions(object instance, object Value)
+        private void set_95_DirectionsRenderOptions_DrivingPolylineOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DrivingPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
         }
-        private object get_89_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance)
+        private object get_96_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.ActiveRoutePolylineOptions;
         }
-        private void set_89_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance, object Value)
+        private void set_96_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.ActiveRoutePolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
         }
-        private object get_90_DirectionsRenderOptions_StepPushpinOptions(object instance)
+        private object get_97_DirectionsRenderOptions_StepPushpinOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.StepPushpinOptions;
         }
-        private void set_90_DirectionsRenderOptions_StepPushpinOptions(object instance, object Value)
+        private void set_97_DirectionsRenderOptions_StepPushpinOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.StepPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
         }
-        private object get_91_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance)
+        private object get_98_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisambiguationPushpinOptions;
         }
-        private void set_91_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance, object Value)
+        private void set_98_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisambiguationPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
         }
-        private object get_92_DirectionsRenderOptions_EndWaypointColorBrush(object instance)
+        private object get_99_DirectionsRenderOptions_EndWaypointColorBrush(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.EndWaypointColorBrush;
         }
-        private void set_92_DirectionsRenderOptions_EndWaypointColorBrush(object instance, object Value)
+        private void set_99_DirectionsRenderOptions_EndWaypointColorBrush(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.EndWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_93_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance)
+        private object get_100_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.MiddleWaypointColorBrush;
         }
-        private void set_93_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance, object Value)
+        private void set_100_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.MiddleWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_94_DirectionsRenderOptions_StartWaypointColorBrush(object instance)
+        private object get_101_DirectionsRenderOptions_StartWaypointColorBrush(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.StartWaypointColorBrush;
         }
-        private void set_94_DirectionsRenderOptions_StartWaypointColorBrush(object instance, object Value)
+        private void set_101_DirectionsRenderOptions_StartWaypointColorBrush(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.StartWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_95_DirectionsRenderOptions_WaypointPushpinOptions(object instance)
+        private object get_102_DirectionsRenderOptions_WaypointPushpinOptions(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.WaypointPushpinOptions;
         }
-        private void set_95_DirectionsRenderOptions_WaypointPushpinOptions(object instance, object Value)
+        private void set_102_DirectionsRenderOptions_WaypointPushpinOptions(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.WaypointPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
         }
-        private object get_96_DirectionsRenderOptions_DisplayStepWarnings(object instance)
+        private object get_103_DirectionsRenderOptions_DisplayStepWarnings(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisplayStepWarnings;
         }
-        private void set_96_DirectionsRenderOptions_DisplayStepWarnings(object instance, object Value)
+        private void set_103_DirectionsRenderOptions_DisplayStepWarnings(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisplayStepWarnings = (global::System.Boolean)Value;
         }
-        private object get_97_DirectionsRenderOptions_DisplayItineraryItemHints(object instance)
+        private object get_104_DirectionsRenderOptions_DisplayItineraryItemHints(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisplayItineraryItemHints;
         }
-        private void set_97_DirectionsRenderOptions_DisplayItineraryItemHints(object instance, object Value)
+        private void set_104_DirectionsRenderOptions_DisplayItineraryItemHints(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisplayItineraryItemHints = (global::System.Boolean)Value;
         }
-        private object get_98_DirectionsRenderOptions_DisplayTransitIcons(object instance)
+        private object get_105_DirectionsRenderOptions_DisplayTransitIcons(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisplayTransitIcons;
         }
-        private void set_98_DirectionsRenderOptions_DisplayTransitIcons(object instance, object Value)
+        private void set_105_DirectionsRenderOptions_DisplayTransitIcons(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisplayTransitIcons = (global::System.Boolean)Value;
         }
-        private object get_99_DirectionsRenderOptions_DisplayManeuverIcons(object instance)
+        private object get_106_DirectionsRenderOptions_DisplayManeuverIcons(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisplayManeuverIcons;
         }
-        private void set_99_DirectionsRenderOptions_DisplayManeuverIcons(object instance, object Value)
+        private void set_106_DirectionsRenderOptions_DisplayManeuverIcons(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisplayManeuverIcons = (global::System.Boolean)Value;
         }
-        private object get_100_DirectionsRenderOptions_DisplayDisclaimer(object instance)
+        private object get_107_DirectionsRenderOptions_DisplayDisclaimer(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.DisplayDisclaimer;
         }
-        private void set_100_DirectionsRenderOptions_DisplayDisclaimer(object instance, object Value)
+        private void set_107_DirectionsRenderOptions_DisplayDisclaimer(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.DisplayDisclaimer = (global::System.Boolean)Value;
         }
-        private object get_101_DirectionsRenderOptions_AutoUpdateMapView(object instance)
+        private object get_108_DirectionsRenderOptions_AutoUpdateMapView(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.AutoUpdateMapView;
         }
-        private void set_101_DirectionsRenderOptions_AutoUpdateMapView(object instance, object Value)
+        private void set_108_DirectionsRenderOptions_AutoUpdateMapView(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.AutoUpdateMapView = (global::System.Boolean)Value;
         }
-        private object get_102_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance)
+        private object get_109_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.AutoDisplayDisambiguation;
         }
-        private void set_102_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance, object Value)
+        private void set_109_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.AutoDisplayDisambiguation = (global::System.Boolean)Value;
         }
-        private object get_103_DirectionsRenderOptions_AutoSetActiveRoute(object instance)
+        private object get_110_DirectionsRenderOptions_AutoSetActiveRoute(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.AutoSetActiveRoute;
         }
-        private void set_103_DirectionsRenderOptions_AutoSetActiveRoute(object instance, object Value)
+        private void set_110_DirectionsRenderOptions_AutoSetActiveRoute(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.AutoSetActiveRoute = (global::System.Boolean)Value;
         }
-        private object get_104_DirectionsRenderOptions_UseDefaultPushpins(object instance)
+        private object get_111_DirectionsRenderOptions_UseDefaultPushpins(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             return that.UseDefaultPushpins;
         }
-        private void set_104_DirectionsRenderOptions_UseDefaultPushpins(object instance, object Value)
+        private void set_111_DirectionsRenderOptions_UseDefaultPushpins(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
             that.UseDefaultPushpins = (global::System.Boolean)Value;
         }
-        private object get_105_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance)
+        private object get_112_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.WeatherPushpinTemplate;
         }
-        private void set_105_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance, object Value)
+        private void set_112_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.WeatherPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_106_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance)
+        private object get_113_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.AlertPushpinTemplate;
         }
-        private void set_106_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance, object Value)
+        private void set_113_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.AlertPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_107_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance)
+        private object get_114_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.ConstructionPushpinTemplate;
         }
-        private void set_107_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance, object Value)
+        private void set_114_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.ConstructionPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_108_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance)
+        private object get_115_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.RoadHazardPushpinTemplate;
         }
-        private void set_108_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance, object Value)
+        private void set_115_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.RoadHazardPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_109_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance)
+        private object get_116_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.PlannedEventPushpinTemplate;
         }
-        private void set_109_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance, object Value)
+        private void set_116_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.PlannedEventPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_110_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance)
+        private object get_117_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.OtherNewsPushpinTemplate;
         }
-        private void set_110_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance, object Value)
+        private void set_117_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.OtherNewsPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_111_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance)
+        private object get_118_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.MiscellaneousPushpinTemplate;
         }
-        private void set_111_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance, object Value)
+        private void set_118_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.MiscellaneousPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_112_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance)
+        private object get_119_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.MassTransitPushpinTemplate;
         }
-        private void set_112_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance, object Value)
+        private void set_119_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.MassTransitPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_113_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance)
+        private object get_120_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.DisabledVehiclePushpinTemplate;
         }
-        private void set_113_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance, object Value)
+        private void set_120_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.DisabledVehiclePushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_114_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance)
+        private object get_121_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.CongestionPushpinTemplate;
         }
-        private void set_114_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance, object Value)
+        private void set_121_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.CongestionPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_115_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance)
+        private object get_122_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             return that.AccidentPushpinTemplate;
         }
-        private void set_115_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance, object Value)
+        private void set_122_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
             that.AccidentPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_116_VenueFloorDataSource_Items(object instance)
+        private object get_123_VenueFloorDataSource_Items(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             return that.Items;
         }
-        private object get_117_VenueFloorDataSource_Name(object instance)
+        private object get_124_VenueFloorDataSource_Name(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             return that.Name;
         }
-        private void set_117_VenueFloorDataSource_Name(object instance, object Value)
+        private void set_124_VenueFloorDataSource_Name(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_118_VenueEntity_Highlighted(object instance)
+        private object get_125_VenueEntity_Highlighted(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Highlighted;
         }
-        private object get_119_VenueEntity_LineWidth(object instance)
+        private object get_126_VenueEntity_LineWidth(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.LineWidth;
         }
-        private void set_119_VenueEntity_LineWidth(object instance, object Value)
+        private void set_126_VenueEntity_LineWidth(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.LineWidth = (global::System.Double)Value;
         }
-        private object get_120_VenueEntity_HighlightColor(object instance)
+        private object get_127_VenueEntity_HighlightColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.HighlightColor;
         }
-        private void set_120_VenueEntity_HighlightColor(object instance, object Value)
+        private void set_127_VenueEntity_HighlightColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.HighlightColor = (global::Windows.UI.Color)Value;
         }
-        private object get_121_VenueEntity_FillColor(object instance)
+        private object get_128_VenueEntity_FillColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.FillColor;
         }
-        private void set_121_VenueEntity_FillColor(object instance, object Value)
+        private void set_128_VenueEntity_FillColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.FillColor = (global::Windows.UI.Color)Value;
         }
-        private object get_122_VenueEntity_LineColor(object instance)
+        private object get_129_VenueEntity_LineColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.LineColor;
         }
-        private void set_122_VenueEntity_LineColor(object instance, object Value)
+        private void set_129_VenueEntity_LineColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.LineColor = (global::Windows.UI.Color)Value;
         }
-        private object get_123_VenueEntity_Type(object instance)
+        private object get_130_VenueEntity_Type(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Type;
         }
-        private object get_124_VenueEntity_PhoneNumber(object instance)
+        private object get_131_VenueEntity_PhoneNumber(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.PhoneNumber;
         }
-        private object get_125_VenueEntity_Name(object instance)
+        private object get_132_VenueEntity_Name(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Name;
         }
-        private object get_126_VenueEntity_Outline(object instance)
+        private object get_133_VenueEntity_Outline(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Outline;
         }
-        private object get_127_VenueEntity_Id(object instance)
+        private object get_134_VenueEntity_Id(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Id;
         }
-        private object get_128_VenueEntity_FloorName(object instance)
+        private object get_135_VenueEntity_FloorName(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.FloorName;
         }
-        private object get_129_VenueEntity_Floor(object instance)
+        private object get_136_VenueEntity_Floor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Floor;
         }
-        private object get_130_VenueEntity_Location(object instance)
+        private object get_137_VenueEntity_Location(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Location;
         }
-        private object get_131_VenueEntity_Description(object instance)
+        private object get_138_VenueEntity_Description(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Description;
         }
-        private object get_132_VenueEntity_CategoryName(object instance)
+        private object get_139_VenueEntity_CategoryName(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.CategoryName;
         }
-        private object get_133_VenueEntity_CategoryId(object instance)
+        private object get_140_VenueEntity_CategoryId(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.CategoryId;
         }
-        private object get_134_VenueEntity_BusinessId(object instance)
+        private object get_141_VenueEntity_BusinessId(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.BusinessId;
         }
-        private object get_135_VenueEntity_Address(object instance)
+        private object get_142_VenueEntity_Address(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Address;
         }
-        private object get_136_DirectionsPushpinRenderOptions_Visible(object instance)
+        private object get_143_DirectionsPushpinRenderOptions_Visible(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             return that.Visible;
         }
-        private void set_136_DirectionsPushpinRenderOptions_Visible(object instance, object Value)
+        private void set_143_DirectionsPushpinRenderOptions_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_137_DirectionsPushpinRenderOptions_Offset(object instance)
+        private object get_144_DirectionsPushpinRenderOptions_Offset(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             return that.Offset;
         }
-        private void set_137_DirectionsPushpinRenderOptions_Offset(object instance, object Value)
+        private void set_144_DirectionsPushpinRenderOptions_Offset(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             that.Offset = (global::Bing.Maps.PushpinOffset)Value;
         }
-        private object get_138_DirectionsPushpinRenderOptions_PushpinTemplate(object instance)
+        private object get_145_DirectionsPushpinRenderOptions_PushpinTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             return that.PushpinTemplate;
         }
-        private void set_138_DirectionsPushpinRenderOptions_PushpinTemplate(object instance, object Value)
+        private void set_145_DirectionsPushpinRenderOptions_PushpinTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
             that.PushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
         }
-        private object get_139_DirectionsPolylineRenderOptions_Visible(object instance)
+        private object get_146_DirectionsPolylineRenderOptions_Visible(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             return that.Visible;
         }
-        private void set_139_DirectionsPolylineRenderOptions_Visible(object instance, object Value)
+        private void set_146_DirectionsPolylineRenderOptions_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_140_DirectionsPolylineRenderOptions_LineWidth(object instance)
+        private object get_147_DirectionsPolylineRenderOptions_LineWidth(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             return that.LineWidth;
         }
-        private void set_140_DirectionsPolylineRenderOptions_LineWidth(object instance, object Value)
+        private void set_147_DirectionsPolylineRenderOptions_LineWidth(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             that.LineWidth = (global::System.Double)Value;
         }
-        private object get_141_DirectionsPolylineRenderOptions_LineColor(object instance)
+        private object get_148_DirectionsPolylineRenderOptions_LineColor(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             return that.LineColor;
         }
-        private void set_141_DirectionsPolylineRenderOptions_LineColor(object instance, object Value)
+        private void set_148_DirectionsPolylineRenderOptions_LineColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
             that.LineColor = (global::Windows.UI.Color)Value;
         }
-        private object get_142_ItineraryItemDataSource_Warnings(object instance)
+        private object get_149_ItineraryItemDataSource_Warnings(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Warnings;
         }
-        private object get_143_ItineraryItemDataSource_IconColor(object instance)
+        private object get_150_ItineraryItemDataSource_IconColor(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.IconColor;
         }
-        private void set_143_ItineraryItemDataSource_IconColor(object instance, object Value)
+        private void set_150_ItineraryItemDataSource_IconColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.IconColor = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_144_ItineraryItemDataSource_AutomationName(object instance)
+        private object get_151_ItineraryItemDataSource_AutomationName(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.AutomationName;
         }
-        private void set_144_ItineraryItemDataSource_AutomationName(object instance, object Value)
+        private void set_151_ItineraryItemDataSource_AutomationName(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.AutomationName = (global::System.String)Value;
         }
-        private object get_145_ItineraryItemDataSource_Hint(object instance)
+        private object get_152_ItineraryItemDataSource_Hint(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Hint;
         }
-        private void set_145_ItineraryItemDataSource_Hint(object instance, object Value)
+        private void set_152_ItineraryItemDataSource_Hint(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.Hint = (global::System.String)Value;
         }
-        private object get_146_ItineraryItemDataSource_Icon(object instance)
+        private object get_153_ItineraryItemDataSource_Icon(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Icon;
         }
-        private void set_146_ItineraryItemDataSource_Icon(object instance, object Value)
+        private void set_153_ItineraryItemDataSource_Icon(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.Icon = (global::System.String)Value;
         }
-        private object get_147_ItineraryItemDataSource_Index(object instance)
+        private object get_154_ItineraryItemDataSource_Index(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Index;
         }
-        private void set_147_ItineraryItemDataSource_Index(object instance, object Value)
+        private void set_154_ItineraryItemDataSource_Index(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.Index = (global::System.UInt32)Value;
         }
-        private object get_148_ItineraryItemDataSource_RouteLegIndex(object instance)
+        private object get_155_ItineraryItemDataSource_RouteLegIndex(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.RouteLegIndex;
         }
-        private void set_148_ItineraryItemDataSource_RouteLegIndex(object instance, object Value)
+        private void set_155_ItineraryItemDataSource_RouteLegIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.RouteLegIndex = (global::System.UInt32)Value;
         }
-        private object get_149_ItineraryItemDataSource_TransitStop(object instance)
+        private object get_156_ItineraryItemDataSource_TransitStop(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitStop;
         }
-        private void set_149_ItineraryItemDataSource_TransitStop(object instance, object Value)
+        private void set_156_ItineraryItemDataSource_TransitStop(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitStop = (global::System.String)Value;
         }
-        private object get_150_ItineraryItemDataSource_TransitDepartureTime(object instance)
+        private object get_157_ItineraryItemDataSource_TransitDepartureTime(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitDepartureTime;
         }
-        private void set_150_ItineraryItemDataSource_TransitDepartureTime(object instance, object Value)
+        private void set_157_ItineraryItemDataSource_TransitDepartureTime(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitDepartureTime = (global::System.String)Value;
         }
-        private object get_151_ItineraryItemDataSource_TransitArrivalTime(object instance)
+        private object get_158_ItineraryItemDataSource_TransitArrivalTime(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitArrivalTime;
         }
-        private void set_151_ItineraryItemDataSource_TransitArrivalTime(object instance, object Value)
+        private void set_158_ItineraryItemDataSource_TransitArrivalTime(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitArrivalTime = (global::System.String)Value;
         }
-        private object get_152_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance)
+        private object get_159_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitArrivalInstructionHeader;
         }
-        private void set_152_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance, object Value)
+        private void set_159_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitArrivalInstructionHeader = (global::System.String)Value;
         }
-        private object get_153_ItineraryItemDataSource_TransitArrivalInstruction(object instance)
+        private object get_160_ItineraryItemDataSource_TransitArrivalInstruction(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitArrivalInstruction;
         }
-        private void set_153_ItineraryItemDataSource_TransitArrivalInstruction(object instance, object Value)
+        private void set_160_ItineraryItemDataSource_TransitArrivalInstruction(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitArrivalInstruction = (global::System.String)Value;
         }
-        private object get_154_ItineraryItemDataSource_TransitInstructionHeader(object instance)
+        private object get_161_ItineraryItemDataSource_TransitInstructionHeader(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.TransitInstructionHeader;
         }
-        private void set_154_ItineraryItemDataSource_TransitInstructionHeader(object instance, object Value)
+        private void set_161_ItineraryItemDataSource_TransitInstructionHeader(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.TransitInstructionHeader = (global::System.String)Value;
         }
-        private object get_155_ItineraryItemDataSource_DisplayIndex(object instance)
+        private object get_162_ItineraryItemDataSource_DisplayIndex(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.DisplayIndex;
         }
-        private void set_155_ItineraryItemDataSource_DisplayIndex(object instance, object Value)
+        private void set_162_ItineraryItemDataSource_DisplayIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.DisplayIndex = (global::System.String)Value;
         }
-        private object get_156_ItineraryItemDataSource_Instruction(object instance)
+        private object get_163_ItineraryItemDataSource_Instruction(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Instruction;
         }
-        private void set_156_ItineraryItemDataSource_Instruction(object instance, object Value)
+        private void set_163_ItineraryItemDataSource_Instruction(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.Instruction = (global::System.String)Value;
         }
-        private object get_157_ItineraryItemDataSource_Distance(object instance)
+        private object get_164_ItineraryItemDataSource_Distance(object instance)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             return that.Distance;
         }
-        private void set_157_ItineraryItemDataSource_Distance(object instance, object Value)
+        private void set_164_ItineraryItemDataSource_Distance(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
             that.Distance = (global::System.String)Value;
         }
-        private object get_158_RouteLegDataSource_Items(object instance)
+        private object get_165_RouteLegDataSource_Items(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
             return that.Items;
         }
-        private object get_159_RouteLegDataSource_AutomationName(object instance)
+        private object get_166_RouteLegDataSource_AutomationName(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
             return that.AutomationName;
         }
-        private void set_159_RouteLegDataSource_AutomationName(object instance, object Value)
+        private void set_166_RouteLegDataSource_AutomationName(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
             that.AutomationName = (global::System.String)Value;
         }
-        private object get_160_RouteLegDataSource_Header(object instance)
+        private object get_167_RouteLegDataSource_Header(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
             return that.Header;
         }
-        private void set_160_RouteLegDataSource_Header(object instance, object Value)
+        private void set_167_RouteLegDataSource_Header(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
             that.Header = (global::System.String)Value;
         }
-        private object get_161_TransitRouteDataSource_AutomationName(object instance)
+        private object get_168_TransitRouteDataSource_AutomationName(object instance)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             return that.AutomationName;
         }
-        private void set_161_TransitRouteDataSource_AutomationName(object instance, object Value)
+        private void set_168_TransitRouteDataSource_AutomationName(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             that.AutomationName = (global::System.String)Value;
         }
-        private object get_162_TransitRouteDataSource_Icon(object instance)
+        private object get_169_TransitRouteDataSource_Icon(object instance)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             return that.Icon;
         }
-        private void set_162_TransitRouteDataSource_Icon(object instance, object Value)
+        private void set_169_TransitRouteDataSource_Icon(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             that.Icon = (global::System.String)Value;
         }
-        private object get_163_TransitRouteDataSource_Summary(object instance)
+        private object get_170_TransitRouteDataSource_Summary(object instance)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             return that.Summary;
         }
-        private void set_163_TransitRouteDataSource_Summary(object instance, object Value)
+        private void set_170_TransitRouteDataSource_Summary(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
             that.Summary = (global::System.String)Value;
         }
-        private object get_164_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance)
+        private object get_171_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.RouteLegHeaderItemTemplate;
         }
-        private void set_164_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance, object Value)
+        private void set_171_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.RouteLegHeaderItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_165_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance)
+        private object get_172_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.GroupRouteLegHeaderItemTemplate;
         }
-        private void set_165_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance, object Value)
+        private void set_172_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.GroupRouteLegHeaderItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_166_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance)
+        private object get_173_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.WalkItineraryItemTemplate;
         }
-        private void set_166_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance, object Value)
+        private void set_173_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.WalkItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_167_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance)
+        private object get_174_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.TransitWaypointTemplate;
         }
-        private void set_167_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance, object Value)
+        private void set_174_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.TransitWaypointTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_168_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance)
+        private object get_175_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.TransitItineraryItemTemplate;
         }
-        private void set_168_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance, object Value)
+        private void set_175_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.TransitItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_169_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance)
+        private object get_176_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.ItineraryItemTemplate;
         }
-        private void set_169_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance, object Value)
+        private void set_176_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.ItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_170_RouteLegDataTemplateSelector_WaypointTemplate(object instance)
+        private object get_177_RouteLegDataTemplateSelector_WaypointTemplate(object instance)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             return that.WaypointTemplate;
         }
-        private void set_170_RouteLegDataTemplateSelector_WaypointTemplate(object instance, object Value)
+        private void set_177_RouteLegDataTemplateSelector_WaypointTemplate(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
             that.WaypointTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_171_DirectionsContainerSelector_UnSelectableStyle(object instance)
+        private object get_178_DirectionsContainerSelector_UnSelectableStyle(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
             return that.UnSelectableStyle;
         }
-        private void set_171_DirectionsContainerSelector_UnSelectableStyle(object instance, object Value)
+        private void set_178_DirectionsContainerSelector_UnSelectableStyle(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
             that.UnSelectableStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_172_DirectionsContainerSelector_SelectableStyle(object instance)
+        private object get_179_DirectionsContainerSelector_SelectableStyle(object instance)
         {
             var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
             return that.SelectableStyle;
         }
-        private void set_172_DirectionsContainerSelector_SelectableStyle(object instance, object Value)
+        private void set_179_DirectionsContainerSelector_SelectableStyle(object instance, object Value)
         {
             var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
             that.SelectableStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_173_Warning_Type(object instance)
+        private object get_180_Warning_Type(object instance)
         {
             var that = (global::Bing.Maps.Directions.Warning)instance;
             return that.Type;
         }
-        private object get_174_Warning_Severity(object instance)
+        private object get_181_Warning_Severity(object instance)
         {
             var that = (global::Bing.Maps.Directions.Warning)instance;
             return that.Severity;
         }
-        private object get_175_Warning_Message(object instance)
+        private object get_182_Warning_Message(object instance)
         {
             var that = (global::Bing.Maps.Directions.Warning)instance;
             return that.Message;
@@ -2743,499 +2857,541 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlMember.Getter = get_3_ListPageHotels_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.Comment":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Comment", "VisitRoslikde.Model.CommentModelRestaurant");
+                xamlMember.Getter = get_4_ListRestaurantsViewModel_Comment;
+                xamlMember.Setter = set_4_ListRestaurantsViewModel_Comment;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.SerializeComment":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "SerializeComment", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_5_ListRestaurantsViewModel_SerializeComment;
+                xamlMember.Setter = set_5_ListRestaurantsViewModel_SerializeComment;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.r1":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "r1", "VisitRoslikde.Model.Restaurant");
+                xamlMember.Getter = get_6_ListRestaurantsViewModel_r1;
+                xamlMember.Setter = set_6_ListRestaurantsViewModel_r1;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.r2":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "r2", "VisitRoslikde.Model.Restaurant");
+                xamlMember.Getter = get_7_ListRestaurantsViewModel_r2;
+                xamlMember.Setter = set_7_ListRestaurantsViewModel_r2;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.r3":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "r3", "VisitRoslikde.Model.Restaurant");
+                xamlMember.Getter = get_8_ListRestaurantsViewModel_r3;
+                xamlMember.Setter = set_8_ListRestaurantsViewModel_r3;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.r4":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "r4", "VisitRoslikde.Model.Restaurant");
+                xamlMember.Getter = get_9_ListRestaurantsViewModel_r4;
+                xamlMember.Setter = set_9_ListRestaurantsViewModel_r4;
+                break;
+            case "VisitRoslikde.ViewModel.ListRestaurantsViewModel.RestaurantComment":
+                userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RestaurantComment", "String");
+                xamlMember.Getter = get_10_ListRestaurantsViewModel_RestaurantComment;
+                xamlMember.Setter = set_10_ListRestaurantsViewModel_RestaurantComment;
+                break;
             case "WinRTXamlToolkit.Controls.ImageButton.NormalStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "NormalStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_ImageButton_NormalStateImageSource;
-                xamlMember.Setter = set_4_ImageButton_NormalStateImageSource;
+                xamlMember.Getter = get_11_ImageButton_NormalStateImageSource;
+                xamlMember.Setter = set_11_ImageButton_NormalStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.HoverStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "HoverStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_ImageButton_HoverStateImageSource;
-                xamlMember.Setter = set_5_ImageButton_HoverStateImageSource;
+                xamlMember.Getter = get_12_ImageButton_HoverStateImageSource;
+                xamlMember.Setter = set_12_ImageButton_HoverStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GenerateMissingImages":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GenerateMissingImages", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_ImageButton_GenerateMissingImages;
-                xamlMember.Setter = set_6_ImageButton_GenerateMissingImages;
+                xamlMember.Getter = get_13_ImageButton_GenerateMissingImages;
+                xamlMember.Setter = set_13_ImageButton_GenerateMissingImages;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.Stretch":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Stretch", "Windows.UI.Xaml.Media.Stretch");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_ImageButton_Stretch;
-                xamlMember.Setter = set_7_ImageButton_Stretch;
+                xamlMember.Getter = get_14_ImageButton_Stretch;
+                xamlMember.Setter = set_14_ImageButton_Stretch;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.RecyclePressedStateImageForHover":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RecyclePressedStateImageForHover", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_ImageButton_RecyclePressedStateImageForHover;
-                xamlMember.Setter = set_8_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Getter = get_15_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Setter = set_15_ImageButton_RecyclePressedStateImageForHover;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PressedStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_ImageButton_PressedStateImageSource;
-                xamlMember.Setter = set_9_ImageButton_PressedStateImageSource;
+                xamlMember.Getter = get_16_ImageButton_PressedStateImageSource;
+                xamlMember.Setter = set_16_ImageButton_PressedStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisabledStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_ImageButton_DisabledStateImageSource;
-                xamlMember.Setter = set_10_ImageButton_DisabledStateImageSource;
+                xamlMember.Getter = get_17_ImageButton_DisabledStateImageSource;
+                xamlMember.Setter = set_17_ImageButton_DisabledStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.NormalStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "NormalStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_ImageButton_NormalStateImageUriSource;
-                xamlMember.Setter = set_11_ImageButton_NormalStateImageUriSource;
+                xamlMember.Getter = get_18_ImageButton_NormalStateImageUriSource;
+                xamlMember.Setter = set_18_ImageButton_NormalStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.HoverStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "HoverStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_ImageButton_HoverStateImageUriSource;
-                xamlMember.Setter = set_12_ImageButton_HoverStateImageUriSource;
+                xamlMember.Getter = get_19_ImageButton_HoverStateImageUriSource;
+                xamlMember.Setter = set_19_ImageButton_HoverStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PressedStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_ImageButton_PressedStateImageUriSource;
-                xamlMember.Setter = set_13_ImageButton_PressedStateImageUriSource;
+                xamlMember.Getter = get_20_ImageButton_PressedStateImageUriSource;
+                xamlMember.Setter = set_20_ImageButton_PressedStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageUriSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisabledStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_ImageButton_DisabledStateImageUriSource;
-                xamlMember.Setter = set_14_ImageButton_DisabledStateImageUriSource;
+                xamlMember.Getter = get_21_ImageButton_DisabledStateImageUriSource;
+                xamlMember.Setter = set_21_ImageButton_DisabledStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedHoverStateLightenAmount":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GeneratedHoverStateLightenAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_ImageButton_GeneratedHoverStateLightenAmount;
-                xamlMember.Setter = set_15_ImageButton_GeneratedHoverStateLightenAmount;
+                xamlMember.Getter = get_22_ImageButton_GeneratedHoverStateLightenAmount;
+                xamlMember.Setter = set_22_ImageButton_GeneratedHoverStateLightenAmount;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedPressedStateLightenAmount":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GeneratedPressedStateLightenAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_ImageButton_GeneratedPressedStateLightenAmount;
-                xamlMember.Setter = set_16_ImageButton_GeneratedPressedStateLightenAmount;
+                xamlMember.Getter = get_23_ImageButton_GeneratedPressedStateLightenAmount;
+                xamlMember.Setter = set_23_ImageButton_GeneratedPressedStateLightenAmount;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedDisabledStateGrayscaleAmount":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GeneratedDisabledStateGrayscaleAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_ImageButton_GeneratedDisabledStateGrayscaleAmount;
-                xamlMember.Setter = set_17_ImageButton_GeneratedDisabledStateGrayscaleAmount;
+                xamlMember.Getter = get_24_ImageButton_GeneratedDisabledStateGrayscaleAmount;
+                xamlMember.Setter = set_24_ImageButton_GeneratedDisabledStateGrayscaleAmount;
                 break;
             case "VisitRoslikde.View.ListPageRestaurants.DefaultViewModel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.View.ListPageRestaurants");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "VisitRoslikde.Common.ObservableDictionary");
-                xamlMember.Getter = get_18_ListPageRestaurants_DefaultViewModel;
+                xamlMember.Getter = get_25_ListPageRestaurants_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "VisitRoslikde.View.ListPageRestaurants.NavigationHelper":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VisitRoslikde.View.ListPageRestaurants");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "NavigationHelper", "VisitRoslikde.Common.NavigationHelper");
-                xamlMember.Getter = get_19_ListPageRestaurants_NavigationHelper;
+                xamlMember.Getter = get_26_ListPageRestaurants_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Children":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Children", "Bing.Maps.MapUIElementCollection");
-                xamlMember.Getter = get_20_Map_Children;
+                xamlMember.Getter = get_27_Map_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.ZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ZoomLevel", "Double");
-                xamlMember.Getter = get_21_Map_ZoomLevel;
-                xamlMember.Setter = set_21_Map_ZoomLevel;
+                xamlMember.Getter = get_28_Map_ZoomLevel;
+                xamlMember.Setter = set_28_Map_ZoomLevel;
                 break;
             case "Bing.Maps.Map.Credentials":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Credentials", "String");
-                xamlMember.Getter = get_22_Map_Credentials;
-                xamlMember.Setter = set_22_Map_Credentials;
+                xamlMember.Getter = get_29_Map_Credentials;
+                xamlMember.Setter = set_29_Map_Credentials;
                 break;
             case "Bing.Maps.Map.Center":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
-                xamlMember.Getter = get_23_Map_Center;
-                xamlMember.Setter = set_23_Map_Center;
+                xamlMember.Getter = get_30_Map_Center;
+                xamlMember.Setter = set_30_Map_Center;
                 break;
             case "Bing.Maps.Map.SearchManager":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "SearchManager", "Bing.Maps.Search.SearchManager");
-                xamlMember.Getter = get_24_Map_SearchManager;
+                xamlMember.Getter = get_31_Map_SearchManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TrafficManager":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TrafficManager", "Bing.Maps.Traffic.TrafficManager");
-                xamlMember.Getter = get_25_Map_TrafficManager;
+                xamlMember.Getter = get_32_Map_TrafficManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.DirectionsManager":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DirectionsManager", "Bing.Maps.Directions.DirectionsManager");
-                xamlMember.Getter = get_26_Map_DirectionsManager;
+                xamlMember.Getter = get_33_Map_DirectionsManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.VenueManager":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "VenueManager", "Bing.Maps.VenueMaps.VenueManager");
-                xamlMember.Getter = get_27_Map_VenueManager;
+                xamlMember.Getter = get_34_Map_VenueManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.LogoPosition":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "LogoPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_28_Map_LogoPosition;
-                xamlMember.Setter = set_28_Map_LogoPosition;
+                xamlMember.Getter = get_35_Map_LogoPosition;
+                xamlMember.Setter = set_35_Map_LogoPosition;
                 break;
             case "Bing.Maps.Map.CopyrightPosition":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "CopyrightPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_29_Map_CopyrightPosition;
-                xamlMember.Setter = set_29_Map_CopyrightPosition;
+                xamlMember.Getter = get_36_Map_CopyrightPosition;
+                xamlMember.Setter = set_36_Map_CopyrightPosition;
                 break;
             case "Bing.Maps.Map.ScaleBarPosition":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ScaleBarPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_30_Map_ScaleBarPosition;
-                xamlMember.Setter = set_30_Map_ScaleBarPosition;
+                xamlMember.Getter = get_37_Map_ScaleBarPosition;
+                xamlMember.Setter = set_37_Map_ScaleBarPosition;
                 break;
             case "Bing.Maps.Map.ShowNavigationBar":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
-                xamlMember.Getter = get_31_Map_ShowNavigationBar;
-                xamlMember.Setter = set_31_Map_ShowNavigationBar;
+                xamlMember.Getter = get_38_Map_ShowNavigationBar;
+                xamlMember.Setter = set_38_Map_ShowNavigationBar;
                 break;
             case "Bing.Maps.Map.SuppressNetworkRequests":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "SuppressNetworkRequests", "Boolean");
-                xamlMember.Getter = get_32_Map_SuppressNetworkRequests;
-                xamlMember.Setter = set_32_Map_SuppressNetworkRequests;
+                xamlMember.Getter = get_39_Map_SuppressNetworkRequests;
+                xamlMember.Setter = set_39_Map_SuppressNetworkRequests;
                 break;
             case "Bing.Maps.Map.ShowScaleBar":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
-                xamlMember.Getter = get_33_Map_ShowScaleBar;
-                xamlMember.Setter = set_33_Map_ShowScaleBar;
+                xamlMember.Getter = get_40_Map_ShowScaleBar;
+                xamlMember.Setter = set_40_Map_ShowScaleBar;
                 break;
             case "Bing.Maps.Map.TileLayers":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TileLayers", "Bing.Maps.MapTileLayerCollection");
-                xamlMember.Getter = get_34_Map_TileLayers;
+                xamlMember.Getter = get_41_Map_TileLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapTileLayer.Bounds":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRectCollection");
-                xamlMember.Getter = get_35_MapTileLayer_Bounds;
-                xamlMember.Setter = set_35_MapTileLayer_Bounds;
+                xamlMember.Getter = get_42_MapTileLayer_Bounds;
+                xamlMember.Setter = set_42_MapTileLayer_Bounds;
                 break;
             case "Bing.Maps.LocationRect.West":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "West", "Double");
-                xamlMember.Getter = get_36_LocationRect_West;
+                xamlMember.Getter = get_43_LocationRect_West;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Southeast":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Southeast", "Bing.Maps.Location");
-                xamlMember.Getter = get_37_LocationRect_Southeast;
+                xamlMember.Getter = get_44_LocationRect_Southeast;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.South":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "South", "Double");
-                xamlMember.Getter = get_38_LocationRect_South;
+                xamlMember.Getter = get_45_LocationRect_South;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Northwest":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Northwest", "Bing.Maps.Location");
-                xamlMember.Getter = get_39_LocationRect_Northwest;
+                xamlMember.Getter = get_46_LocationRect_Northwest;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.North":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "North", "Double");
-                xamlMember.Getter = get_40_LocationRect_North;
+                xamlMember.Getter = get_47_LocationRect_North;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.East":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "East", "Double");
-                xamlMember.Getter = get_41_LocationRect_East;
+                xamlMember.Getter = get_48_LocationRect_East;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Height":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Height", "Double");
-                xamlMember.Getter = get_42_LocationRect_Height;
-                xamlMember.Setter = set_42_LocationRect_Height;
+                xamlMember.Getter = get_49_LocationRect_Height;
+                xamlMember.Setter = set_49_LocationRect_Height;
                 break;
             case "Bing.Maps.LocationRect.Width":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Width", "Double");
-                xamlMember.Getter = get_43_LocationRect_Width;
-                xamlMember.Setter = set_43_LocationRect_Width;
+                xamlMember.Getter = get_50_LocationRect_Width;
+                xamlMember.Setter = set_50_LocationRect_Width;
                 break;
             case "Bing.Maps.LocationRect.Center":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
-                xamlMember.Getter = get_44_LocationRect_Center;
-                xamlMember.Setter = set_44_LocationRect_Center;
+                xamlMember.Getter = get_51_LocationRect_Center;
+                xamlMember.Setter = set_51_LocationRect_Center;
                 break;
             case "Bing.Maps.MapTileLayer.FillMissingTiles":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "FillMissingTiles", "Boolean");
-                xamlMember.Getter = get_45_MapTileLayer_FillMissingTiles;
-                xamlMember.Setter = set_45_MapTileLayer_FillMissingTiles;
+                xamlMember.Getter = get_52_MapTileLayer_FillMissingTiles;
+                xamlMember.Setter = set_52_MapTileLayer_FillMissingTiles;
                 break;
             case "Bing.Maps.MapTileLayer.MaxZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_46_MapTileLayer_MaxZoomLevel;
-                xamlMember.Setter = set_46_MapTileLayer_MaxZoomLevel;
+                xamlMember.Getter = get_53_MapTileLayer_MaxZoomLevel;
+                xamlMember.Setter = set_53_MapTileLayer_MaxZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.MinZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_47_MapTileLayer_MinZoomLevel;
-                xamlMember.Setter = set_47_MapTileLayer_MinZoomLevel;
+                xamlMember.Getter = get_54_MapTileLayer_MinZoomLevel;
+                xamlMember.Setter = set_54_MapTileLayer_MinZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.Visible":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_48_MapTileLayer_Visible;
-                xamlMember.Setter = set_48_MapTileLayer_Visible;
+                xamlMember.Getter = get_55_MapTileLayer_Visible;
+                xamlMember.Setter = set_55_MapTileLayer_Visible;
                 break;
             case "Bing.Maps.MapTileLayer.ZIndex":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_49_MapTileLayer_ZIndex;
-                xamlMember.Setter = set_49_MapTileLayer_ZIndex;
+                xamlMember.Getter = get_56_MapTileLayer_ZIndex;
+                xamlMember.Setter = set_56_MapTileLayer_ZIndex;
                 break;
             case "Bing.Maps.MapTileLayer.TileSource":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TileSource", "String");
-                xamlMember.Getter = get_50_MapTileLayer_TileSource;
-                xamlMember.Setter = set_50_MapTileLayer_TileSource;
+                xamlMember.Getter = get_57_MapTileLayer_TileSource;
+                xamlMember.Setter = set_57_MapTileLayer_TileSource;
                 break;
             case "Bing.Maps.MapTileLayer.Opacity":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Opacity", "Double");
-                xamlMember.Getter = get_51_MapTileLayer_Opacity;
-                xamlMember.Setter = set_51_MapTileLayer_Opacity;
+                xamlMember.Getter = get_58_MapTileLayer_Opacity;
+                xamlMember.Setter = set_58_MapTileLayer_Opacity;
                 break;
             case "Bing.Maps.Map.ShapeLayers":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShapeLayers", "Bing.Maps.MapShapeLayerCollection");
-                xamlMember.Getter = get_52_Map_ShapeLayers;
+                xamlMember.Getter = get_59_Map_ShapeLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapShapeLayer.Visible":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_53_MapShapeLayer_Visible;
-                xamlMember.Setter = set_53_MapShapeLayer_Visible;
+                xamlMember.Getter = get_60_MapShapeLayer_Visible;
+                xamlMember.Setter = set_60_MapShapeLayer_Visible;
                 break;
             case "Bing.Maps.MapShapeLayer.ZIndex":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_54_MapShapeLayer_ZIndex;
-                xamlMember.Setter = set_54_MapShapeLayer_ZIndex;
+                xamlMember.Getter = get_61_MapShapeLayer_ZIndex;
+                xamlMember.Setter = set_61_MapShapeLayer_ZIndex;
                 break;
             case "Bing.Maps.MapShapeLayer.Shapes":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Shapes", "Bing.Maps.MapShapeCollection");
-                xamlMember.Getter = get_55_MapShapeLayer_Shapes;
-                xamlMember.Setter = set_55_MapShapeLayer_Shapes;
+                xamlMember.Getter = get_62_MapShapeLayer_Shapes;
+                xamlMember.Setter = set_62_MapShapeLayer_Shapes;
                 break;
             case "Bing.Maps.MapShape.Visible":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShape");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_56_MapShape_Visible;
-                xamlMember.Setter = set_56_MapShape_Visible;
+                xamlMember.Getter = get_63_MapShape_Visible;
+                xamlMember.Setter = set_63_MapShape_Visible;
                 break;
             case "Bing.Maps.Map.RotationEnabled":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RotationEnabled", "Boolean");
-                xamlMember.Getter = get_57_Map_RotationEnabled;
+                xamlMember.Getter = get_64_Map_RotationEnabled;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TrafficIncidentPushpinOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TrafficIncidentPushpinOptions", "Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
-                xamlMember.Getter = get_58_Map_TrafficIncidentPushpinOptions;
-                xamlMember.Setter = set_58_Map_TrafficIncidentPushpinOptions;
+                xamlMember.Getter = get_65_Map_TrafficIncidentPushpinOptions;
+                xamlMember.Setter = set_65_Map_TrafficIncidentPushpinOptions;
                 break;
             case "Bing.Maps.Map.DirectionsUIEventManager":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DirectionsUIEventManager", "Bing.Maps.Directions.DirectionsUIEventManager");
-                xamlMember.Getter = get_59_Map_DirectionsUIEventManager;
-                xamlMember.Setter = set_59_Map_DirectionsUIEventManager;
+                xamlMember.Getter = get_66_Map_DirectionsUIEventManager;
+                xamlMember.Setter = set_66_Map_DirectionsUIEventManager;
                 break;
             case "Bing.Maps.Map.DirectionsRenderOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DirectionsRenderOptions", "Bing.Maps.Directions.DirectionsRenderOptions");
-                xamlMember.Getter = get_60_Map_DirectionsRenderOptions;
-                xamlMember.Setter = set_60_Map_DirectionsRenderOptions;
+                xamlMember.Getter = get_67_Map_DirectionsRenderOptions;
+                xamlMember.Setter = set_67_Map_DirectionsRenderOptions;
                 break;
             case "Bing.Maps.Map.IsTransitDirectionsEnable":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "IsTransitDirectionsEnable", "Boolean");
-                xamlMember.Getter = get_61_Map_IsTransitDirectionsEnable;
+                xamlMember.Getter = get_68_Map_IsTransitDirectionsEnable;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MaxZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_62_Map_MaxZoomLevel;
+                xamlMember.Getter = get_69_Map_MaxZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MinZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_63_Map_MinZoomLevel;
+                xamlMember.Getter = get_70_Map_MinZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Culture":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Culture", "String");
-                xamlMember.Getter = get_64_Map_Culture;
-                xamlMember.Setter = set_64_Map_Culture;
+                xamlMember.Getter = get_71_Map_Culture;
+                xamlMember.Setter = set_71_Map_Culture;
                 break;
             case "Bing.Maps.Map.HomeRegion":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
-                xamlMember.Getter = get_65_Map_HomeRegion;
-                xamlMember.Setter = set_65_Map_HomeRegion;
+                xamlMember.Getter = get_72_Map_HomeRegion;
+                xamlMember.Setter = set_72_Map_HomeRegion;
                 break;
             case "Bing.Maps.Map.TargetBounds":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TargetBounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_66_Map_TargetBounds;
+                xamlMember.Getter = get_73_Map_TargetBounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Bounds":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_67_Map_Bounds;
+                xamlMember.Getter = get_74_Map_Bounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.ShowBreadcrumb":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShowBreadcrumb", "Boolean");
-                xamlMember.Getter = get_68_Map_ShowBreadcrumb;
-                xamlMember.Setter = set_68_Map_ShowBreadcrumb;
+                xamlMember.Getter = get_75_Map_ShowBreadcrumb;
+                xamlMember.Setter = set_75_Map_ShowBreadcrumb;
                 break;
             case "Bing.Maps.Map.ShowBuildings":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
-                xamlMember.Getter = get_69_Map_ShowBuildings;
-                xamlMember.Setter = set_69_Map_ShowBuildings;
+                xamlMember.Getter = get_76_Map_ShowBuildings;
+                xamlMember.Setter = set_76_Map_ShowBuildings;
                 break;
             case "Bing.Maps.Map.ShowTraffic":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ShowTraffic", "Boolean");
-                xamlMember.Getter = get_70_Map_ShowTraffic;
-                xamlMember.Setter = set_70_Map_ShowTraffic;
+                xamlMember.Getter = get_77_Map_ShowTraffic;
+                xamlMember.Setter = set_77_Map_ShowTraffic;
                 break;
             case "Bing.Maps.Map.PreloadArea":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PreloadArea", "Bing.Maps.PreloadArea");
-                xamlMember.Getter = get_71_Map_PreloadArea;
-                xamlMember.Setter = set_71_Map_PreloadArea;
+                xamlMember.Getter = get_78_Map_PreloadArea;
+                xamlMember.Setter = set_78_Map_PreloadArea;
                 break;
             case "Bing.Maps.Map.ViewRestriction":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
-                xamlMember.Getter = get_72_Map_ViewRestriction;
-                xamlMember.Setter = set_72_Map_ViewRestriction;
+                xamlMember.Getter = get_79_Map_ViewRestriction;
+                xamlMember.Setter = set_79_Map_ViewRestriction;
                 break;
             case "Bing.Maps.Map.MapType":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MapType", "Bing.Maps.MapType");
-                xamlMember.Getter = get_73_Map_MapType;
-                xamlMember.Setter = set_73_Map_MapType;
+                xamlMember.Getter = get_80_Map_MapType;
+                xamlMember.Setter = set_80_Map_MapType;
                 break;
             case "Bing.Maps.Map.TargetHeading":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TargetHeading", "Double");
-                xamlMember.Getter = get_74_Map_TargetHeading;
+                xamlMember.Getter = get_81_Map_TargetHeading;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetZoomLevel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TargetZoomLevel", "Double");
-                xamlMember.Getter = get_75_Map_TargetZoomLevel;
+                xamlMember.Getter = get_82_Map_TargetZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetCenter":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TargetCenter", "Bing.Maps.Location");
-                xamlMember.Getter = get_76_Map_TargetCenter;
+                xamlMember.Getter = get_83_Map_TargetCenter;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Heading":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Heading", "Double");
-                xamlMember.Getter = get_77_Map_Heading;
-                xamlMember.Setter = set_77_Map_Heading;
+                xamlMember.Getter = get_84_Map_Heading;
+                xamlMember.Setter = set_84_Map_Heading;
                 break;
             case "Bing.Maps.Map.MetersPerPixel":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MetersPerPixel", "Double");
-                xamlMember.Getter = get_78_Map_MetersPerPixel;
+                xamlMember.Getter = get_85_Map_MetersPerPixel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Location.Latitude":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Latitude", "Double");
-                xamlMember.Getter = get_79_Location_Latitude;
-                xamlMember.Setter = set_79_Location_Latitude;
+                xamlMember.Getter = get_86_Location_Latitude;
+                xamlMember.Setter = set_86_Location_Latitude;
                 break;
             case "Bing.Maps.Location.Longitude":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Longitude", "Double");
-                xamlMember.Getter = get_80_Location_Longitude;
-                xamlMember.Setter = set_80_Location_Longitude;
+                xamlMember.Getter = get_87_Location_Longitude;
+                xamlMember.Setter = set_87_Location_Longitude;
                 break;
             case "Bing.Maps.Pushpin.AssociateObject":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AssociateObject", "Object");
-                xamlMember.Getter = get_81_Pushpin_AssociateObject;
+                xamlMember.Getter = get_88_Pushpin_AssociateObject;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Pushpin.Selected":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Selected", "Boolean");
-                xamlMember.Getter = get_82_Pushpin_Selected;
-                xamlMember.Setter = set_82_Pushpin_Selected;
+                xamlMember.Getter = get_89_Pushpin_Selected;
+                xamlMember.Setter = set_89_Pushpin_Selected;
                 break;
             case "Bing.Maps.Pushpin.Text":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Text", "String");
-                xamlMember.Getter = get_83_Pushpin_Text;
-                xamlMember.Setter = set_83_Pushpin_Text;
+                xamlMember.Getter = get_90_Pushpin_Text;
+                xamlMember.Setter = set_90_Pushpin_Text;
                 break;
             case "Bing.Maps.MapLayer.Position":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapLayer");
@@ -3243,8 +3399,8 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_84_MapLayer_Position;
-                xamlMember.Setter = set_84_MapLayer_Position;
+                xamlMember.Getter = get_91_MapLayer_Position;
+                xamlMember.Setter = set_91_MapLayer_Position;
                 break;
             case "Bing.Maps.MapLayer.PositionAnchor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapLayer");
@@ -3252,547 +3408,547 @@ namespace VisitRoslikde.VisitRoslikde_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_85_MapLayer_PositionAnchor;
-                xamlMember.Setter = set_85_MapLayer_PositionAnchor;
+                xamlMember.Getter = get_92_MapLayer_PositionAnchor;
+                xamlMember.Setter = set_92_MapLayer_PositionAnchor;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.WalkingPolylineOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "WalkingPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
-                xamlMember.Getter = get_86_DirectionsRenderOptions_WalkingPolylineOptions;
-                xamlMember.Setter = set_86_DirectionsRenderOptions_WalkingPolylineOptions;
+                xamlMember.Getter = get_93_DirectionsRenderOptions_WalkingPolylineOptions;
+                xamlMember.Setter = set_93_DirectionsRenderOptions_WalkingPolylineOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.TransitPolylineOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
-                xamlMember.Getter = get_87_DirectionsRenderOptions_TransitPolylineOptions;
-                xamlMember.Setter = set_87_DirectionsRenderOptions_TransitPolylineOptions;
+                xamlMember.Getter = get_94_DirectionsRenderOptions_TransitPolylineOptions;
+                xamlMember.Setter = set_94_DirectionsRenderOptions_TransitPolylineOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DrivingPolylineOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DrivingPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
-                xamlMember.Getter = get_88_DirectionsRenderOptions_DrivingPolylineOptions;
-                xamlMember.Setter = set_88_DirectionsRenderOptions_DrivingPolylineOptions;
+                xamlMember.Getter = get_95_DirectionsRenderOptions_DrivingPolylineOptions;
+                xamlMember.Setter = set_95_DirectionsRenderOptions_DrivingPolylineOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.ActiveRoutePolylineOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ActiveRoutePolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
-                xamlMember.Getter = get_89_DirectionsRenderOptions_ActiveRoutePolylineOptions;
-                xamlMember.Setter = set_89_DirectionsRenderOptions_ActiveRoutePolylineOptions;
+                xamlMember.Getter = get_96_DirectionsRenderOptions_ActiveRoutePolylineOptions;
+                xamlMember.Setter = set_96_DirectionsRenderOptions_ActiveRoutePolylineOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.StepPushpinOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "StepPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
-                xamlMember.Getter = get_90_DirectionsRenderOptions_StepPushpinOptions;
-                xamlMember.Setter = set_90_DirectionsRenderOptions_StepPushpinOptions;
+                xamlMember.Getter = get_97_DirectionsRenderOptions_StepPushpinOptions;
+                xamlMember.Setter = set_97_DirectionsRenderOptions_StepPushpinOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisambiguationPushpinOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisambiguationPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
-                xamlMember.Getter = get_91_DirectionsRenderOptions_DisambiguationPushpinOptions;
-                xamlMember.Setter = set_91_DirectionsRenderOptions_DisambiguationPushpinOptions;
+                xamlMember.Getter = get_98_DirectionsRenderOptions_DisambiguationPushpinOptions;
+                xamlMember.Setter = set_98_DirectionsRenderOptions_DisambiguationPushpinOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.EndWaypointColorBrush":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "EndWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
-                xamlMember.Getter = get_92_DirectionsRenderOptions_EndWaypointColorBrush;
-                xamlMember.Setter = set_92_DirectionsRenderOptions_EndWaypointColorBrush;
+                xamlMember.Getter = get_99_DirectionsRenderOptions_EndWaypointColorBrush;
+                xamlMember.Setter = set_99_DirectionsRenderOptions_EndWaypointColorBrush;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.MiddleWaypointColorBrush":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MiddleWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
-                xamlMember.Getter = get_93_DirectionsRenderOptions_MiddleWaypointColorBrush;
-                xamlMember.Setter = set_93_DirectionsRenderOptions_MiddleWaypointColorBrush;
+                xamlMember.Getter = get_100_DirectionsRenderOptions_MiddleWaypointColorBrush;
+                xamlMember.Setter = set_100_DirectionsRenderOptions_MiddleWaypointColorBrush;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.StartWaypointColorBrush":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "StartWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
-                xamlMember.Getter = get_94_DirectionsRenderOptions_StartWaypointColorBrush;
-                xamlMember.Setter = set_94_DirectionsRenderOptions_StartWaypointColorBrush;
+                xamlMember.Getter = get_101_DirectionsRenderOptions_StartWaypointColorBrush;
+                xamlMember.Setter = set_101_DirectionsRenderOptions_StartWaypointColorBrush;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.WaypointPushpinOptions":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "WaypointPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
-                xamlMember.Getter = get_95_DirectionsRenderOptions_WaypointPushpinOptions;
-                xamlMember.Setter = set_95_DirectionsRenderOptions_WaypointPushpinOptions;
+                xamlMember.Getter = get_102_DirectionsRenderOptions_WaypointPushpinOptions;
+                xamlMember.Setter = set_102_DirectionsRenderOptions_WaypointPushpinOptions;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayStepWarnings":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayStepWarnings", "Boolean");
-                xamlMember.Getter = get_96_DirectionsRenderOptions_DisplayStepWarnings;
-                xamlMember.Setter = set_96_DirectionsRenderOptions_DisplayStepWarnings;
+                xamlMember.Getter = get_103_DirectionsRenderOptions_DisplayStepWarnings;
+                xamlMember.Setter = set_103_DirectionsRenderOptions_DisplayStepWarnings;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayItineraryItemHints":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayItineraryItemHints", "Boolean");
-                xamlMember.Getter = get_97_DirectionsRenderOptions_DisplayItineraryItemHints;
-                xamlMember.Setter = set_97_DirectionsRenderOptions_DisplayItineraryItemHints;
+                xamlMember.Getter = get_104_DirectionsRenderOptions_DisplayItineraryItemHints;
+                xamlMember.Setter = set_104_DirectionsRenderOptions_DisplayItineraryItemHints;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayTransitIcons":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayTransitIcons", "Boolean");
-                xamlMember.Getter = get_98_DirectionsRenderOptions_DisplayTransitIcons;
-                xamlMember.Setter = set_98_DirectionsRenderOptions_DisplayTransitIcons;
+                xamlMember.Getter = get_105_DirectionsRenderOptions_DisplayTransitIcons;
+                xamlMember.Setter = set_105_DirectionsRenderOptions_DisplayTransitIcons;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayManeuverIcons":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayManeuverIcons", "Boolean");
-                xamlMember.Getter = get_99_DirectionsRenderOptions_DisplayManeuverIcons;
-                xamlMember.Setter = set_99_DirectionsRenderOptions_DisplayManeuverIcons;
+                xamlMember.Getter = get_106_DirectionsRenderOptions_DisplayManeuverIcons;
+                xamlMember.Setter = set_106_DirectionsRenderOptions_DisplayManeuverIcons;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayDisclaimer":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayDisclaimer", "Boolean");
-                xamlMember.Getter = get_100_DirectionsRenderOptions_DisplayDisclaimer;
-                xamlMember.Setter = set_100_DirectionsRenderOptions_DisplayDisclaimer;
+                xamlMember.Getter = get_107_DirectionsRenderOptions_DisplayDisclaimer;
+                xamlMember.Setter = set_107_DirectionsRenderOptions_DisplayDisclaimer;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.AutoUpdateMapView":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutoUpdateMapView", "Boolean");
-                xamlMember.Getter = get_101_DirectionsRenderOptions_AutoUpdateMapView;
-                xamlMember.Setter = set_101_DirectionsRenderOptions_AutoUpdateMapView;
+                xamlMember.Getter = get_108_DirectionsRenderOptions_AutoUpdateMapView;
+                xamlMember.Setter = set_108_DirectionsRenderOptions_AutoUpdateMapView;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.AutoDisplayDisambiguation":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutoDisplayDisambiguation", "Boolean");
-                xamlMember.Getter = get_102_DirectionsRenderOptions_AutoDisplayDisambiguation;
-                xamlMember.Setter = set_102_DirectionsRenderOptions_AutoDisplayDisambiguation;
+                xamlMember.Getter = get_109_DirectionsRenderOptions_AutoDisplayDisambiguation;
+                xamlMember.Setter = set_109_DirectionsRenderOptions_AutoDisplayDisambiguation;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.AutoSetActiveRoute":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutoSetActiveRoute", "Boolean");
-                xamlMember.Getter = get_103_DirectionsRenderOptions_AutoSetActiveRoute;
-                xamlMember.Setter = set_103_DirectionsRenderOptions_AutoSetActiveRoute;
+                xamlMember.Getter = get_110_DirectionsRenderOptions_AutoSetActiveRoute;
+                xamlMember.Setter = set_110_DirectionsRenderOptions_AutoSetActiveRoute;
                 break;
             case "Bing.Maps.Directions.DirectionsRenderOptions.UseDefaultPushpins":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "UseDefaultPushpins", "Boolean");
-                xamlMember.Getter = get_104_DirectionsRenderOptions_UseDefaultPushpins;
-                xamlMember.Setter = set_104_DirectionsRenderOptions_UseDefaultPushpins;
+                xamlMember.Getter = get_111_DirectionsRenderOptions_UseDefaultPushpins;
+                xamlMember.Setter = set_111_DirectionsRenderOptions_UseDefaultPushpins;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.WeatherPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "WeatherPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_105_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
-                xamlMember.Setter = set_105_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
+                xamlMember.Getter = get_112_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
+                xamlMember.Setter = set_112_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.AlertPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AlertPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_106_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
-                xamlMember.Setter = set_106_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
+                xamlMember.Getter = get_113_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
+                xamlMember.Setter = set_113_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.ConstructionPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ConstructionPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_107_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
-                xamlMember.Setter = set_107_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
+                xamlMember.Getter = get_114_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
+                xamlMember.Setter = set_114_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.RoadHazardPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RoadHazardPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_108_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
-                xamlMember.Setter = set_108_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
+                xamlMember.Getter = get_115_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
+                xamlMember.Setter = set_115_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.PlannedEventPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PlannedEventPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_109_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
-                xamlMember.Setter = set_109_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
+                xamlMember.Getter = get_116_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
+                xamlMember.Setter = set_116_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.OtherNewsPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "OtherNewsPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_110_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
-                xamlMember.Setter = set_110_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
+                xamlMember.Getter = get_117_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
+                xamlMember.Setter = set_117_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.MiscellaneousPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MiscellaneousPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_111_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
-                xamlMember.Setter = set_111_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
+                xamlMember.Getter = get_118_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
+                xamlMember.Setter = set_118_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.MassTransitPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "MassTransitPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_112_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
-                xamlMember.Setter = set_112_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
+                xamlMember.Getter = get_119_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
+                xamlMember.Setter = set_119_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.DisabledVehiclePushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisabledVehiclePushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_113_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
-                xamlMember.Setter = set_113_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
+                xamlMember.Getter = get_120_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
+                xamlMember.Setter = set_120_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.CongestionPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "CongestionPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_114_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
-                xamlMember.Setter = set_114_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
+                xamlMember.Getter = get_121_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
+                xamlMember.Setter = set_121_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
                 break;
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.AccidentPushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AccidentPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_115_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
-                xamlMember.Setter = set_115_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
+                xamlMember.Getter = get_122_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
+                xamlMember.Setter = set_122_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Items":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector`1<Object>");
-                xamlMember.Getter = get_116_VenueFloorDataSource_Items;
+                xamlMember.Getter = get_123_VenueFloorDataSource_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Name":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_117_VenueFloorDataSource_Name;
-                xamlMember.Setter = set_117_VenueFloorDataSource_Name;
+                xamlMember.Getter = get_124_VenueFloorDataSource_Name;
+                xamlMember.Setter = set_124_VenueFloorDataSource_Name;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Highlighted":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Highlighted", "Boolean");
-                xamlMember.Getter = get_118_VenueEntity_Highlighted;
+                xamlMember.Getter = get_125_VenueEntity_Highlighted;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineWidth":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
-                xamlMember.Getter = get_119_VenueEntity_LineWidth;
-                xamlMember.Setter = set_119_VenueEntity_LineWidth;
+                xamlMember.Getter = get_126_VenueEntity_LineWidth;
+                xamlMember.Setter = set_126_VenueEntity_LineWidth;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.HighlightColor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "HighlightColor", "Windows.UI.Color");
-                xamlMember.Getter = get_120_VenueEntity_HighlightColor;
-                xamlMember.Setter = set_120_VenueEntity_HighlightColor;
+                xamlMember.Getter = get_127_VenueEntity_HighlightColor;
+                xamlMember.Setter = set_127_VenueEntity_HighlightColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FillColor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "FillColor", "Windows.UI.Color");
-                xamlMember.Getter = get_121_VenueEntity_FillColor;
-                xamlMember.Setter = set_121_VenueEntity_FillColor;
+                xamlMember.Getter = get_128_VenueEntity_FillColor;
+                xamlMember.Setter = set_128_VenueEntity_FillColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineColor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
-                xamlMember.Getter = get_122_VenueEntity_LineColor;
-                xamlMember.Setter = set_122_VenueEntity_LineColor;
+                xamlMember.Getter = get_129_VenueEntity_LineColor;
+                xamlMember.Setter = set_129_VenueEntity_LineColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Type":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.VenueMaps.VenueEntityType");
-                xamlMember.Getter = get_123_VenueEntity_Type;
+                xamlMember.Getter = get_130_VenueEntity_Type;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.PhoneNumber":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PhoneNumber", "String");
-                xamlMember.Getter = get_124_VenueEntity_PhoneNumber;
+                xamlMember.Getter = get_131_VenueEntity_PhoneNumber;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Name":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_125_VenueEntity_Name;
+                xamlMember.Getter = get_132_VenueEntity_Name;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Outline":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Outline", "Bing.Maps.LocationCollection");
-                xamlMember.Getter = get_126_VenueEntity_Outline;
+                xamlMember.Getter = get_133_VenueEntity_Outline;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Id":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_127_VenueEntity_Id;
+                xamlMember.Getter = get_134_VenueEntity_Id;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FloorName":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "FloorName", "String");
-                xamlMember.Getter = get_128_VenueEntity_FloorName;
+                xamlMember.Getter = get_135_VenueEntity_FloorName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Floor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Floor", "Bing.Maps.VenueMaps.Floor");
-                xamlMember.Getter = get_129_VenueEntity_Floor;
+                xamlMember.Getter = get_136_VenueEntity_Floor;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Location":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Location", "Bing.Maps.Location");
-                xamlMember.Getter = get_130_VenueEntity_Location;
+                xamlMember.Getter = get_137_VenueEntity_Location;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Description":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_131_VenueEntity_Description;
+                xamlMember.Getter = get_138_VenueEntity_Description;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryName":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "CategoryName", "String");
-                xamlMember.Getter = get_132_VenueEntity_CategoryName;
+                xamlMember.Getter = get_139_VenueEntity_CategoryName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryId":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "CategoryId", "String");
-                xamlMember.Getter = get_133_VenueEntity_CategoryId;
+                xamlMember.Getter = get_140_VenueEntity_CategoryId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.BusinessId":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "BusinessId", "String");
-                xamlMember.Getter = get_134_VenueEntity_BusinessId;
+                xamlMember.Getter = get_141_VenueEntity_BusinessId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Address":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Address", "Bing.Maps.VenueMaps.VenueAddress");
-                xamlMember.Getter = get_135_VenueEntity_Address;
+                xamlMember.Getter = get_142_VenueEntity_Address;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.Visible":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_136_DirectionsPushpinRenderOptions_Visible;
-                xamlMember.Setter = set_136_DirectionsPushpinRenderOptions_Visible;
+                xamlMember.Getter = get_143_DirectionsPushpinRenderOptions_Visible;
+                xamlMember.Setter = set_143_DirectionsPushpinRenderOptions_Visible;
                 break;
             case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.Offset":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Offset", "Bing.Maps.PushpinOffset");
-                xamlMember.Getter = get_137_DirectionsPushpinRenderOptions_Offset;
-                xamlMember.Setter = set_137_DirectionsPushpinRenderOptions_Offset;
+                xamlMember.Getter = get_144_DirectionsPushpinRenderOptions_Offset;
+                xamlMember.Setter = set_144_DirectionsPushpinRenderOptions_Offset;
                 break;
             case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.PushpinTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "PushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
-                xamlMember.Getter = get_138_DirectionsPushpinRenderOptions_PushpinTemplate;
-                xamlMember.Setter = set_138_DirectionsPushpinRenderOptions_PushpinTemplate;
+                xamlMember.Getter = get_145_DirectionsPushpinRenderOptions_PushpinTemplate;
+                xamlMember.Setter = set_145_DirectionsPushpinRenderOptions_PushpinTemplate;
                 break;
             case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.Visible":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_139_DirectionsPolylineRenderOptions_Visible;
-                xamlMember.Setter = set_139_DirectionsPolylineRenderOptions_Visible;
+                xamlMember.Getter = get_146_DirectionsPolylineRenderOptions_Visible;
+                xamlMember.Setter = set_146_DirectionsPolylineRenderOptions_Visible;
                 break;
             case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.LineWidth":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
-                xamlMember.Getter = get_140_DirectionsPolylineRenderOptions_LineWidth;
-                xamlMember.Setter = set_140_DirectionsPolylineRenderOptions_LineWidth;
+                xamlMember.Getter = get_147_DirectionsPolylineRenderOptions_LineWidth;
+                xamlMember.Setter = set_147_DirectionsPolylineRenderOptions_LineWidth;
                 break;
             case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.LineColor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
-                xamlMember.Getter = get_141_DirectionsPolylineRenderOptions_LineColor;
-                xamlMember.Setter = set_141_DirectionsPolylineRenderOptions_LineColor;
+                xamlMember.Getter = get_148_DirectionsPolylineRenderOptions_LineColor;
+                xamlMember.Setter = set_148_DirectionsPolylineRenderOptions_LineColor;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Warnings":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Warnings", "Windows.Foundation.Collections.IObservableVector`1<Object>");
-                xamlMember.Getter = get_142_ItineraryItemDataSource_Warnings;
+                xamlMember.Getter = get_149_ItineraryItemDataSource_Warnings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.IconColor":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "IconColor", "Windows.UI.Xaml.Media.Brush");
-                xamlMember.Getter = get_143_ItineraryItemDataSource_IconColor;
-                xamlMember.Setter = set_143_ItineraryItemDataSource_IconColor;
+                xamlMember.Getter = get_150_ItineraryItemDataSource_IconColor;
+                xamlMember.Setter = set_150_ItineraryItemDataSource_IconColor;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.AutomationName":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
-                xamlMember.Getter = get_144_ItineraryItemDataSource_AutomationName;
-                xamlMember.Setter = set_144_ItineraryItemDataSource_AutomationName;
+                xamlMember.Getter = get_151_ItineraryItemDataSource_AutomationName;
+                xamlMember.Setter = set_151_ItineraryItemDataSource_AutomationName;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Hint":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Hint", "String");
-                xamlMember.Getter = get_145_ItineraryItemDataSource_Hint;
-                xamlMember.Setter = set_145_ItineraryItemDataSource_Hint;
+                xamlMember.Getter = get_152_ItineraryItemDataSource_Hint;
+                xamlMember.Setter = set_152_ItineraryItemDataSource_Hint;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Icon":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Icon", "String");
-                xamlMember.Getter = get_146_ItineraryItemDataSource_Icon;
-                xamlMember.Setter = set_146_ItineraryItemDataSource_Icon;
+                xamlMember.Getter = get_153_ItineraryItemDataSource_Icon;
+                xamlMember.Setter = set_153_ItineraryItemDataSource_Icon;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Index":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Index", "UInt32");
-                xamlMember.Getter = get_147_ItineraryItemDataSource_Index;
-                xamlMember.Setter = set_147_ItineraryItemDataSource_Index;
+                xamlMember.Getter = get_154_ItineraryItemDataSource_Index;
+                xamlMember.Setter = set_154_ItineraryItemDataSource_Index;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.RouteLegIndex":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RouteLegIndex", "UInt32");
-                xamlMember.Getter = get_148_ItineraryItemDataSource_RouteLegIndex;
-                xamlMember.Setter = set_148_ItineraryItemDataSource_RouteLegIndex;
+                xamlMember.Getter = get_155_ItineraryItemDataSource_RouteLegIndex;
+                xamlMember.Setter = set_155_ItineraryItemDataSource_RouteLegIndex;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitStop":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitStop", "String");
-                xamlMember.Getter = get_149_ItineraryItemDataSource_TransitStop;
-                xamlMember.Setter = set_149_ItineraryItemDataSource_TransitStop;
+                xamlMember.Getter = get_156_ItineraryItemDataSource_TransitStop;
+                xamlMember.Setter = set_156_ItineraryItemDataSource_TransitStop;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitDepartureTime":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitDepartureTime", "String");
-                xamlMember.Getter = get_150_ItineraryItemDataSource_TransitDepartureTime;
-                xamlMember.Setter = set_150_ItineraryItemDataSource_TransitDepartureTime;
+                xamlMember.Getter = get_157_ItineraryItemDataSource_TransitDepartureTime;
+                xamlMember.Setter = set_157_ItineraryItemDataSource_TransitDepartureTime;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalTime":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitArrivalTime", "String");
-                xamlMember.Getter = get_151_ItineraryItemDataSource_TransitArrivalTime;
-                xamlMember.Setter = set_151_ItineraryItemDataSource_TransitArrivalTime;
+                xamlMember.Getter = get_158_ItineraryItemDataSource_TransitArrivalTime;
+                xamlMember.Setter = set_158_ItineraryItemDataSource_TransitArrivalTime;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalInstructionHeader":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitArrivalInstructionHeader", "String");
-                xamlMember.Getter = get_152_ItineraryItemDataSource_TransitArrivalInstructionHeader;
-                xamlMember.Setter = set_152_ItineraryItemDataSource_TransitArrivalInstructionHeader;
+                xamlMember.Getter = get_159_ItineraryItemDataSource_TransitArrivalInstructionHeader;
+                xamlMember.Setter = set_159_ItineraryItemDataSource_TransitArrivalInstructionHeader;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalInstruction":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitArrivalInstruction", "String");
-                xamlMember.Getter = get_153_ItineraryItemDataSource_TransitArrivalInstruction;
-                xamlMember.Setter = set_153_ItineraryItemDataSource_TransitArrivalInstruction;
+                xamlMember.Getter = get_160_ItineraryItemDataSource_TransitArrivalInstruction;
+                xamlMember.Setter = set_160_ItineraryItemDataSource_TransitArrivalInstruction;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.TransitInstructionHeader":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitInstructionHeader", "String");
-                xamlMember.Getter = get_154_ItineraryItemDataSource_TransitInstructionHeader;
-                xamlMember.Setter = set_154_ItineraryItemDataSource_TransitInstructionHeader;
+                xamlMember.Getter = get_161_ItineraryItemDataSource_TransitInstructionHeader;
+                xamlMember.Setter = set_161_ItineraryItemDataSource_TransitInstructionHeader;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.DisplayIndex":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "DisplayIndex", "String");
-                xamlMember.Getter = get_155_ItineraryItemDataSource_DisplayIndex;
-                xamlMember.Setter = set_155_ItineraryItemDataSource_DisplayIndex;
+                xamlMember.Getter = get_162_ItineraryItemDataSource_DisplayIndex;
+                xamlMember.Setter = set_162_ItineraryItemDataSource_DisplayIndex;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Instruction":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Instruction", "String");
-                xamlMember.Getter = get_156_ItineraryItemDataSource_Instruction;
-                xamlMember.Setter = set_156_ItineraryItemDataSource_Instruction;
+                xamlMember.Getter = get_163_ItineraryItemDataSource_Instruction;
+                xamlMember.Setter = set_163_ItineraryItemDataSource_Instruction;
                 break;
             case "Bing.Maps.Directions.ItineraryItemDataSource.Distance":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Distance", "String");
-                xamlMember.Getter = get_157_ItineraryItemDataSource_Distance;
-                xamlMember.Setter = set_157_ItineraryItemDataSource_Distance;
+                xamlMember.Getter = get_164_ItineraryItemDataSource_Distance;
+                xamlMember.Setter = set_164_ItineraryItemDataSource_Distance;
                 break;
             case "Bing.Maps.Directions.RouteLegDataSource.Items":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector`1<Object>");
-                xamlMember.Getter = get_158_RouteLegDataSource_Items;
+                xamlMember.Getter = get_165_RouteLegDataSource_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Directions.RouteLegDataSource.AutomationName":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
-                xamlMember.Getter = get_159_RouteLegDataSource_AutomationName;
-                xamlMember.Setter = set_159_RouteLegDataSource_AutomationName;
+                xamlMember.Getter = get_166_RouteLegDataSource_AutomationName;
+                xamlMember.Setter = set_166_RouteLegDataSource_AutomationName;
                 break;
             case "Bing.Maps.Directions.RouteLegDataSource.Header":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Header", "String");
-                xamlMember.Getter = get_160_RouteLegDataSource_Header;
-                xamlMember.Setter = set_160_RouteLegDataSource_Header;
+                xamlMember.Getter = get_167_RouteLegDataSource_Header;
+                xamlMember.Setter = set_167_RouteLegDataSource_Header;
                 break;
             case "Bing.Maps.Directions.TransitRouteDataSource.AutomationName":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
-                xamlMember.Getter = get_161_TransitRouteDataSource_AutomationName;
-                xamlMember.Setter = set_161_TransitRouteDataSource_AutomationName;
+                xamlMember.Getter = get_168_TransitRouteDataSource_AutomationName;
+                xamlMember.Setter = set_168_TransitRouteDataSource_AutomationName;
                 break;
             case "Bing.Maps.Directions.TransitRouteDataSource.Icon":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Icon", "String");
-                xamlMember.Getter = get_162_TransitRouteDataSource_Icon;
-                xamlMember.Setter = set_162_TransitRouteDataSource_Icon;
+                xamlMember.Getter = get_169_TransitRouteDataSource_Icon;
+                xamlMember.Setter = set_169_TransitRouteDataSource_Icon;
                 break;
             case "Bing.Maps.Directions.TransitRouteDataSource.Summary":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Summary", "String");
-                xamlMember.Getter = get_163_TransitRouteDataSource_Summary;
-                xamlMember.Setter = set_163_TransitRouteDataSource_Summary;
+                xamlMember.Getter = get_170_TransitRouteDataSource_Summary;
+                xamlMember.Setter = set_170_TransitRouteDataSource_Summary;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.RouteLegHeaderItemTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "RouteLegHeaderItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_164_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
-                xamlMember.Setter = set_164_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
+                xamlMember.Getter = get_171_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
+                xamlMember.Setter = set_171_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.GroupRouteLegHeaderItemTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "GroupRouteLegHeaderItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_165_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
-                xamlMember.Setter = set_165_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
+                xamlMember.Getter = get_172_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
+                xamlMember.Setter = set_172_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.WalkItineraryItemTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "WalkItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_166_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
-                xamlMember.Setter = set_166_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
+                xamlMember.Getter = get_173_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
+                xamlMember.Setter = set_173_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.TransitWaypointTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitWaypointTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_167_RouteLegDataTemplateSelector_TransitWaypointTemplate;
-                xamlMember.Setter = set_167_RouteLegDataTemplateSelector_TransitWaypointTemplate;
+                xamlMember.Getter = get_174_RouteLegDataTemplateSelector_TransitWaypointTemplate;
+                xamlMember.Setter = set_174_RouteLegDataTemplateSelector_TransitWaypointTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.TransitItineraryItemTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "TransitItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_168_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
-                xamlMember.Setter = set_168_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
+                xamlMember.Getter = get_175_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
+                xamlMember.Setter = set_175_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.ItineraryItemTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "ItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_169_RouteLegDataTemplateSelector_ItineraryItemTemplate;
-                xamlMember.Setter = set_169_RouteLegDataTemplateSelector_ItineraryItemTemplate;
+                xamlMember.Getter = get_176_RouteLegDataTemplateSelector_ItineraryItemTemplate;
+                xamlMember.Setter = set_176_RouteLegDataTemplateSelector_ItineraryItemTemplate;
                 break;
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector.WaypointTemplate":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "WaypointTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_170_RouteLegDataTemplateSelector_WaypointTemplate;
-                xamlMember.Setter = set_170_RouteLegDataTemplateSelector_WaypointTemplate;
+                xamlMember.Getter = get_177_RouteLegDataTemplateSelector_WaypointTemplate;
+                xamlMember.Setter = set_177_RouteLegDataTemplateSelector_WaypointTemplate;
                 break;
             case "Bing.Maps.Directions.DirectionsContainerSelector.UnSelectableStyle":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsContainerSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "UnSelectableStyle", "Windows.UI.Xaml.Style");
-                xamlMember.Getter = get_171_DirectionsContainerSelector_UnSelectableStyle;
-                xamlMember.Setter = set_171_DirectionsContainerSelector_UnSelectableStyle;
+                xamlMember.Getter = get_178_DirectionsContainerSelector_UnSelectableStyle;
+                xamlMember.Setter = set_178_DirectionsContainerSelector_UnSelectableStyle;
                 break;
             case "Bing.Maps.Directions.DirectionsContainerSelector.SelectableStyle":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsContainerSelector");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "SelectableStyle", "Windows.UI.Xaml.Style");
-                xamlMember.Getter = get_172_DirectionsContainerSelector_SelectableStyle;
-                xamlMember.Setter = set_172_DirectionsContainerSelector_SelectableStyle;
+                xamlMember.Getter = get_179_DirectionsContainerSelector_SelectableStyle;
+                xamlMember.Setter = set_179_DirectionsContainerSelector_SelectableStyle;
                 break;
             case "Bing.Maps.Directions.Warning.Type":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.Directions.WarningType");
-                xamlMember.Getter = get_173_Warning_Type;
+                xamlMember.Getter = get_180_Warning_Type;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Directions.Warning.Severity":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Severity", "Bing.Maps.Directions.WarningSeverity");
-                xamlMember.Getter = get_174_Warning_Severity;
+                xamlMember.Getter = get_181_Warning_Severity;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Directions.Warning.Message":
                 userType = (global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
                 xamlMember = new global::VisitRoslikde.VisitRoslikde_XamlTypeInfo.XamlMember(this, "Message", "String");
-                xamlMember.Getter = get_175_Warning_Message;
+                xamlMember.Getter = get_182_Warning_Message;
                 xamlMember.SetIsReadOnly();
                 break;
             }

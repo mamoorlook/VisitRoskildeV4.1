@@ -14,7 +14,7 @@
     <Grid Background="#FFFFD5BD">
         <Grid Margin="0,0,0,634" Background="#FFFF7F15">
             <TextBlock HorizontalAlignment="Left" Margin="45,56,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
-            <TextBlock HorizontalAlignment="Left" Margin="121,56,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="243" FontSize="72"/>
+            <TextBlock HorizontalAlignment="Left" Margin="121,56,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="227" FontSize="72"/>
         </Grid>
             <bm:Map Width ="450" 
 			    Height ="300" 
