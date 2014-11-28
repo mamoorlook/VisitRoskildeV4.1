@@ -1,0 +1,2 @@
+D:\GitRepo\VisitRoskildeV4\UnitTestLibrary1\UnitTestLibrary1.csproj;x86
+D:\GitRepo\VisitRoskildeV4\VisitRoslikde\VisitRoslikde.csproj;x86
