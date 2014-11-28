@@ -26,17 +26,28 @@ namespace VisitRoslikde
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private DispatcherTimer timer;
+        private double i;
+
         public MainPage()
         {
             this.InitializeComponent();
+            SlideImages.Begin();
+            timer = new DispatcherTimer();
+            timer.Tick += timer_Tick;
+            Init();
+            timer.Start();
+        }
+        void timer_Tick(object sender, object e)
+        {
+            SlideImages_Copy1.Begin();
         }
 
-        private async void pushpinTapped(object sender, TappedRoutedEventArgs e)
+        public void Init()
         {
-            MessageDialog dialog = new MessageDialog("Hello from Roskilde.");
-            await dialog.ShowAsync();
+            i = 27.5;
+            timer.Interval = TimeSpan.FromSeconds(i);
         }
-        
         private void hotelsButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ListPageHotels), null);

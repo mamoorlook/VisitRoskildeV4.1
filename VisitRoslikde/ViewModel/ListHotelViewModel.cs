@@ -11,6 +11,7 @@ using System.Windows.Input;
 using Windows.Devices.Geolocation;
 using Windows.Storage;
 using Windows.UI.Popups;
+using Windows.UI.Xaml.Documents;
 using VisitRoslikde.Annotations;
 using VisitRoslikde.Model;
 
@@ -92,10 +93,10 @@ namespace VisitRoslikde.ViewModel
 
         public ListHotelViewModel()
         {
-            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, Roskilde 4000, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
-            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
-            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
-            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
+            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, Roskilde 4000, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "http://www.danhostel.dk/", "12", "55");
+            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "http://www.hotelprindsen.dk/", "", "");
+            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "http://www.comwellroskilde.dk/", "", "");
+            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "", "");
             
 
             _comment = new CommentModelHotel();

@@ -1,7 +1,7 @@
 ﻿<Page
     x:Name="pageRoot"
     x:Class="VisitRoslikde.View.DetailedPageH"
-    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    DataContext="{Binding DefaultViewModel, Mode = TwoWay, RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:VisitRoslikde.View"
@@ -9,6 +9,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModel="using:VisitRoslikde.ViewModel"
+    xmlns:controls="using:WinRTXamlToolkit.Controls"
+    xmlns:maps="using:Bing.Maps"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -23,18 +25,126 @@
     -->
     <Grid Background="#FFFFD5BD">
         <Grid.DataContext>
-            <viewModel:ListRestaurantsViewModel/>
+            <viewModel:ListHotelViewModel/>
         </Grid.DataContext>
         <Grid Margin="0,0,0,634" Background="#FFFF7F15">
-            <Button x:Name="backButton" Margin="39,49,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
-                        Style="{StaticResource NavigationBackButtonNormalStyle}"
-                        VerticalAlignment="Top"
-                        AutomationProperties.Name="Back"
-                        AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock HorizontalAlignment="Left" Margin="114,49,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
-            <TextBlock HorizontalAlignment="Left" Margin="190,49,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="230" FontSize="72"/>
-            <TextBlock HorizontalAlignment="Left" Margin="190,227,0,-134" TextWrapping="Wrap" Text="Hotels" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="328" FontSize="72" Foreground="#FFFF7F15"/>
+            <Button x:Name="backButton" 
+                    Margin="39,49,0,0"
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    VerticalAlignment="Top"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    AutomationProperties.ItemType="Navigation Button" 
+                    Click="backButton_Click"/>
+
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="114,49,0,0" 
+                       TextWrapping="Wrap" 
+                       Text="Visit" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource SubheaderTextBlockStyle}" 
+                       FontFamily="Advent Pro" 
+                       Width = "71" 
+                       FontSize="42"/>
+
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="190,49,0,0" 
+                       TextWrapping="Wrap" 
+                       Text="Roskilde" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource HeaderTextBlockStyle}" 
+                       FontFamily ="Advent Pro" 
+                       Height="41" 
+                       Width="230" 
+                       FontSize="72"/>
+
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="190,227,0,-134" 
+                       TextWrapping="Wrap" 
+                       Text="{Binding ActualHotel.Name}" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource HeaderTextBlockStyle}" 
+                       FontFamily ="Advent Pro" 
+                       Height="41" 
+                       Width="541" 
+                       FontSize="72" 
+                       Foreground="#FFFF7F15"/>
+        </Grid>
+        
+        <Grid Height="0.5" Margin="5,40,5,424" Background="#FFFF7F15"/>
+        <controls:ImageButton x:Name="hotelsButton"
+        	                  Content="HOTELS" 
+        	                  HorizontalAlignment="Left"
+        	                  Margin="0,135,0,0" 
+        	                  VerticalAlignment="Top" 
+        	                  Width="244" 
+        	                  Height="56" 
+        	                  Background="#FFFFD5BD" 
+        	                  Click="hotelsButton_Click"
+        	                  FontFamily="Advent Pro" 
+        	                  FontSize="25" 
+        	                  Foreground="#FFFF7F15" 
+        	                  HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+        	                  Opacity="0.6"/>
+
+        <controls:ImageButton x:Name="restaurantsButton" 
+                              Content="RESTAURANTS"
+        	                  HorizontalAlignment="Left" 
+        	                  Margin="245,135,0,0" 
+        	                  VerticalAlignment="Top" 
+        	                  Width="244" 
+        	                  Height="56" 
+        	                  Background="#FFFFD5BD" 
+        	                  Click="restaurantsButton_Click"
+        	                  FontFamily="Advent Pro" 
+        	                  FontSize="25" 
+        	                  Foreground="#FFFF7F15" 
+        	                  HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
+        	                  Opacity="0.6"/>
+        <maps:Map ZoomLevel="12.5"
+			      Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" 
+                  Margin="1070,543,10,10">
+            <maps:Map.Center>
+                <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
+                               Longitude="{Binding ActualHotel.Longitude}" />
+            </maps:Map.Center>
+            <maps:Pushpin Tapped="pushpinTapped">
+                <maps:MapLayer.Position>
+                    <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
+                                   Longitude="{Binding ActualHotel.Longitude}" />
+                </maps:MapLayer.Position>
+            </maps:Pushpin>
+        </maps:Map>
+
+        <Grid Margin="2,543,296,10" 
+              Opacity="0.6" 
+              Background="#FFFF7F15">
+
+            <TextBlock HorizontalAlignment="Left"
+                       Margin="43,147,0,0" 
+                       TextWrapping="Wrap" 
+                       VerticalAlignment="Top" 
+                       Text="Telephone number:" 
+                       FontSize="40" 
+                       Height="43" 
+                       Width="354" 
+                       FontFamily="Advent Pro"/>
+
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="43,101,0,0" 
+                       TextWrapping="Wrap" 
+                       VerticalAlignment="Top" 
+                       Text="Webpage:" 
+                       FontSize="40" 
+                       Height="46" 
+                       Width="274" 
+                       FontFamily="Advent Pro"/>
+            <TextBlock HorizontalAlignment="Left" Margin="43,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Address:" FontSize="40" Height="43" Width="170" FontFamily="Advent Pro"/>           
+            <TextBlock HorizontalAlignment="Left" Margin="43,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Category:" FontSize="40" Height="43" Width="170" FontFamily="Advent Pro"/>
+            <TextBlock HorizontalAlignment="Left" Margin="350,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Text="{Binding ActualHotel.Address}" FontSize="40" Height="43" FontFamily="Advent Pro"/>
+            <TextBlock HorizontalAlignment="Left" Margin="350,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Text="{Binding ActualHotel.Category}" FontSize="40" Height="43" FontFamily="Advent Pro"/>
+            <TextBlock HorizontalAlignment="Left" Margin="350,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="505" Text="{Binding ActualHotel.Link}" FontSize="40" Height="43" FontFamily="Advent Pro"/>
+            <TextBlock HorizontalAlignment="Left" Margin="350,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" Text="{Binding ActualHotel.TelephoneNumber}" FontSize="40" Height="43" FontFamily="Advent Pro"/>
         </Grid>
     </Grid>
 </Page>

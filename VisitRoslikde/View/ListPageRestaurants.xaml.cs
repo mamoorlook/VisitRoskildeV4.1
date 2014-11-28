@@ -52,8 +52,10 @@ namespace VisitRoslikde.View
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
-            //this.navigationHelper.SaveState += navigationHelper_SaveState;
+        //    this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
+
+        
 
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also

@@ -102,9 +102,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -142,6 +139,12 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="Assets\Slide\Gusto\Thumbs.db" />
+    <None Include="Assets\Slide\Mumm\Thumbs.db" />
+    <None Include="Assets\Slide\Skank\Thumbs.db" />
+    <None Include="Assets\Slide\Toppen\Thumbs.db" />
+    <None Include="Assets\Slide\Vigen\Thumbs.db" />
+    <None Include="packages.config" />
     <None Include="VisitRoslikde_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +174,19 @@
     <Content Include="Assets\Restaurants\RestVigenDark.jpg" />
     <Content Include="Assets\Restaurants\SkankRoskilde.jpg" />
     <Content Include="Assets\Restaurants\VigenRoskilde.jpg" />
+    <Content Include="Assets\Slide\Gusto\Gusto.jpg" />
+    <Content Include="Assets\Slide\Gusto\RestGusto.jpg" />
+    <Content Include="Assets\Slide\Gusto\RestGustoDark.jpg" />
+    <Content Include="Assets\Slide\Mumm\RestMumm.jpg" />
+    <Content Include="Assets\Slide\Mumm\RestMummDark.jpg" />
+    <Content Include="Assets\Slide\Skank\RestSkank.jpg" />
+    <Content Include="Assets\Slide\Skank\RestSkankDark.jpg" />
+    <Content Include="Assets\Slide\Skank\skank.jpg" />
+    <Content Include="Assets\Slide\Skank\skank2.jpg" />
+    <Content Include="Assets\Slide\Skank\skank3.jpg" />
+    <Content Include="Assets\Slide\Toppen\Toppen.jpg" />
+    <Content Include="Assets\Slide\Vigen\RestVigen.jpg" />
+    <Content Include="Assets\Slide\Vigen\RestVigenDark.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
@@ -210,10 +226,12 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="WinRTXamlToolkit">
-      <HintPath>..\..\..\..\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
+    <Reference Include="WinRTXamlToolkit, Version=1.7.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

@@ -20,21 +20,21 @@
     <AppXManifest Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-27T13:33:47.787</Modified>
+      <Modified>2014-11-28T07:44:36.005</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\VisitRoslikde.exe">
       <PackagePath>VisitRoslikde.exe</PackagePath>
-      <Modified>2014-11-27T15:16:58.817</Modified>
+      <Modified>2014-11-28T08:58:40.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.Xaml\1.313.0825.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
       <Modified>2014-11-04T11:27:49.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit.dll">
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
-      <Modified>2014-10-30T20:25:00.627</Modified>
+      <Modified>2014-11-27T19:25:05.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.Xaml\1.313.0825.0\Redist\debug\x86\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
@@ -440,6 +440,58 @@
       <PackagePath>Assets\Restaurants\VigenRoskilde.jpg</PackagePath>
       <Modified>2014-11-27T12:43:47.505</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Gusto\Gusto.jpg">
+      <PackagePath>Assets\Slide\Gusto\Gusto.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:31.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Gusto\RestGusto.jpg">
+      <PackagePath>Assets\Slide\Gusto\RestGusto.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:31.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Gusto\RestGustoDark.jpg">
+      <PackagePath>Assets\Slide\Gusto\RestGustoDark.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:31.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Mumm\RestMumm.jpg">
+      <PackagePath>Assets\Slide\Mumm\RestMumm.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:43.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Mumm\RestMummDark.jpg">
+      <PackagePath>Assets\Slide\Mumm\RestMummDark.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:43.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Skank\RestSkank.jpg">
+      <PackagePath>Assets\Slide\Skank\RestSkank.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:55.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Skank\RestSkankDark.jpg">
+      <PackagePath>Assets\Slide\Skank\RestSkankDark.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:55.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Skank\skank.jpg">
+      <PackagePath>Assets\Slide\Skank\skank.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:55.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Skank\skank2.jpg">
+      <PackagePath>Assets\Slide\Skank\skank2.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:55.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Skank\skank3.jpg">
+      <PackagePath>Assets\Slide\Skank\skank3.jpg</PackagePath>
+      <Modified>2014-11-28T07:43:55.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Toppen\Toppen.jpg">
+      <PackagePath>Assets\Slide\Toppen\Toppen.jpg</PackagePath>
+      <Modified>2014-11-28T07:44:15.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Vigen\RestVigen.jpg">
+      <PackagePath>Assets\Slide\Vigen\RestVigen.jpg</PackagePath>
+      <Modified>2014-11-28T07:44:26.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Slide\Vigen\RestVigenDark.jpg">
+      <PackagePath>Assets\Slide\Vigen\RestVigenDark.jpg</PackagePath>
+      <Modified>2014-11-28T07:44:26.046</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -462,143 +514,143 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-11-26T10:41:29.694</Modified>
+      <Modified>2014-11-27T17:51:26.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageH.xbf">
       <PackagePath>View\DetailedPageH.xbf</PackagePath>
-      <Modified>2014-11-27T14:53:55.340</Modified>
+      <Modified>2014-11-28T08:58:39.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\DetailedPageR.xbf">
       <PackagePath>View\DetailedPageR.xbf</PackagePath>
-      <Modified>2014-11-27T15:00:46.921</Modified>
+      <Modified>2014-11-28T08:58:39.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\ListPageHotels.xbf">
       <PackagePath>View\ListPageHotels.xbf</PackagePath>
-      <Modified>2014-11-27T15:16:57.368</Modified>
+      <Modified>2014-11-27T21:15:20.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\ListPageRestaurants.xbf">
       <PackagePath>View\ListPageRestaurants.xbf</PackagePath>
-      <Modified>2014-11-27T15:16:57.369</Modified>
+      <Modified>2014-11-27T19:25:18.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2014-11-27T15:16:57.369</Modified>
+      <Modified>2014-11-28T08:58:39.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\Bing.Maps\Themes\Generic.xbf">
       <PackagePath>Bing.Maps\Themes\Generic.xbf</PackagePath>
-      <Modified>2014-11-27T15:16:57.558</Modified>
+      <Modified>2014-11-28T08:58:39.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\VisitRoslikde.xr.xml">
       <PackagePath>VisitRoslikde.xr.xml</PackagePath>
-      <Modified>2014-11-27T15:09:47.481</Modified>
+      <Modified>2014-11-28T08:58:39.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
       <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
-      <Modified>2014-10-30T20:25:00.689</Modified>
+      <Modified>2014-11-27T19:25:05.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.632</Modified>
+      <Modified>2014-11-27T19:25:05.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.634</Modified>
+      <Modified>2014-11-27T19:25:05.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.636</Modified>
+      <Modified>2014-11-27T19:25:05.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.639</Modified>
+      <Modified>2014-11-27T19:25:05.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.641</Modified>
+      <Modified>2014-11-27T19:25:05.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.643</Modified>
+      <Modified>2014-11-27T19:25:05.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.645</Modified>
+      <Modified>2014-11-27T19:25:05.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.648</Modified>
+      <Modified>2014-11-27T19:25:05.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.652</Modified>
+      <Modified>2014-11-27T19:25:05.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.654</Modified>
+      <Modified>2014-11-27T19:25:05.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.656</Modified>
+      <Modified>2014-11-27T19:25:05.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.658</Modified>
+      <Modified>2014-11-27T19:25:05.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.661</Modified>
+      <Modified>2014-11-27T19:25:05.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.666</Modified>
+      <Modified>2014-11-27T19:25:05.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.668</Modified>
+      <Modified>2014-11-27T19:25:05.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.670</Modified>
+      <Modified>2014-11-27T19:25:05.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.672</Modified>
+      <Modified>2014-11-27T19:25:05.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.675</Modified>
+      <Modified>2014-11-27T19:25:05.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.676</Modified>
+      <Modified>2014-11-27T19:25:05.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.677</Modified>
+      <Modified>2014-11-27T19:25:05.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.679</Modified>
+      <Modified>2014-11-27T19:25:05.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.681</Modified>
+      <Modified>2014-11-27T19:25:05.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.683</Modified>
+      <Modified>2014-11-27T19:25:05.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.685</Modified>
+      <Modified>2014-11-27T19:25:05.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\EatN-Sleep-master\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
       <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
-      <Modified>2014-10-30T20:25:00.688</Modified>
+      <Modified>2014-11-27T19:25:05.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\VisitRoslikde\VisitRoslikde\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-27T13:33:41.821</Modified>
+      <Modified>2014-11-28T07:44:33.692</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

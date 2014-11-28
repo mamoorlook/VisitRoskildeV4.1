@@ -1,4 +1,5 @@
-﻿using VisitRoslikde.Common;
+﻿using Windows.UI.Popups;
+using VisitRoslikde.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -80,6 +81,20 @@ namespace VisitRoslikde.View
         {
         }
 
+        private async void pushpinTapped(object sender, TappedRoutedEventArgs e)
+        {
+            MessageDialog dialog = new MessageDialog("Hello from Roskilde.");
+            await dialog.ShowAsync();
+        }
+        private void hotelsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageHotels), null);
+        }
+        private void restaurantsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageRestaurants), null);
+        }
+
         #region NavigationHelper registration
 
         /// The methods provided in this section are simply used to allow
@@ -102,5 +117,10 @@ namespace VisitRoslikde.View
         }
 
         #endregion
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageHotels), null);
+        }
     }
 }

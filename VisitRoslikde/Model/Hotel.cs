@@ -6,6 +6,8 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Devices.Geolocation;
+using Windows.UI.Xaml.Documents;
+using Bing.Maps;
 using VisitRoslikde.Annotations;
 
 namespace VisitRoslikde.Model
@@ -17,18 +19,22 @@ namespace VisitRoslikde.Model
             private string _telephoneNumber;
             private string _category;
             private string _imageUrl;
-            private string _xml;
             private string _comment;
-            private Geocoordinate _location;
+            private string _link;
+            private string _latitude;
+            private string _longitude;
 
-            public Hotel(string name, string address, string telephoneNumber, string category, string imageUrl, string XML)
+            public Hotel(string name, string address, string telephoneNumber, string category, string imageUrl, string link, string longitude, string latitude)
             {
                 _address = address;
                 _name = name;
                 _telephoneNumber = telephoneNumber;
                 _category = category;
                 _imageUrl = imageUrl;
-                _xml = XML;
+                _link = link;
+                _longitude = Longitude;
+                _latitude = Latitude;
+
             }
 
             public string Name
@@ -56,17 +62,19 @@ namespace VisitRoslikde.Model
                 get { return _category; }
                 set { _category = value; }
             }
-        
+
+            public string Link
+            {
+                get { return _link; }
+                set { _link = value; }
+            }
+
             public string ImageUrl
             {
                 get { return _imageUrl; }
                 set { _imageUrl = value; }
             }
-            public string XML
-            {
-                get { return _xml; }
-                set { _xml = value; }
-            }
+            
 
             public string Comment
             {
@@ -74,13 +82,20 @@ namespace VisitRoslikde.Model
                 set { _comment = value; }
             }
 
-            public Geocoordinate Location
+            public string Longitude
             {
-                get { return _location; }
-                set { _location = value; }
+                get { return _longitude; }
+                set { _longitude = value; }
             }
 
-             public override string ToString()
+            public string Latitude
+            {
+                get { return _latitude; }
+                set { _latitude = value; }
+            }
+
+
+            public override string ToString()
             {
                 return string.Format("{0}", _name );
             }

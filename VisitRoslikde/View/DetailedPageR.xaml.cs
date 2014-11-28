@@ -116,5 +116,10 @@ namespace VisitRoslikde.View
         }
 
         #endregion
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ListPageRestaurants), null);
+        }
     }
 }

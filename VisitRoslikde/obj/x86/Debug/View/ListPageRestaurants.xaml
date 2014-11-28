@@ -9,7 +9,7 @@
     xmlns:ViewModel="using:VisitRoslikde.ViewModel"
     x:Name="pageRoot"
     x:Class="VisitRoslikde.View.ListPageRestaurants"
-    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
+    DataContext="{Binding DefaultViewModel, Mode = TwoWay, RelativeSource={RelativeSource Mode=Self}}"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -27,25 +27,64 @@
             <ViewModel:ListRestaurantsViewModel/>
         </Grid.DataContext>
         <Grid Margin="0,0,0,634" Background="#FFFF7F15">
-            <Button x:ConnectionId='6' x:Name="backButton" Margin="39,49,0,0"
-                        Style="{StaticResource NavigationBackButtonNormalStyle}"
-                        VerticalAlignment="Top"
-                        AutomationProperties.Name="Back"
-                        AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button"                         />
-            <TextBlock HorizontalAlignment="Left" Margin="114,49,0,0" TextWrapping="Wrap" Text="Visit" VerticalAlignment="Top" Style="{StaticResource SubheaderTextBlockStyle}" FontFamily="Segoe UI Light" Width = "71" FontSize="42"/>
-            <TextBlock HorizontalAlignment="Left" Margin="190,49,0,0" TextWrapping="Wrap" Text="Roskilde" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="230" FontSize="72"/>
-            <TextBlock HorizontalAlignment="Left" Margin="190,227,0,-134" TextWrapping="Wrap" Text="Restaurants:" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}" FontFamily ="Advent Pro" Height="41" Width="328" FontSize="72" Foreground="#FFFF7F15"/>
+        <Button x:ConnectionId='6' x:Name="backButton" Margin="39,49,0,0"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                VerticalAlignment="Top"
+                AutomationProperties.Name="Back"
+                AutomationProperties.AutomationId="BackButton"
+                AutomationProperties.ItemType="Navigation Button" 
+                                        />
+            
+            <TextBlock HorizontalAlignment="Left"
+                       Margin="114,49,0,0" 
+                       TextWrapping="Wrap" 
+                       Text="Visit" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource SubheaderTextBlockStyle}" 
+                       FontFamily="Advent Pro" 
+                       Width = "71" 
+                       FontSize="42"/>
+            
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="190,49,0,0" 
+                       TextWrapping="Wrap" 
+                       Text="Roskilde" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource HeaderTextBlockStyle}" 
+                       FontFamily ="Advent Pro" 
+                       Height="41" 
+                       Width="230" 
+                       FontSize="72"/>
+            
+            <TextBlock HorizontalAlignment="Left" 
+                       Margin="190,227,0,-134" 
+                       TextWrapping="Wrap" 
+                       Text="Restaurants:" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource HeaderTextBlockStyle}" 
+                       FontFamily ="Advent Pro" 
+                       Height="41" 
+                       Width="328" 
+                       FontSize="72" 
+                       Foreground="#FFFF7F15"/>
         </Grid>
-        <controls:ImageButton x:ConnectionId='1' x:Name="Mumm" HorizontalAlignment="Left" 
-			Margin="10,295,0,0" 
-			VerticalAlignment="Top"
-			Width="300"
-			Height="200"
-			NormalStateImageSource="ms-appx:///Assets/Restaurants/RestMumm.jpg" 
-			FontSize="28"
-			HoverStateImageSource="ms-appx:///Assets/Restaurants/RestMummDark.jpg" 
-			Content="{Binding r1, Mode=TwoWay}"                           FontFamily="Advent Pro" Foreground="#FFFFD5BD" PressedStateImageSource="ms-appx:///Assets/Restaurants/RestMumm.jpg"/>
+        
+        <controls:ImageButton x:ConnectionId='1' x:Name="Mumm" 
+                              HorizontalAlignment="Left" 
+			                  Margin="10,295,0,0" 
+			                  VerticalAlignment="Top"
+			                  Width="300"
+			                  Height="200"
+                              FontSize="28"
+			                  Content="{Binding r1, Mode=TwoWay}" 
+                                                        
+                              FontFamily="Advent Pro" 
+                              Foreground="#FFFFD5BD"
+                              NormalStateImageSource="ms-appx:///Assets/Restaurants/RestMumm.jpg" 
+			                  HoverStateImageSource="ms-appx:///Assets/Restaurants/RestMummDark.jpg" 
+			                  PressedStateImageSource="ms-appx:///Assets/Restaurants/RestMumm.jpg"
+/>
+                              
         <controls:ImageButton x:ConnectionId='2' HorizontalAlignment="Left" 
 			Margin="311,295,0,0" 
 			VerticalAlignment="Top"
