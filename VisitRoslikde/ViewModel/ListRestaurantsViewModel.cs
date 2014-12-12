@@ -72,10 +72,10 @@ namespace VisitRoslikde.ViewModel
         #endregion
         public ListRestaurantsViewModel()
         {
-            _r1 = new Restaurant("Mumm", "Karen Olsdatter Straede 9, Roskilde 4000, Denmark", "+45 4637-2201", "French, Danish", "Mon - Sat 17:30 - 21:30", "../Assets/Restaurans/MummRoskilde.jpg");
-            _r2 = new Restaurant("Skank", "Hestetorvet 10, Roskilde 4000, Denmark", "+45 3214-3204", "Tapas", "Mon - Sun 11:00 - 23:00", "../Assets/Restaurans/SkankRoskilde.jpg");
-            _r3 = new Restaurant("Gusto Giusto", "Jernbanegade 19, Roskilde 4000, Denmark", "+45 4632-7377", "Italian", "Mon - Sat 14:00 - 23:00", "../Assets/Restaurans/GustoRoskilde.jpg");
-            _r4 = new Restaurant("Vigen", "Baunehojve 5, 4000 Roskilde, Denmark", "+45 6475-5008", "European-Danish", "Sun - Sat 12:00 - 22:00", "../Assets/Restaurans/VigenRoskilde.jpg");
+            _r1 = new Restaurant("Mumm", "Karen Olsdatter Straede 9, Roskilde 4000, Denmark", "+45 4637-2201", "French, Danish", "Mon - Sat 17:30 - 21:30", "../Assets/Restaurans/MummRoskilde.jpg", "55.658274", "12.105931");
+            _r2 = new Restaurant("Skank", "Hestetorvet 10, Roskilde 4000, Denmark", "+45 3214-3204", "Tapas", "Mon - Sun 11:00 - 23:00", "../Assets/Restaurans/SkankRoskilde.jpg", "55.658274", "12.105931");
+            _r3 = new Restaurant("Gusto Giusto", "Jernbanegade 19, Roskilde 4000, Denmark", "+45 4632-7377", "Italian", "Mon - Sat 14:00 - 23:00", "../Assets/Restaurans/GustoRoskilde.jpg", "55.658274", "12.105931");
+            _r4 = new Restaurant("Vigen", "Baunehojve 5, 4000 Roskilde, Denmark", "+45 6475-5008", "European-Danish", "Sun - Sat 12:00 - 22:00", "../Assets/Restaurans/VigenRoskilde.jpg", "55.658274", "12.105931");
             _comment = new CommentModelRestaurant();
             _serializeComment = new Common.RelayCommand(SerializeNewRComment);
         }

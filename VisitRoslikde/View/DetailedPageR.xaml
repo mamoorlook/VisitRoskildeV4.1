@@ -105,13 +105,13 @@
 			      Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" 
                   Margin="1070,543,10,10">
             <maps:Map.Center>
-                <maps:Location Latitude="55.6417438" 
-                               Longitude="12.0833012" />
+                <maps:Location Latitude="{Binding ActualRestaurant.Longitude}" 
+                               Longitude="{Binding ActualRestaurant.Latitude}" />
             </maps:Map.Center>
             <maps:Pushpin Tapped="pushpinTapped">
                 <maps:MapLayer.Position>
-                    <maps:Location Latitude="55.6417438" 
-                                   Longitude="12.0833012" />
+                    <maps:Location Latitude="{Binding ActualRestaurant.Longitude}" 
+                               Longitude="{Binding ActualRestaurant.Latitude}"/>
                 </maps:MapLayer.Position>
             </maps:Pushpin>
         </maps:Map>

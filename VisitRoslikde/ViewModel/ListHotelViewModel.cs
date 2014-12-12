@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -28,7 +29,6 @@ namespace VisitRoslikde.ViewModel
         private string _hotelComment;
         private CommentModelHotel _comment;
         private ICommand _serializeComment;
-        private Geocoordinate _locationHotel;
 
         public static Hotel ActualHotel { get; set; }
 
@@ -82,21 +82,15 @@ namespace VisitRoslikde.ViewModel
             set { _hotelComment = value; }
         }
 
-        public Geocoordinate locationHotel
-        {
-            get { return _locationHotel; }
-            set { _locationHotel = value; }
-        }
-
         #endregion
 
 
         public ListHotelViewModel()
         {
-            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, Roskilde 4000, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "http://www.danhostel.dk/", "12", "55");
-            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "http://www.hotelprindsen.dk/", "", "");
-            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "http://www.comwellroskilde.dk/", "", "");
-            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "", "");
+            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, 4000 Roskilde, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "http://www.danhostel.dk/", "55.658274", "12.105931");
+            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "http://www.hotelprindsen.dk/", "55.658274", "12.105931");
+            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "http://www.comwellroskilde.dk/", "55.658274", "12.105931");
+            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "55.658274", "12.105931");
             
 
             _comment = new CommentModelHotel();
@@ -104,6 +98,13 @@ namespace VisitRoslikde.ViewModel
             _serializeComment = new Common.RelayCommand(SerializeNewComment);
 
         }
+
+        
+        public ObservableCollection<Hotel> ListOfHotels
+        {
+            get { return HotelSource.GetHotels(); }
+        }
+
 
         private async void SerializeNewComment()
         {
@@ -121,6 +122,14 @@ namespace VisitRoslikde.ViewModel
                 MessageDialog dialog = new MessageDialog("Please enter a comment");
                 dialog.ShowAsync();
             }
+        }
+
+        public void Center()
+        {
+            var latidtude = Convert.ToDouble(ActualHotel.Latitude);
+            var longitude = Convert.ToDouble(ActualHotel.Longitude);
+
+
         }
         #region
         public event PropertyChangedEventHandler PropertyChanged;

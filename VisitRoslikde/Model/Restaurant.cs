@@ -17,10 +17,11 @@ namespace VisitRoslikde.Model
         private string _cuisine;
         private string _imageUrl;
         private string _openingHours;
+        private string _latitude;
+        private string _longitude;
 
 
-        public Restaurant(string name, string address, string telephoneNumber, string cuisine, string openingHours,
-            string imageUrl)
+        public Restaurant(string name, string address, string telephoneNumber, string cuisine, string openingHours, string imageUrl, string latitude, string longitude)
         {
             _name = name;
             _address = address;
@@ -28,6 +29,8 @@ namespace VisitRoslikde.Model
             _openingHours = openingHours;
             _cuisine = cuisine;
             _imageUrl = imageUrl;
+            _latitude = latitude;
+            _longitude = longitude;
         }
 
         public string Name
@@ -66,6 +69,18 @@ namespace VisitRoslikde.Model
         {
             get { return _openingHours; }
             set { _openingHours = value; }
+        }
+
+        public string Latitude
+        {
+            get { return _latitude; }
+            set { _latitude = value; }
+        }
+
+        public string Longitude
+        {
+            get { return _longitude; }
+            set { _longitude = value; }
         }
 
         public override string ToString()

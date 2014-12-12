@@ -13,7 +13,7 @@ using VisitRoslikde.Annotations;
 namespace VisitRoslikde.Model
 {
         public class Hotel : INotifyPropertyChanged
-    {
+        {
             private string _name;
             private string _address;
             private string _telephoneNumber;
@@ -23,8 +23,8 @@ namespace VisitRoslikde.Model
             private string _link;
             private string _latitude;
             private string _longitude;
-
-            public Hotel(string name, string address, string telephoneNumber, string category, string imageUrl, string link, string longitude, string latitude)
+           
+            public Hotel(string name, string address, string telephoneNumber, string category, string imageUrl, string link, string latitude, string longitude)
             {
                 _address = address;
                 _name = name;
@@ -32,8 +32,12 @@ namespace VisitRoslikde.Model
                 _category = category;
                 _imageUrl = imageUrl;
                 _link = link;
-                _longitude = Longitude;
-                _latitude = Latitude;
+                _latitude = latitude;
+                _longitude = longitude;
+            }
+
+            public Hotel()
+            {
 
             }
 
@@ -54,9 +58,7 @@ namespace VisitRoslikde.Model
                 get { return _telephoneNumber; }
                 set { _telephoneNumber = value; }
             }
-
-            public string Prices { get; set; }
-
+            
             public string Category
             {
                 get { return _category; }
@@ -75,11 +77,15 @@ namespace VisitRoslikde.Model
                 set { _imageUrl = value; }
             }
             
-
             public string Comment
             {
                 get { return _comment; }
                 set { _comment = value; }
+            }
+            public string Latitude
+            {
+                get { return _latitude; }
+                set { _latitude = value; }
             }
 
             public string Longitude
@@ -88,16 +94,9 @@ namespace VisitRoslikde.Model
                 set { _longitude = value; }
             }
 
-            public string Latitude
-            {
-                get { return _latitude; }
-                set { _latitude = value; }
-            }
-
-
             public override string ToString()
             {
-                return string.Format("{0}", _name );
+                return string.Format("{0}", _name);
             }
 
             #region 

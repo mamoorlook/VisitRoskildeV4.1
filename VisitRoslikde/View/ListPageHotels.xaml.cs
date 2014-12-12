@@ -1,4 +1,5 @@
-﻿using VisitRoslikde.Common;
+﻿using System.Xml;
+using VisitRoslikde.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -80,8 +81,8 @@ namespace VisitRoslikde.View
         /// serializable state.</param>
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
-        }
 
+        }
         #region NavigationHelper registration
 
         /// The methods provided in this section are simply used to allow
@@ -113,31 +114,18 @@ namespace VisitRoslikde.View
 
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof (MainPage), null);
+            Frame.Navigate(typeof(MainPage), null);
         }
-
-        private void ImageButton_Click(object sender, RoutedEventArgs e)
+        
+        private void GridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
             this.Frame.Navigate(typeof(DetailedPageH), null);
         }
 
-        private void ImageButton_Click_1(object sender, RoutedEventArgs e)
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
-            this.Frame.Navigate(typeof(DetailedPageH));
-        }
-
-        private void ImageButton_Click_2(object sender, RoutedEventArgs e)
-        {
-            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
-            this.Frame.Navigate(typeof(DetailedPageH));
-        }
-
-        private void ImageButton_Click_3(object sender, RoutedEventArgs e)
-        {
-            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
-            this.Frame.Navigate(typeof(DetailedPageH));
+            this.Frame.Navigate(typeof(DetailedPageH), null);
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).DataContext;
         }
     }
 }

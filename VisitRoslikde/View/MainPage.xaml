@@ -228,12 +228,12 @@
         <Image x:Name="image1_Copy" 
                HorizontalAlignment="Left" 
                Height="567" 
-               Margin="5,194,0,0" 
+               Margin="5,194,1,1" 
                VerticalAlignment="Top" 
                Width="754" 
                RenderTransformOrigin="0.5,0.5" 
                Opacity="0" 
-               Source="ms-appx:///Assets/Slide/Gusto/Gusto.jpg">
+               Source="ms-appx:///Assets/Slideshow/1.jpg">
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
@@ -241,12 +241,12 @@
         <Image x:Name="image1_Copy1" 
                HorizontalAlignment="Left" 
                Height="567" 
-               Margin="5,194,0,0" 
+               Margin="5,194,1,1" 
                VerticalAlignment="Top" 
                Width="754" 
                RenderTransformOrigin="0.5,0.5" 
                Opacity="0" 
-               Source="ms-appx:///Assets/Slide/Vigen/RestVigen.jpg" 
+               Source="ms-appx:///Assets/Slideshow/2.jpg" 
                Stretch="Fill">
             <Image.RenderTransform>
                 <CompositeTransform/>
@@ -255,12 +255,12 @@
         <Image x:Name="image1_Copy2" 
                HorizontalAlignment="Left" 
                Height="567" 
-               Margin="5,194,0,0" 
+               Margin="5,194,1,1" 
                VerticalAlignment="Top" 
                Width="754" 
                RenderTransformOrigin="0.5,0.5" 
                Opacity="0" 
-               Source="ms-appx:///Assets/Slide/Skank/skank.jpg">
+               Source="ms-appx:///Assets/Slideshow/3.jpg">
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
@@ -268,12 +268,12 @@
         <Image x:Name="image1_Copy3" 
                HorizontalAlignment="Left" 
                Height="567" 
-               Margin="5,194,0,0" 
+               Margin="5,194,1,1" 
                VerticalAlignment="Top" 
                Width="754" 
                RenderTransformOrigin="0.5,0.5" 
                Opacity="0" 
-               Source="ms-appx:///Assets/Slide/Toppen/Toppen.jpg">
+               Source="ms-appx:///Assets/Slideshow/7.jpg">
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
@@ -281,12 +281,25 @@
         <Image x:Name="image1_Copy4" 
                HorizontalAlignment="Left" 
                Height="567" 
-               Margin="5,194,0,0" 
+               Margin="5,194,1,1" 
                VerticalAlignment="Top" 
                Width="754" 
                RenderTransformOrigin="0.5,0.5" 
                Opacity="0" 
-               Source="ms-appx:///Assets/Slide/Mumm/RestMumm.jpg">
+               Source="ms-appx:///Assets/Slideshow/8.jpg">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="image1_Copy5" 
+               HorizontalAlignment="Left" 
+               Height="567" 
+               Margin="5,194,1,1" 
+               VerticalAlignment="Top" 
+               Width="754" 
+               RenderTransformOrigin="0.5,0.5" 
+               Opacity="0" 
+               Source="ms-appx:///Assets/Slideshow/5.jpg">
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>

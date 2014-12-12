@@ -1,0 +1,37 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VisitRoslikde.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="using:Bing.Maps"
+    xmlns:ViewModel="using:VisitRoslikde.ViewModel"
+    x:Class="VisitRoslikde.View.DetailedMap"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.DataContext>
+            <ViewModel:ListHotelViewModel/>
+        </Grid.DataContext>
+        <Button x:Name="MapLocationButton" Content="Map Current Location" HorizontalAlignment="Left" Margin="29,31,1157,0" VerticalAlignment="Top" Click="MapLocationButton_Click" Height="38"/>
+
+        <maps:Map x:Name="Map" Margin="0,120,0,0" Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr">
+            <maps:Pushpin x:Name="pushpin_1">
+                <maps:MapLayer.Position>
+                    <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
+						Longitude="{Binding ActualHotel.Longitude}"/>
+                </maps:MapLayer.Position>
+            </maps:Pushpin>
+        </maps:Map>
+
+        <Button x:Name="CancelGetLocationButton" Content="Cancel" HorizontalAlignment="Left" Margin="242,31,0,0" VerticalAlignment="Top" Click="CancelGetLocationButton_Click"/>
+        <TextBox x:Name="MessageTextbox" HorizontalAlignment="Left" Margin="354,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605" Background="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}"/>
+        <TextBox HorizontalAlignment="Left" Margin="1046,10,0,0" TextWrapping="Wrap" Text="Latitude:" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+        <TextBox HorizontalAlignment="Left" Margin="1046,42,0,0" TextWrapping="Wrap" Text="Longitude:" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+        <TextBox HorizontalAlignment="Left" Margin="1046,74,0,0" TextWrapping="Wrap" Text="Accuracy:" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+        <TextBox x:Name="LatitudeTextbox" HorizontalAlignment="Left" Margin="1165,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+        <TextBox x:Name="LongitudeTextbox" HorizontalAlignment="Left" Margin="1165,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+        <TextBox x:Name="AccuracyTextbox" HorizontalAlignment="Left" Margin="1165,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="{StaticResource ButtonBackgroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}"/>
+
+    </Grid>
+</Page>

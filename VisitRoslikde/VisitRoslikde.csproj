@@ -105,6 +105,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\HotelSource.cs" />
     <Compile Include="Model\MapLoaction.cs" />
     <Compile Include="Model\CommentModelHotel.cs" />
     <Compile Include="Model\CommentModelRestaurant.cs" />
@@ -113,16 +114,25 @@
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\ListHotelViewModel.cs" />
     <Compile Include="ViewModel\ListRestaurantsViewModel.cs" />
+    <Compile Include="ViewModel\Location10.xaml.cs">
+      <DependentUpon>Location10.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="View\DetailedMap.xaml.cs">
+      <DependentUpon>DetailedMap.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\DetailedPageH.xaml.cs">
       <DependentUpon>DetailedPageH.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\DetailedPageR.xaml.cs">
       <DependentUpon>DetailedPageR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HotelsGrid.xaml.cs">
+      <DependentUpon>HotelsGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ListPageHotels.xaml.cs">
       <DependentUpon>ListPageHotels.xaml</DependentUpon>
@@ -134,6 +144,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\LocationControl10.xaml.cs">
+      <DependentUpon>LocationControl10.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -174,6 +187,16 @@
     <Content Include="Assets\Restaurants\RestVigenDark.jpg" />
     <Content Include="Assets\Restaurants\SkankRoskilde.jpg" />
     <Content Include="Assets\Restaurants\VigenRoskilde.jpg" />
+    <Content Include="Assets\Slideshow\1.jpg" />
+    <Content Include="Assets\Slideshow\10.jpg" />
+    <Content Include="Assets\Slideshow\2.jpg" />
+    <Content Include="Assets\Slideshow\3.jpg" />
+    <Content Include="Assets\Slideshow\4.jpg" />
+    <Content Include="Assets\Slideshow\5.jpg" />
+    <Content Include="Assets\Slideshow\6.jpg" />
+    <Content Include="Assets\Slideshow\7.jpg" />
+    <Content Include="Assets\Slideshow\8.jpg" />
+    <Content Include="Assets\Slideshow\9.jpg" />
     <Content Include="Assets\Slide\Gusto\Gusto.jpg" />
     <Content Include="Assets\Slide\Gusto\RestGusto.jpg" />
     <Content Include="Assets\Slide\Gusto\RestGustoDark.jpg" />
@@ -196,11 +219,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ViewModel\Location10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailedMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\DetailedPageH.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\DetailedPageR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HotelsGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -216,6 +251,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\LocationControl10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Bing.Maps.Xaml, Version=1.313.0825.0">
@@ -226,6 +265,9 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Callisto">
+      <HintPath>..\..\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto.dll</HintPath>
+    </Reference>
     <Reference Include="WinRTXamlToolkit, Version=1.7.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\WinRTXamlToolkit.Windows.1.7.4.0\lib\netcore451\WinRTXamlToolkit.dll</HintPath>

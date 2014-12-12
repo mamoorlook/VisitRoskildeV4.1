@@ -1,19 +1,27 @@
-﻿using Windows.UI.Popups;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Windows.Devices.Geolocation;
+using Windows.UI.Popups;
+using Bing.Maps;
 using VisitRoslikde.Common;
-using System;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using Windows.Devices.Geolocation;
+using System.Threading;
+using System.Threading.Tasks;
+using Bing.Maps;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -24,6 +32,10 @@ namespace VisitRoslikde.View
     /// </summary>
     public sealed partial class DetailedPageH : Page
     {
+        // member variables to add
+        private Geolocator _geolocator = null;
+        private CancellationTokenSource _cts = null;
+        LocationIcon10 _locationIcon10m;
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -54,42 +66,26 @@ namespace VisitRoslikde.View
             this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
 
-        /// <summary>
-        /// Populates the page with content passed during navigation. Any saved state is also
-        /// provided when recreating a page from a prior session.
-        /// </summary>
-        /// <param name="sender">
-        /// The source of the event; typically <see cref="NavigationHelper"/>
-        /// </param>
-        /// <param name="e">Event data that provides both the navigation parameter passed to
-        /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
-        /// a dictionary of state preserved by this page during an earlier
-        /// session. The state will be null the first time a page is visited.</param>
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
+
         }
 
-        /// <summary>
-        /// Preserves state associated with this page in case the application is suspended or the
-        /// page is discarded from the navigation cache.  Values must conform to the serialization
-        /// requirements of <see cref="SuspensionManager.SessionState"/>.
-        /// </summary>
-        /// <param name="sender">The source of the event; typically <see cref="NavigationHelper"/></param>
-        /// <param name="e">Event data that provides an empty dictionary to be populated with
-        /// serializable state.</param>
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
+
         }
 
         private async void pushpinTapped(object sender, TappedRoutedEventArgs e)
         {
-            MessageDialog dialog = new MessageDialog("Hello from Roskilde.");
-            await dialog.ShowAsync();
+            this.Frame.Navigate(typeof(DetailedMap), null);
         }
+
         private void hotelsButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ListPageHotels), null);
         }
+
         private void restaurantsButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ListPageRestaurants), null);

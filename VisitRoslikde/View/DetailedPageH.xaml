@@ -27,6 +27,8 @@
         <Grid.DataContext>
             <viewModel:ListHotelViewModel/>
         </Grid.DataContext>
+        <TextBox x:Name="MessageTextbox" HorizontalAlignment="Left" Margin="593,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605" Background="{StaticResource ButtonBackgroundThemeBrush}" Foreground="{StaticResource ButtonForegroundThemeBrush}" BorderBrush="{StaticResource ButtonBackgroundThemeBrush}"/>
+
         <Grid Margin="0,0,0,634" Background="#FFFF7F15">
             <Button x:Name="backButton" 
                     Margin="39,49,0,0"
@@ -71,7 +73,13 @@
                        Foreground="#FFFF7F15"/>
         </Grid>
         
+        
         <Grid Height="0.5" Margin="5,40,5,424" Background="#FFFF7F15"/>
+        <StackPanel Visibility="Collapsed">
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+
+        </StackPanel>
         <controls:ImageButton x:Name="hotelsButton"
         	                  Content="HOTELS" 
         	                  HorizontalAlignment="Left"
@@ -101,22 +109,23 @@
         	                  Foreground="#FFFF7F15" 
         	                  HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
         	                  Opacity="0.6"/>
-        <maps:Map ZoomLevel="12.5"
+        <maps:Map ZoomLevel="11"
 			      Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" 
-                  Margin="1070,543,10,10">
+                  Margin="1070,543,2,2">
             <maps:Map.Center>
-                <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
-                               Longitude="{Binding ActualHotel.Longitude}" />
+                <maps:Location Latitude="55"
+                               Longitude="12"/>
             </maps:Map.Center>
+           
             <maps:Pushpin Tapped="pushpinTapped">
                 <maps:MapLayer.Position>
                     <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
-                                   Longitude="{Binding ActualHotel.Longitude}" />
+                                   Longitude="{Binding ActualHotel.Longitude}"/>
                 </maps:MapLayer.Position>
             </maps:Pushpin>
         </maps:Map>
 
-        <Grid Margin="2,543,296,10" 
+        <Grid Margin="2,543,296,2" 
               Opacity="0.6" 
               Background="#FFFF7F15">
 
