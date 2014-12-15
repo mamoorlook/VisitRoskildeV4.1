@@ -4,15 +4,25 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:WinRTXamlToolkit.Controls"
+    xmlns:ViewModel="using:VisitRoslikde.ViewModel"
     x:Class="VisitRoslikde.MainPage"
     mc:Ignorable="d">
-    
+
     <Page.Resources>
         <Storyboard x:Name="SlideImages">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1_Copy">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1.493"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1.493"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.763"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.457"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="0.838517"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.47"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="0.681"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="1.493"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1_Copy1">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
@@ -20,12 +30,6 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:6.372" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:12.3" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1_Copy">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1_Copy2">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
@@ -73,19 +77,74 @@
                 </DiscreteObjectKeyFrame>
                 <DiscreteObjectKeyFrame KeyTime="0:0:22.4">
                     <DiscreteObjectKeyFrame.Value>
-                        <Stretch>Uniform</Stretch>
+                        <Stretch>Fill</Stretch>
                     </DiscreteObjectKeyFrame.Value>
                 </DiscreteObjectKeyFrame>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image1_Copy4">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.937"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:22.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="image1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.002"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.001"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.001"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1.002"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-0.063"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="0.063"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="image1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="image1_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.004"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:22.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="image1_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:22.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.125"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:22.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="image1_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:17.175" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.062"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:17.175" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image1_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.188"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:17.175" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Name="SlideImages_Copy1">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1_Copy">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1.493"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.742"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="0.633"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0.57"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1.493"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="1.493"/>
             </DoubleAnimationUsingKeyFrames>
@@ -148,161 +207,146 @@
                 </DiscreteObjectKeyFrame>
                 <DiscreteObjectKeyFrame KeyTime="0:0:22.4">
                     <DiscreteObjectKeyFrame.Value>
-                        <Stretch>Uniform</Stretch>
+                        <Stretch>Fill</Stretch>
                     </DiscreteObjectKeyFrame.Value>
                 </DiscreteObjectKeyFrame>
             </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="image1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.003"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.545" Value="1.002"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="1.002"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
-    
-    <Grid Background="#FFFFD5BD">
-        <Grid Margin="0,0,0,634" Background="#FFFF7F15"/>
-        
-        <controls:ImageButton x:Name="hotelsButton"
-                              Content="HOTELS" 
-                              HorizontalAlignment="Left"
-                              Margin="1,135,0,0" 
-                              VerticalAlignment="Top" 
-                              Width="245" 
-                              Height="56" 
-                              Background="#FFFFD5BD" 
-                              Click="hotelsButton_Click"
-                              FontFamily="Advent Pro" 
-                              FontSize="25" 
-                              Foreground="#FFFF7F15" 
-                              HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
-                              Opacity="0.6"/>
-        <controls:ImageButton x:Name="restaurantsButton" 
-                              Content="RESTAURANTS"
-                              HorizontalAlignment="Left" 
-                              Margin="246,135,0,0" 
-                              VerticalAlignment="Top" 
-                              Width="245" 
-                              Height="56" 
-                              Background="#FFFFD5BD" 
-                              Click="restaurantsButton_Click"
-                              FontFamily="Advent Pro" 
-                              FontSize="25" 
-                              Foreground="#FFFF7F15" 
-                              HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
-                              Opacity="0.6"/>
-        <controls:ImageButton x:Name="contactButton"
-                              Content="CONTACT" 
-                              HorizontalAlignment="Left"
-                              Margin="1120,135,0,0" 
-                              VerticalAlignment="Top" 
-                              Width="245" 
-                              Height="56" 
-                              Background="#FFFFD5BD" 
-                              Click="hotelsButton_Click"
-                              FontFamily="Advent Pro" 
-                              FontSize="25" 
-                              Foreground="#FFFF7F15" 
-                              HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
-                              Opacity="0.6"/>
-        
-        <Grid Height="1" 
-              Margin="5,40,5,424"
-              Background="#FFFF7F15"/>
-        
-        <TextBlock HorizontalAlignment="Left" 
-                   Margin="114,49,0,0" 
-                   TextWrapping="Wrap" 
-                   Text="Visit" 
-                   VerticalAlignment="Top" 
-                   Style="{StaticResource SubheaderTextBlockStyle}" 
-                   FontFamily="Advent Pro" 
-                   Width = "71" 
-                   FontSize="42"/>
-        <TextBlock HorizontalAlignment="Left" 
-                   Margin="190,49,0,0" 
-                   TextWrapping="Wrap" 
-                   Text="Roskilde" 
-                   VerticalAlignment="Top" 
-                   Style="{StaticResource HeaderTextBlockStyle}" 
-                   FontFamily ="Advent Pro" 
-                   Height="41" 
-                   Width="230" 
-                   FontSize="72"/>
 
-        <Image x:Name="image1_Copy" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/1.jpg">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="image1_Copy1" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/2.jpg" 
-               Stretch="Fill">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="image1_Copy2" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/3.jpg">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="image1_Copy3" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/7.jpg">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="image1_Copy4" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/8.jpg">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="image1_Copy5" 
-               HorizontalAlignment="Left" 
-               Height="567" 
-               Margin="5,194,1,1" 
-               VerticalAlignment="Top" 
-               Width="754" 
-               RenderTransformOrigin="0.5,0.5" 
-               Opacity="0" 
-               Source="ms-appx:///Assets/Slideshow/5.jpg">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
+    <Grid Background="#FFFFD5BD">
+        <StackPanel x:Name="weaterStackPanel" Margin="972,228,48,128">
+            <StackPanel.DataContext>
+                <ViewModel:WeatherViewModel/>
+            </StackPanel.DataContext>
+            <StackPanel Orientation="Horizontal" Height="130">
+                <TextBlock x:Name="tempTextBlock"  TextWrapping="Wrap"  Text="{Binding Weather.Temperature}" FontSize="140" Width="131" TextAlignment="Right" Foreground="#FF2E2E2E"/>
+                <TextBlock TextWrapping="Wrap" Text="°C" FontSize="100" Margin="0,0,309,0" Foreground="#FF2E2E2E"/>
+            </StackPanel>
+            <TextBlock  TextWrapping="Wrap"  Text="{Binding Weather.City}" FontSize="30" Foreground="#FF2E2E2E" Margin="65,0,117,0"/>
+
+        </StackPanel>
+        <Grid Margin="0,0,0,635" Background="#FFFF7F15">
+            <TextBlock HorizontalAlignment="Left" 
+				Margin="114,49,0,0" 
+				TextWrapping="Wrap" 
+				Text="Visit" 
+				VerticalAlignment="Top" 
+				Style="{StaticResource SubheaderTextBlockStyle}" 
+				FontFamily="Advent Pro" 
+				Width = "71" 
+				FontSize="42"/>
+            <TextBlock HorizontalAlignment="Left" 
+				Margin="190,49,0,0" 
+				TextWrapping="Wrap" 
+				Text="Roskilde" 
+				VerticalAlignment="Top" 
+				Style="{StaticResource HeaderTextBlockStyle}" 
+				FontFamily ="Advent Pro" 
+				Height="41" 
+				Width="230" 
+				FontSize="72"/>
+            <Button Content="MENU"
+				BorderThickness="0" 
+				HorizontalAlignment="Left" 
+				Margin="912,0,0,0"
+				VerticalAlignment="Top" 
+				Height="134" 
+				Width="454" 
+				Click="Button_Click" 
+				FontSize="40" 
+				FontFamily="Advent Pro" 
+				FontWeight="Normal"/>
+        </Grid>
+        <Grid Margin="0,133,454,0">
+            <Image x:Name="image1_Copy" 
+				HorizontalAlignment="Left" 
+				Stretch ="Fill"
+				VerticalAlignment="Top" 
+				RenderTransformOrigin="0.5,0.5" 
+				Opacity="0" 
+				Source="ms-appx:///Assets/Slideshow/10.jpg">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="image1_Copy1" 
+				VerticalAlignment="Top" 
+				RenderTransformOrigin="0.5,0.5" 
+				Opacity="0" 
+				Source="ms-appx:///Assets/Slideshow/2.jpg" 
+				Stretch="Fill" 
+				HorizontalAlignment="Left">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="image1_Copy2" 
+				HorizontalAlignment="Left" 
+				Stretch ="Fill"
+				VerticalAlignment="Top" 
+				RenderTransformOrigin="0.5,0.5" 
+				Opacity="0" 
+				Source="ms-appx:///Assets/Slideshow/3.jpg">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="image1_Copy3" 
+				HorizontalAlignment="Left" 
+				VerticalAlignment="Top" 
+				RenderTransformOrigin="0.5,0.5" 
+				Opacity="0"
+				Stretch="Fill"
+				Source="ms-appx:///Assets/Slideshow/7.jpg">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="image1_Copy4" 
+				HorizontalAlignment="Left" 
+				VerticalAlignment="Top" 
+				RenderTransformOrigin="0.5,0.5" 
+				Opacity="0" 
+				Stretch="Fill"
+				Source="ms-appx:///Assets/Slideshow/8.jpg">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+
+        </Grid>
+        <AppBar x:Name="MenuAppBar" Margin="912,133,0,0" Background="#FF2E2E2E">
+            <StackPanel HorizontalAlignment="Right" Orientation="Vertical" Width="454">
+                <Button Content="HOTELS"
+					BorderThickness="0" 
+					HorizontalAlignment="Center" 
+					VerticalAlignment="Top" 
+					Width="454" 
+					Height="100" 
+					Click="hotelsButton_Click"
+					FontFamily="Advent Pro" 
+					FontSize="38"
+					FontWeight="Normal"/>
+
+                <Button Content="RESTAURANTS"
+					BorderThickness="0" 
+					HorizontalAlignment="Center" 
+					VerticalAlignment="Top" 
+					Width="454" 
+					Height="100" 
+					Click="restaurantsButton_Click"
+					FontFamily="Advent Pro" 
+					FontSize="38"
+					FontWeight="Normal"/>
+
+            </StackPanel>
+        </AppBar>
     </Grid>
 </Page>

@@ -31,7 +31,7 @@
         <GridView HorizontalAlignment="Left" 
                   Margin="0,296,0,0"
                   VerticalAlignment="Top" 
-                  Height="354" 
+                  Height="210" 
                   Width="1366"
                   ItemsSource='{Binding ListOfHotels}'
                   Grid.Row='0'
@@ -41,7 +41,8 @@
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <controls:ImageButton Content="{Binding Name}"
-                                          NormalStateImageSource="{Binding ImageUrl}"
+                                          NormalStateImageSource="{Binding Thumb}"
+                                          HoverStateImageSource="{Binding ThumbDark}"
                                           Click="ButtonBase_OnClick"
                                           VerticalAlignment='Center'
                                           Margin='1'/>

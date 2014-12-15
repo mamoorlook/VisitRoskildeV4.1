@@ -19,7 +19,7 @@
             <maps:Pushpin x:Name="pushpin_1">
                 <maps:MapLayer.Position>
                     <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
-						Longitude="{Binding ActualHotel.Longitude}"/>
+						           Longitude="{Binding ActualHotel.Longitude}"/>
                 </maps:MapLayer.Position>
             </maps:Pushpin>
         </maps:Map>

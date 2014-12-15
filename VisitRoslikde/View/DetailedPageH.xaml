@@ -109,15 +109,15 @@
         	                  Foreground="#FFFF7F15" 
         	                  HoverStateImageSource="ms-appx:///Assets/Backgrounds/BackgroundButton.jpg" 
         	                  Opacity="0.6"/>
-        <maps:Map ZoomLevel="11"
+        <maps:Map x:Name="mapSmall" ZoomLevel="11"
 			      Credentials="AljQJsKczEb9LXrvnFDnCdsY3iNlzkU3nkAovykCUTcYsnqgc7HLZ1FHa78cA-tr" 
                   Margin="1070,543,2,2">
             <maps:Map.Center>
-                <maps:Location Latitude="55"
-                               Longitude="12"/>
+                <maps:Location Latitude="{Binding ActualHotel.Latitude}"
+                               Longitude="{Binding ActualHotel.Longitude}"/>
             </maps:Map.Center>
            
-            <maps:Pushpin Tapped="pushpinTapped">
+            <maps:Pushpin x:Name="pushpinSmall" Tapped="pushpinTapped">
                 <maps:MapLayer.Position>
                     <maps:Location Latitude="{Binding ActualHotel.Latitude}" 
                                    Longitude="{Binding ActualHotel.Longitude}"/>

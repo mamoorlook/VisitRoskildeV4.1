@@ -105,8 +105,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\HotelSource.cs" />
-    <Compile Include="Model\MapLoaction.cs" />
+    <Compile Include="Model\Weather.cs" />
+    <Compile Include="ViewModel\HotelSource.cs" />
     <Compile Include="Model\CommentModelHotel.cs" />
     <Compile Include="Model\CommentModelRestaurant.cs" />
     <Compile Include="Model\Hotel.cs" />
@@ -114,7 +114,10 @@
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\ListHotelViewModel.cs" />
     <Compile Include="ViewModel\ListRestaurantsViewModel.cs" />
-    <Compile Include="ViewModel\Location10.xaml.cs">
+    <Compile Include="ViewModel\LocationViewModel.cs" />
+    <Compile Include="ViewModel\WeatherRelayCommand.cs" />
+    <Compile Include="ViewModel\WeatherViewModel.cs" />
+    <Compile Include="View\Location10.xaml.cs">
       <DependentUpon>Location10.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\RelayCommand.cs" />
@@ -144,9 +147,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\LocationControl10.xaml.cs">
-      <DependentUpon>LocationControl10.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -174,6 +174,12 @@
     <Content Include="Assets\Hotels\HotelScandic.jpg" />
     <Content Include="Assets\Hotels\HotelScandicDark.jpg" />
     <Content Include="Assets\Hotels\HotelScandicTh.jpg" />
+    <Content Include="Assets\Hotels\HotelViby.jpg" />
+    <Content Include="Assets\Hotels\HotelVibyDark.jpg" />
+    <Content Include="Assets\Hotels\HotelVibyTh.jpg" />
+    <Content Include="Assets\Hotels\MotelWittrup.jpg" />
+    <Content Include="Assets\Hotels\MotelWittrupDark.jpg" />
+    <Content Include="Assets\Hotels\MotelWittrupTh.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\Restaurants\GustoRoskilde.jpg" />
     <Content Include="Assets\Restaurants\MummRoskilde.jpg" />
@@ -219,7 +225,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ViewModel\Location10.xaml">
+    <Page Include="View\Location10.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -250,10 +256,6 @@
     <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\LocationControl10.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

@@ -8,5 +8,6 @@ namespace VisitRoslikde.ViewModel
 {
     class LocationViewModel
     {
+
     }
 }

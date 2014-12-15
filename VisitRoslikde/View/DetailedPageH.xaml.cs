@@ -24,6 +24,8 @@ using System.Threading.Tasks;
 using Bing.Maps;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using VisitRoslikde.Model;
+using VisitRoslikde.ViewModel;
 
 namespace VisitRoslikde.View
 {
@@ -35,8 +37,7 @@ namespace VisitRoslikde.View
         // member variables to add
         private Geolocator _geolocator = null;
         private CancellationTokenSource _cts = null;
-        LocationIcon10 _locationIcon10m;
-
+        
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -56,7 +57,7 @@ namespace VisitRoslikde.View
         {
             get { return this.navigationHelper; }
         }
-
+        
 
         public DetailedPageH()
         {
@@ -68,14 +69,16 @@ namespace VisitRoslikde.View
 
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
-
+          
         }
 
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
 
         }
+        
 
+        
         private async void pushpinTapped(object sender, TappedRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(DetailedMap), null);
@@ -104,12 +107,11 @@ namespace VisitRoslikde.View
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            navigationHelper.OnNavigatedTo(e);
-        }
+            var latitudeSmall = Convert.ToDouble(ListHotelViewModel.ActualHotel.Latitude);
+            var longitudeSmall = Convert.ToDouble(ListHotelViewModel.ActualHotel.Longitude);
 
-        protected override void OnNavigatedFrom(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedFrom(e);
+            navigationHelper.OnNavigatedTo(e);
+            mapSmall.SetView(new Location(latitudeSmall, longitudeSmall));
         }
 
         #endregion

@@ -44,6 +44,7 @@ namespace VisitRoslikde.View
         {
             MapLocationButton.IsEnabled = true;
             CancelGetLocationButton.IsEnabled = false;
+
         }
 
         async private void MapLocationButton_Click(object sender, RoutedEventArgs e)
@@ -51,9 +52,9 @@ namespace VisitRoslikde.View
             MapLocationButton.IsEnabled = false;
             CancelGetLocationButton.IsEnabled = true;
             pushpin_1.IsEnabled = true;
-
-
+            
             // If neccesary, you could remove all the previous pushpins using this code
+
             //if (Map.Children.Count > 0)
             //{
             //    Map.Children.RemoveAt(0);
@@ -68,24 +69,32 @@ namespace VisitRoslikde.View
 
                 Geoposition pos = await _geolocator.GetGeopositionAsync().AsTask(token);
 
+                var myLatitude = pos.Coordinate.Point.Position.Latitude;
+                var myLongitude = pos.Coordinate.Point.Position.Longitude;
+
+                var pushpinLatitude = Convert.ToDouble(ListHotelViewModel.ActualHotel.Latitude);
+                var pushpinLongitude = Convert.ToDouble(ListHotelViewModel.ActualHotel.Longitude);
+
+                var centerLatitude = pushpinLatitude - ((pushpinLatitude - myLatitude)/2);
+                var centerLongitude = pushpinLongitude - ((pushpinLongitude - myLongitude)/2);
+
                 MessageTextbox.Text = "";
 
-                Location location = new Location(pos.Coordinate.Point.Position.Latitude,
-                    pos.Coordinate.Point.Position.Longitude);
-                //Location pushpin = new Location(double );
+                Location myLocation = new Location(myLatitude, myLongitude);
+                Location centerLocation = new Location(centerLatitude, centerLongitude);
 
-                double zoomLevel = 13.0f;
+                double zoomLevel = 12.0f;
 
                 if (pos.Coordinate.Accuracy <= 100)
                 {
                     Map.Children.Add(_locationIcon10m);
-                    MapLayer.SetPosition(_locationIcon10m, location);
-                    zoomLevel = 15.0f;
+                    MapLayer.SetPosition(_locationIcon10m, myLocation);
+                    zoomLevel = 12.0f;
                 }
-                Map.SetView(location, zoomLevel);
+                Map.SetView(centerLocation, zoomLevel);
 
-                LatitudeTextbox.Text = pos.Coordinate.Point.Position.Latitude.ToString();
-                LongitudeTextbox.Text = pos.Coordinate.Point.Position.Longitude.ToString();
+                LatitudeTextbox.Text = myLatitude.ToString();
+                LongitudeTextbox.Text = myLongitude.ToString();
                 AccuracyTextbox.Text = pos.Coordinate.Accuracy.ToString();
             }
             catch (System.UnauthorizedAccessException)

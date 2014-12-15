@@ -26,9 +26,11 @@ namespace VisitRoslikde.ViewModel
         private Hotel _h2;
         private Hotel _h3;
         private Hotel _h4;
+        private Hotel _h5;
         private string _hotelComment;
         private CommentModelHotel _comment;
         private ICommand _serializeComment;
+        private Hotel _h6;
 
         public static Hotel ActualHotel { get; set; }
 
@@ -75,6 +77,18 @@ namespace VisitRoslikde.ViewModel
             set { _h4 = value; }
         }
 
+        public Hotel h5
+        {
+            get { return _h5; }
+            set { _h5 = value; }
+        }
+
+        public Hotel h6
+        {
+            get { return _h6; }
+            set { _h6 = value; }
+        }
+
 
         public string hotelComment
         {
@@ -87,11 +101,12 @@ namespace VisitRoslikde.ViewModel
 
         public ListHotelViewModel()
         {
-            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, 4000 Roskilde, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "http://www.danhostel.dk/", "55.658274", "12.105931");
-            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "http://www.hotelprindsen.dk/", "55.658274", "12.105931");
-            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "http://www.comwellroskilde.dk/", "55.658274", "12.105931");
-            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "55.658274", "12.105931");
-            
+            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, 4000 Roskilde", "+45 4635 2184", "../Assets/Hotels/HotelDanhostel.jpg", "../Assets/Hotels/HotelDanhostelTh.jpg", "../Assets/Hotels/HotelDanhostelDark.jpg", "http://www.danhostel.dk/", "55.649568", "12.077544");
+            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000", "+45 46 30 91 00", "../Assets/Hotels/HotelPrindsen.jpg", "../Assets/Hotels/HotelPrindsenTh.jpg", "../Assets/Hotels/HotelPrindsenDark.jpg", "http://www.hotelprindsen.dk/", "55.64126", "12.083565");
+            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000", "+45 40 44 60 04", "../Assets/Hotels/HotelComwell.jpg", "../Assets/Hotels/HotelComwellTh.jpg", "../Assets/Hotels/HotelComwellDark.jpg", "http://www.comwellroskilde.dk/", "55.665677", "12.09526");
+            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde", "+45 46 32 46 32", "../Assets/Hotels/HotelScandic.jpg", "../Assets/Hotels/HotelScandicTh.jpg", "../Assets/Hotels/HotelScandicDark.jpg", "http://www.scandichotels.dk/", "55.632028", "12.080136");
+            _h5 = new Hotel("Motel Wittrup", "Roskildevej 251, 2620 Albertslund", "+45 4364 9551", "../Assets/Hotels/MotelWittrup.jpg", "../Assets/Hotels/MotelWittrupTh.jpg", "../Assets/Hotels/MotelWittrupDark.jpg", "http://www.wittrupmotel.com.dk/", "55.660267", "12.328546");
+            _h6 = new Hotel("Hotel Viby Kro", "Skolevej 1, 4130 Viby", "+45 4619 3021", "../Assets/Hotels/HotelViby.jpg", "../Assets/Hotels/HotelVibyTh.jpg", "../Assets/Hotels/HotelVibyDark.jpg", "http://www.vibykro.dk", "55.549295", "12.024582");
 
             _comment = new CommentModelHotel();
             //_serializeComment = new RelayCommand(SerializeNewComment);

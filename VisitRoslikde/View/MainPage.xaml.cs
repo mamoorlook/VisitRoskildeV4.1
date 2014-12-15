@@ -57,5 +57,10 @@ namespace VisitRoslikde
         {
             this.Frame.Navigate(typeof(ListPageRestaurants), null);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MenuAppBar.IsOpen = true;
+        }
     }
 }

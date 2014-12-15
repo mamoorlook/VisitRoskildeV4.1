@@ -27,22 +27,20 @@ namespace UnitTestLibrary1
             var a = new ListHotelViewModel();
             a.hotelComment = "XMLFile1.xml";
             a.Comment = new CommentModelHotel();
-            //a.h1 = new Hotel("TestHotel_b", "TestAdress1, DK", "545643453", "comments", "RestGusto.jpg", "www.test.dk", "255", "255", "", "");
-            //a.h2 = new Hotel("TestHotel_C", "TestAdress2, UK", "555165165", "comments", "RestGusto.jpg", "www.test.dk", "250", "25", "", "");
-            //a.h3 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "", "", "", "");
+            a.h1 = new Hotel("TestHotel_b", "TestAdress1, DK", "545643453", "RestGusto.jpg", "../Assets/Hotels/HotelViby.jpg", "../Assets/Hotels/HotelViby.jpg", "www.test.dk", "255", "255");
+            a.h2 = new Hotel("TestHotel_C", "TestAdress2, UK", "555165165", "RestGusto.jpg", "../Assets/Hotels/HotelViby.jpg", "../Assets/Hotels/HotelViby.jpg", "www.test.dk", "250", "25");
+           // a.h3 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelScandic.jpg", "http://www.scandichotels.dk/", "", "", "", "");
 
-            ////Assert.IsTrue();
-            //Assert.IsTrue(a.h1.Address == "TestAdress1, DK");
-            //Assert.IsTrue(a.h2.Comment == a.h1.Comment);
-            //Assert.IsTrue(a.h1.ImageUrl == a.h2.ImageUrl);
-            //Assert.IsTrue(a.h1.Latitude == a.h1.Longitude);
-            //Assert.IsTrue(a.h2.Name == "TestHotel_C");
+            Assert.IsTrue(a.h1.Address == "TestAdress1, DK");
+            Assert.IsTrue(a.h2.Comment == a.h1.Comment);
+            Assert.IsTrue(a.h1.ImageUrl == a.h2.ImageUrl);
+            Assert.IsTrue(a.h1.Latitude == a.h1.Longitude);
+            Assert.IsTrue(a.h2.Name == "TestHotel_C");
 
-            //Assert.IsTrue(a.);
         }
 
         [TestMethod]
-        public void TestHotelModel()
+        public void ListHotelViewModel()
         {
             //var b = new Hotel("TestHotel_b", "TestAdress1, DK", "545643453", "comments", "RestGusto.jpg", "www.test.dk", "255", "255", "", "");
             //var c = new Hotel("TestHotel_C", "TestAdress2, UK", "555165165", "comments", "RestGusto.jpg", "www.test.dk", "250", "25", "", "");

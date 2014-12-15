@@ -17,28 +17,42 @@ namespace VisitRoslikde.Model
             private string _name;
             private string _address;
             private string _telephoneNumber;
-            private string _category;
             private string _imageUrl;
             private string _comment;
             private string _link;
             private string _latitude;
             private string _longitude;
-           
-            public Hotel(string name, string address, string telephoneNumber, string category, string imageUrl, string link, string latitude, string longitude)
+            private string _thumb;
+            private string _thumbDark;
+
+            public Hotel(string name, string address, string telephoneNumber, string imageUrl, string thumb, string thumbDark, string link, string latitude, string longitude)
             {
                 _address = address;
                 _name = name;
                 _telephoneNumber = telephoneNumber;
-                _category = category;
                 _imageUrl = imageUrl;
                 _link = link;
                 _latitude = latitude;
                 _longitude = longitude;
+                _thumb = Thumb;
+                _thumbDark = ThumbDark;
             }
 
             public Hotel()
             {
 
+            }
+
+            public string Thumb
+            {
+                get { return _thumb; }
+                set { _thumb = value; }
+            }
+
+            public string ThumbDark
+            {
+                get { return _thumbDark; }
+                set { _thumbDark = value; }
             }
 
             public string Name
@@ -59,11 +73,7 @@ namespace VisitRoslikde.Model
                 set { _telephoneNumber = value; }
             }
             
-            public string Category
-            {
-                get { return _category; }
-                set { _category = value; }
-            }
+            
 
             public string Link
             {
