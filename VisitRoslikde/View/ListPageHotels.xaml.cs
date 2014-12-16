@@ -117,15 +117,15 @@ namespace VisitRoslikde.View
             Frame.Navigate(typeof(MainPage), null);
         }
         
-        private void GridView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            this.Frame.Navigate(typeof(DetailedPageH), null);
-        }
+        //private void GridView_ItemClick(object sender, ItemClickEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(DetailedPageH), null);
+        //}
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DetailedPageH), null);
             ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).DataContext;
+            this.Frame.Navigate(typeof(DetailedPageH), null);
         }
     }
 }

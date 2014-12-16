@@ -29,7 +29,7 @@ namespace VisitRoslikde.ViewModel
         {
             try
             {
-                Uri weatherUrl = new Uri("http://api.openweathermap.org/data/2.5/weather?q=Roskilde.DK&mode=xml&units=metric");
+                Uri weatherUrl = new Uri("http://api.openweathermap.org/data/2.5/weather?id=2614481&mode=xml&units=metric&APPID=219217a064068cd442f00ee0f8c52ae4");
 
                 XmlDocument doc = await XmlDocument.LoadFromUriAsync(weatherUrl);
 

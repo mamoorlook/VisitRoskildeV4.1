@@ -36,8 +36,7 @@
                   ItemsSource='{Binding ListOfHotels}'
                   Grid.Row='0'
                   SelectionMode="None" 
-                  IsItemClickEnabled="True"
-                  ItemClick="GridView_ItemClick">
+                  IsItemClickEnabled="True">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <controls:ImageButton Content="{Binding Name}"
